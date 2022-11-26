@@ -17,6 +17,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cmath>
 
 #include <ecl/command_line.hpp>
 #include <ecl/console.hpp>
@@ -69,6 +70,8 @@ public:
 private:
   double vx, wz;
   bool pickup_mode;
+  bool return_mode;
+  bool idle_mode;
   ecl::linear_algebra::Vector3d pose;
   kobuki::Kobuki kobuki;
 
@@ -78,6 +81,7 @@ private:
   ecl::Slot<> slot_stream_data;
   int serial_port;
   std::ifstream pi_input_file;
+  ecl::linear_algebra::Vector3d initial_pose;
 
   /*********************
    ** Commands
@@ -113,11 +117,14 @@ private:
 KobukiManager::KobukiManager() :
   vx(0.0), wz(0.0),
   pickup_mode(false),
+  return_mode(false),
+  idle_mode(true),
   linear_vel_step(0.05),
   linear_vel_max(1.0),
   angular_vel_step(0.33),
   angular_vel_max(6.6),
   slot_stream_data(&KobukiManager::processStreamData, *this),
+  initial_pose(0),
   quit_requested(false),
   key_file_descriptor(0)
 {
@@ -143,6 +150,8 @@ bool KobukiManager::init(const std::string & device)
   vx = 0.0;
   wz = 0.0;
   pickup_mode = false;
+  return_mode = false;
+  idle_mode = true;
 
   /*********************
    ** Kobuki
@@ -160,7 +169,7 @@ bool KobukiManager::init(const std::string & device)
    ** Wait for connection
    **********************/
   //thread.start(&KobukiManager::piInputLoop, *this);
-  pi_input_file.open("serial/kobuki-input.txt");
+  pi_input_file.open("/home/pi/EECS149_FP/pi_input/kobuki-input.txt");
 
   serial_port = open("/dev/ttyUSB0", O_RDWR);
   // Check for errors
@@ -186,15 +195,18 @@ void KobukiManager::piInput()
 {
   std::string file_input;
   if (pi_input_file.is_open()) {
+    if (pi_input_file.eof()) {
+      return;
+    }
     pi_input_file >> file_input;
     int pi_input = stoi(file_input);
-    std::cout << "read" << pi_input << "from file\n";
+    //std::cout << "read" << pi_input << "from file\n";
     processPiInput(pi_input);
     pi_input_file.clear();
     pi_input_file.seekg(0, pi_input_file.beg);
     
   } else {
-    processPiInput(20);
+    processPiInput(-1);
   }
   //int pi_input = 50;
   //processPiInput(pi_input);
@@ -203,30 +215,57 @@ void KobukiManager::piInput()
 
 void KobukiManager::processPiInput(int i)
 {
-  // i [1, 100] 
-  // i = 50 -> go straight
-  // i > 50 -> go right
-  // i < 50 -> go left
-  if (pickup_mode || true) {
-    if (i == 50) {
+  // idle when i = -1
+  // pickup mode when i = 0
+  // return mode when i = 1
+  // speed input: i [100, 200] 
+  // i = 150 -> go straight
+  // i > 150 -> go right
+  // i < 150 -> go left
+  //std::cout << "got input " << i << " from pi\n";
+  if (pickup_mode && !return_mode && !idle_mode) {
+    if (i == 150) {
     	vx = 0.1;
     	wz = 0.0;
-    } else if (i == 2) {
-    	pickup_mode = false;
-    	//move back to original position
-    } else if (i >= 1 && i <= 100) {
-    // TODO: fix this
-    	vx = 0.3;
-    	//wz = (i - 50)*0.01;
+    } else if (i == 1) {
+    	return_mode = true;
+      idle_mode = pickup_mode = false;
+      vx = 0.0;
       wz = 0.0;
+    	//move back to original position
+    } else if (i >= 100 && i <= 200) {
+    // TODO: fix this
+    	vx = 0.1;
+    	wz = (i - 150)*0.01;
     }
  
-  } else {
+  } else if (!pickup_mode && return_mode && !idle_mode) {
+    ecl::linear_algebra::Vector3d cur_pose;  // x, y, heading
+    cur_pose = getPose();
+    int dx = cur_pose[0] - initial_pose[0];
+    int dy = cur_pose[1] - initial_pose[1];
+    if (i == -1 || (abs(dx) <= 0.01 && abs(dy) <= 0.01)) {
+      idle_mode = true;
+      return_mode = pickup_mode = false;
+      vx = 0.0;
+      wz = 0.0;
+    } else {
+      int theta = atan(dy / dx);
+      vx = 0.1;
+      wz = theta - wz;
+    }
+  } else if (!pickup_mode && !return_mode && idle_mode){
     if (i == 0) {
     	pickup_mode = true;
+      idle_mode = return_mode = false;
+      
     	// record initial position
-    	//const ecl::linear_algebra::Vector3d& pose = kobuki_manager.getPose();
+      initial_pose = getPose();
     } 
+  } else {
+    //something went wrong
+    vx = 0.0;
+    wz = 0.0;
   }
 }
 
