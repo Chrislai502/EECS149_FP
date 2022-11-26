@@ -195,16 +195,20 @@ void KobukiManager::piInput()
 {
   std::string file_input;
   if (pi_input_file.is_open()) {
-    if (pi_input_file.eof()) {
+    try {
+      pi_input_file >> file_input;
+      //std::cout << file_input;
+      int pi_input = stoi(file_input);
+      //std::cout << "read" << pi_input << "from file\n";
+      processPiInput(pi_input);
+      pi_input_file.clear();
+      pi_input_file.seekg(0, pi_input_file.beg);
+    } catch (...) {
+      std::cout << "cant read file, trying again\n";
+      pi_input_file.close();
+      pi_input_file.open("/home/pi/EECS149_FP/pi_input/kobuki-input.txt");
       return;
     }
-    pi_input_file >> file_input;
-    int pi_input = stoi(file_input);
-    //std::cout << "read" << pi_input << "from file\n";
-    processPiInput(pi_input);
-    pi_input_file.clear();
-    pi_input_file.seekg(0, pi_input_file.beg);
-    
   } else {
     processPiInput(-1);
   }
@@ -224,12 +228,13 @@ void KobukiManager::processPiInput(int i)
   // i < 150 -> go left
   //std::cout << "got input " << i << " from pi\n";
   if (pickup_mode && !return_mode && !idle_mode) {
+    //std::cout << "pickup mode\n";
     if (i == 150) {
     	vx = 0.1;
     	wz = 0.0;
     } else if (i == 1) {
     	return_mode = true;
-      idle_mode = pickup_mode = false;
+      idle_mode = false; pickup_mode = false;
       vx = 0.0;
       wz = 0.0;
     	//move back to original position
@@ -240,28 +245,42 @@ void KobukiManager::processPiInput(int i)
     }
  
   } else if (!pickup_mode && return_mode && !idle_mode) {
+    //std::cout << "return mode\n";
     ecl::linear_algebra::Vector3d cur_pose;  // x, y, heading
     cur_pose = getPose();
-    int dx = cur_pose[0] - initial_pose[0];
-    int dy = cur_pose[1] - initial_pose[1];
-    if (i == -1 || (abs(dx) <= 0.01 && abs(dy) <= 0.01)) {
+    double dx = cur_pose[0] - initial_pose[0];
+    double dy = cur_pose[1] - initial_pose[1];
+    std::cout << "current pose is " << cur_pose << "inital pose is " << initial_pose << "\n";
+    //std::cout << "dx is " << dx << "dy is " << dy << "\n";
+    //|| (abs(dx) <= 0.01 && abs(dy) <= 0.01)
+    if (i == -1 ) {  //|| (abs(dx) <= 0.01 && abs(dy) <= 0.01)
       idle_mode = true;
-      return_mode = pickup_mode = false;
+      return_mode = false; pickup_mode = false;
       vx = 0.0;
       wz = 0.0;
     } else {
-      int theta = atan(dy / dx);
-      vx = 0.1;
+      double theta = 0.0;
+      if (dx != 0) {
+        theta = atan(dy / dx);
+      } else {
+        theta = ecl::pi/2.0;
+      }
+      vx = 0.3;
       wz = theta - wz;
+      std::cout << "theta is " << theta << "wz is " << wz << "\n";
     }
   } else if (!pickup_mode && !return_mode && idle_mode){
+    //std::cout << "idle mode\n";
     if (i == 0) {
     	pickup_mode = true;
-      idle_mode = return_mode = false;
+      idle_mode = false; return_mode = false;
       
     	// record initial position
       initial_pose = getPose();
-    } 
+    } else {
+      vx = 0.0;
+      wz = 0.0;
+    }
   } else {
     //something went wrong
     vx = 0.0;
