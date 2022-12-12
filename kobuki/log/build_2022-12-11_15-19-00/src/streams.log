@@ -1,0 +1,45 @@
+[0.058s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.080s] CMake Warning (dev) in CMakeLists.txt:
+[0.080s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.080s]   contain a literal, direct call to the project() command.  Add a line of
+[0.080s]   code such as
+[0.081s] 
+[0.081s]     project(ProjectName)
+[0.081s] 
+[0.081s]   near the top of the file, but after cmake_minimum_required().
+[0.081s] 
+[0.081s]   CMake is pretending there is a "project(Project)" command on the first
+[0.082s]   line.
+[0.082s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.082s] 
+[0.104s] CMake Warning (dev) at CMakeLists.txt:1 (add_subdirectory):
+[0.104s]   The source directory
+[0.104s] 
+[0.105s]     /home/lfvmu/kobuki/src/ecl_core
+[0.105s] 
+[0.105s]   does not contain a CMakeLists.txt file.
+[0.105s] 
+[0.105s]   CMake does not support this case but it used to work accidentally and is
+[0.106s]   being allowed for compatibility.
+[0.106s] 
+[0.106s]   Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+[0.106s]   "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+[0.106s]   command to set the policy and suppress this warning.
+[0.107s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.107s] 
+[0.107s] CMake Warning (dev) in CMakeLists.txt:
+[0.107s]   No cmake_minimum_required command is present.  A line of code such as
+[0.107s] 
+[0.108s]     cmake_minimum_required(VERSION 3.16)
+[0.108s] 
+[0.108s]   should be added at the top of the file.  The version specified may be lower
+[0.108s]   if you wish to support older CMake versions for this project.  For more
+[0.108s]   information run "cmake --help-policy CMP0000".
+[0.109s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.109s] 
+[0.109s] -- Configuring done
+[0.109s] -- Generating done
+[0.110s] -- Build files have been written to: /home/lfvmu/kobuki/build/src
+[0.114s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.119s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4
+[0.198s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4

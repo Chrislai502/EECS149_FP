@@ -1,0 +1,39 @@
+[0.097s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_target_dependencies -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.114s] Re-run cmake no build system arguments
+[0.116s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.653s] -- Configuring done
+[0.680s] -- Generating done
+[0.680s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_target_dependencies
+[0.861s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_target_dependencies -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.869s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_target_dependencies -- -j4 -l4
+[0.922s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_cmake/ament_cmake_target_dependencies -B/home/lfvmu/kobuki/build/ament_cmake_target_dependencies --check-build-system CMakeFiles/Makefile.cmake 0
+[0.944s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_target_dependencies/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_target_dependencies/CMakeFiles/progress.marks
+[0.972s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.974s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies'
+[0.974s] make[1]: Nothing to be done for 'all'.
+[0.974s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies'
+[0.975s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_target_dependencies/CMakeFiles 0
+[1.011s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_target_dependencies -- -j4 -l4
+[1.100s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_target_dependencies
+[1.130s] -- Install configuration: ""
+[1.131s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_target_dependencies
+[1.131s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_target_dependencies
+[1.131s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.sh
+[1.132s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.dsv
+[1.132s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/path.sh
+[1.132s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/path.dsv
+[1.133s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.bash
+[1.133s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.sh
+[1.133s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.zsh
+[1.133s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.dsv
+[1.134s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/package.dsv
+[1.134s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_target_dependencies
+[1.134s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake
+[1.135s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig.cmake
+[1.135s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig-version.cmake
+[1.135s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/package.xml
+[1.135s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake
+[1.136s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake
+[1.136s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_get_recursive_properties.cmake
+[1.155s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_target_dependencies

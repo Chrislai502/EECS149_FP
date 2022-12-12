@@ -1,0 +1,32 @@
+[0.984s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_cppcheck -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.010s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[1.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.394s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[1.533s] -- Configuring done
+[1.541s] -- Generating done
+[1.544s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_cppcheck
+[1.554s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_cppcheck -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.556s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_cppcheck -- -j4 -l4
+[1.649s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_cppcheck -- -j4 -l4
+[1.705s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_cppcheck
+[1.731s] -- Install configuration: "RelWithDebInfo"
+[1.732s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_cppcheck
+[1.732s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_cppcheck
+[1.733s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/environment/ament_prefix_path.sh
+[1.734s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/environment/ament_prefix_path.dsv
+[1.735s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/environment/path.sh
+[1.737s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/environment/path.dsv
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/local_setup.bash
+[1.739s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/local_setup.sh
+[1.740s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/local_setup.zsh
+[1.741s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/local_setup.dsv
+[1.742s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/package.dsv
+[1.745s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_cppcheck
+[1.746s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck-extras.cmake
+[1.746s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheckConfig.cmake
+[1.756s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheckConfig-version.cmake
+[1.756s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/package.xml
+[1.757s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake
+[1.757s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake
+[1.758s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_cppcheck/cmake/ament_cppcheck.cmake
+[1.766s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_cppcheck' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_cppcheck

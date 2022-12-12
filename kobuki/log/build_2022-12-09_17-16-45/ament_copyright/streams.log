@@ -1,0 +1,21 @@
+[1.834s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed
+[2.264s] running egg_info
+[2.265s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[2.265s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[2.266s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[2.266s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[2.267s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[2.367s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.371s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.371s] running build
+[2.371s] running build_py
+[2.375s] running install
+[2.376s] running install_lib
+[2.392s] running install_data
+[2.393s] running install_egg_info
+[2.402s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info' (and everything under it)
+[2.403s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info
+[2.404s] running install_scripts
+[2.445s] Installing ament_copyright script to /home/lfvmu/kobuki/install/bin
+[2.446s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_copyright/install.log'
+[2.732s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed

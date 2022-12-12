@@ -1,0 +1,21 @@
+[1.906s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pyflakes': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pyflakes/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/lfvmu/kobuki/build/ament_pyflakes/build install --record /home/lfvmu/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed
+[2.432s] running egg_info
+[2.435s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[2.436s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[2.436s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[2.437s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[2.437s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[2.611s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.624s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.625s] running build
+[2.625s] running build_py
+[2.626s] running install
+[2.626s] running install_lib
+[2.628s] running install_data
+[2.629s] running install_egg_info
+[2.633s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pyflakes-0.9.7-py3.8.egg-info' (and everything under it)
+[2.634s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pyflakes-0.9.7-py3.8.egg-info
+[2.644s] running install_scripts
+[2.726s] Installing ament_pyflakes script to /home/lfvmu/kobuki/install/bin
+[2.728s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pyflakes/install.log'
+[3.122s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pyflakes' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pyflakes/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/lfvmu/kobuki/build/ament_pyflakes/build install --record /home/lfvmu/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed

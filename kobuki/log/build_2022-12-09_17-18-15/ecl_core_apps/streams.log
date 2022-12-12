@@ -1,0 +1,122 @@
+[0.411s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.451s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.871s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.895s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.904s] -- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+[1.030s] -- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)
+[1.036s] -- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+[1.074s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[1.156s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[1.187s] -- Found ecl_ipc: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_ipc/cmake)
+[1.214s] -- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)
+[1.226s] -- Found ecl_streams: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_streams/cmake)
+[1.433s] -- Configuring done
+[1.580s] -- Generating done
+[1.594s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_core_apps
+[1.608s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.618s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[1.876s] [  2%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/snooze.cpp.o[0m
+[1.905s] [  5%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/string_conversions.cpp.o[0m
+[1.940s] [  8%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_files.dir/files.cpp.o[0m
+[3.036s] [ 11%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/exceptions.cpp.o[0m
+[4.308s] [ 14%] [32m[1mLinking CXX executable ecl_bench_snooze[0m
+[4.723s] [ 14%] Built target ecl_bench_snooze
+[4.894s] [ 17%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_streams.dir/streams.cpp.o[0m
+[5.950s] [ 20%] [32m[1mLinking CXX executable ecl_bench_exceptions[0m
+[6.593s] [ 20%] Built target ecl_bench_exceptions
+[6.780s] [ 23%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/eigen3_transforms.cpp.o[0m
+[7.248s] [ 26%] [32m[1mLinking CXX executable ecl_bench_string_conversions[0m
+[7.308s] [ 29%] [32m[1mLinking CXX executable ecl_bench_files[0m
+[7.592s] [ 29%] Built target ecl_bench_string_conversions
+[7.756s] [ 29%] Built target ecl_bench_files
+[7.789s] [ 32%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/eigen3_inverse.cpp.o[0m
+[7.949s] [ 35%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/eigen3_decompositions.cpp.o[0m
+[11.388s] [ 38%] [32m[1mLinking CXX executable ecl_bench_streams[0m
+[11.741s] [ 38%] Built target ecl_bench_streams
+[81.083s] [ 41%] [32m[1mLinking CXX executable ecl_bench_eigen3_inverse[0m
+[81.957s] [ 41%] Built target ecl_bench_eigen3_inverse
+[108.705s] [ 44%] [32m[1mLinking CXX executable ecl_bench_eigen3_transforms[0m
+[109.518s] [ 44%] Built target ecl_bench_eigen3_transforms
+[128.760s] [ 47%] [32m[1mLinking CXX executable ecl_bench_eigen3_decompositions[0m
+[129.716s] [ 47%] Built target ecl_bench_eigen3_decompositions
+[129.779s] [ 50%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_hex.dir/hex.cpp.o[0m
+[143.174s] [ 52%] [32m[1mLinking CXX executable ecl_hex[0m
+[143.493s] [ 52%] Built target ecl_hex
+[143.550s] [ 55%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_server.dir/socket_server.cpp.o[0m
+[157.094s] [ 58%] [32m[1mLinking CXX executable ecl_socket_server[0m
+[157.405s] [ 58%] Built target ecl_socket_server
+[157.465s] [ 61%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_serial.dir/serial.cpp.o[0m
+[160.505s] [ 64%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_process_statistics.dir/process_statistics.cpp.o[0m
+[161.614s] [ 67%] [32m[1mLinking CXX executable bin/ecl_process_statistics[0m
+[162.078s] [ 67%] Built target ecl_process_statistics
+[163.153s] [ 70%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_quaternion2yaw.dir/quaternion2yaw.cpp.o[0m
+[171.417s] [ 73%] [32m[1mLinking CXX executable ecl_serial[0m
+[171.747s] [ 73%] Built target ecl_serial
+[175.952s] [ 76%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_yaw2quaternion.dir/yaw2quaternion.cpp.o[0m
+[178.041s] [ 79%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_flops.dir/flops.cpp.o[0m
+[184.493s] [ 82%] [32m[1mLinking CXX executable bin/ecl_quaternion2yaw[0m
+[185.270s] [ 82%] Built target ecl_quaternion2yaw
+[195.641s] [ 85%] [32m[1mLinking CXX executable ecl_bench_flops[0m
+[195.945s] [ 85%] Built target ecl_bench_flops
+[199.895s] [ 88%] [32m[1mLinking CXX executable bin/ecl_yaw2quaternion[0m
+[200.250s] [ 88%] Built target ecl_yaw2quaternion
+[200.307s] [ 91%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_client.dir/socket_client.cpp.o[0m
+[213.219s] [ 94%] [32m[1mLinking CXX executable ecl_socket_client[0m
+[213.530s] [ 94%] Built target ecl_socket_client
+[213.581s] [ 97%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_containers.dir/containers.cpp.o[0m
+[215.493s] [100%] [32m[1mLinking CXX executable ecl_bench_containers[0m
+[215.712s] [100%] Built target ecl_bench_containers
+[215.743s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[215.808s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps
+[215.825s] -- Install configuration: "RelWithDebInfo"
+[215.827s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+[215.828s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+[215.829s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.sh
+[215.830s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.dsv
+[215.831s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.sh
+[215.831s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.dsv
+[215.832s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.bash
+[215.833s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.sh
+[215.833s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.zsh
+[215.833s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.dsv
+[215.834s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.dsv
+[215.836s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_core_apps
+[215.837s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+[215.837s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+[215.837s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.xml
+[215.841s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_containers
+[215.843s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_containers" to ""
+[215.845s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_files
+[215.849s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_files" to ""
+[215.852s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_flops
+[215.858s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_flops" to ""
+[215.860s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_exceptions
+[215.864s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_exceptions" to ""
+[215.865s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_snooze
+[215.868s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_snooze" to ""
+[215.871s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_streams
+[215.874s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_streams" to ""
+[215.877s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_string_conversions
+[215.881s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_string_conversions" to ""
+[215.884s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_inverse
+[215.912s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_inverse" to ""
+[215.916s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_decompositions
+[215.979s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_decompositions" to ""
+[215.981s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_transforms
+[216.024s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_transforms" to ""
+[216.027s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_hex
+[216.035s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_hex" to ""
+[216.037s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_serial
+[216.045s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_serial" to ""
+[216.047s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_client
+[216.054s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_client" to ""
+[216.057s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_server
+[216.065s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_server" to ""
+[216.067s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_process_statistics
+[216.068s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_process_statistics" to ""
+[216.070s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_quaternion2yaw
+[216.080s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_quaternion2yaw" to ""
+[216.083s] -- Installing: /home/lfvmu/kobuki/install/bin/ecl_yaw2quaternion
+[216.094s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/ecl_yaw2quaternion" to ""
+[216.104s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps

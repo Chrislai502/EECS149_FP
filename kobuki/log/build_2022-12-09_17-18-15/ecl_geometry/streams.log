@@ -1,0 +1,77 @@
+[0.257s] Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_geometry -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.292s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.334s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.677s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.700s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.706s] -- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+[0.818s] -- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+[1.021s] -- Configuring done
+[1.058s] -- Generating done
+[1.064s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_geometry
+[1.077s] Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_geometry -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.078s] Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_geometry -- -j4 -l4
+[1.296s] [  7%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/angle.cpp.o[0m
+[1.298s] [ 14%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline.cpp.o[0m
+[1.314s] [ 21%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/cubic_spline_blueprints.cpp.o[0m
+[2.390s] [ 28%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/linear_segment.cpp.o[0m
+[2.730s] [ 35%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/odometry_helper.cpp.o[0m
+[7.540s] [ 42%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pascals_triangle.cpp.o[0m
+[8.327s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial.cpp.o[0m
+[9.513s] [ 57%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/polynomial_blueprints.cpp.o[0m
+[10.063s] [ 64%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/pose2d.cpp.o[0m
+[17.390s] [ 78%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline.cpp.o[0m
+[17.390s] [ 78%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_function.cpp.o[0m
+[18.814s] [ 85%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/tension_spline_blueprints.cpp.o[0m
+[18.837s] [ 92%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_geometry.dir/smooth_linear_spline.cpp.o[0m
+[26.098s] [100%] [32m[1mLinking CXX shared library libecl_geometry.so[0m
+[26.556s] [100%] Built target ecl_geometry
+[26.584s] Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_geometry -- -j4 -l4
+[26.633s] Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_geometry
+[26.661s] -- Install configuration: "RelWithDebInfo"
+[26.661s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/library_path.sh
+[26.661s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/library_path.dsv
+[26.662s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_geometry
+[26.662s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_geometry
+[26.662s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/ament_prefix_path.sh
+[26.662s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/ament_prefix_path.dsv
+[26.663s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/path.sh
+[26.663s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/environment/path.dsv
+[26.663s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/local_setup.bash
+[26.663s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/local_setup.sh
+[26.664s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/local_setup.zsh
+[26.664s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/local_setup.dsv
+[26.665s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/package.dsv
+[26.665s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_geometry
+[26.665s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ecl_geometryExport.cmake
+[26.665s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ecl_geometryExport-relwithdebinfo.cmake
+[26.665s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ecl_geometryConfig.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/cmake/ecl_geometryConfig-version.cmake
+[26.666s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_geometry/package.xml
+[26.667s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry.hpp
+[26.667s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/angle.hpp
+[26.668s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/cartesian_point.hpp
+[26.668s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/cubic_spline.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/function_math.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/homogeneous_point.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/legacy_pose2d.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/legacy_pose3d.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/linear_segment.hpp
+[26.669s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/macros.hpp
+[26.670s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/odometry.hpp
+[26.670s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/odometry_helper.hpp
+[26.670s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/odometry_typedefs.hpp
+[26.670s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/pascals_triangle.hpp
+[26.670s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/polynomial.hpp
+[26.671s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/pose2d.hpp
+[26.671s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/smooth_linear_spline.hpp
+[26.671s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/spline_function.hpp
+[26.671s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/tension_function.hpp
+[26.671s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/geometry/tension_spline.hpp
+[26.672s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_geometry.so.1.2.1
+[26.684s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_geometry.so.1.2.1" to ""
+[26.684s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_geometry.so
+[26.705s] Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_geometry

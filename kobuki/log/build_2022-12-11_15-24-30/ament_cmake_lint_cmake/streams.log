@@ -1,0 +1,40 @@
+[0.544s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_lint_cmake -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.625s] Re-run cmake no build system arguments
+[0.625s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.626s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.951s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[1.072s] -- Configuring done
+[1.105s] -- Generating done
+[1.105s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_lint_cmake
+[1.171s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_lint_cmake -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.178s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_lint_cmake -- -j4 -l4
+[1.223s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_lint/ament_cmake_lint_cmake -B/home/lfvmu/kobuki/build/ament_cmake_lint_cmake --check-build-system CMakeFiles/Makefile.cmake 0
+[1.243s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_lint_cmake/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_lint_cmake/CMakeFiles/progress.marks
+[1.264s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.266s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake'
+[1.267s] make[1]: Nothing to be done for 'all'.
+[1.267s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake'
+[1.267s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_lint_cmake/CMakeFiles 0
+[1.831s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_lint_cmake -- -j4 -l4
+[1.944s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_lint_cmake
+[1.964s] -- Install configuration: "RelWithDebInfo"
+[1.965s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_lint_cmake
+[1.966s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_lint_cmake
+[1.966s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/environment/ament_prefix_path.sh
+[1.966s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/environment/ament_prefix_path.dsv
+[1.967s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/environment/path.sh
+[1.967s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/environment/path.dsv
+[1.967s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/local_setup.bash
+[1.968s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/local_setup.sh
+[1.968s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/local_setup.zsh
+[1.968s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/local_setup.dsv
+[1.968s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/package.dsv
+[1.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_lint_cmake
+[1.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake-extras.cmake
+[1.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmakeConfig.cmake
+[1.970s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmakeConfig-version.cmake
+[1.970s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/package.xml
+[1.971s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake
+[1.971s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_lint_cmake.cmake
+[1.971s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake
+[2.443s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_lint_cmake

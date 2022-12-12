@@ -1,0 +1,57 @@
+[0.383s] Invoking command in '/home/lfvmu/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_linear_algebra -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.419s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.467s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.822s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.845s] -- Found ecl_eigen: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_eigen/cmake)
+[0.854s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[0.882s] -- Found ecl_formatters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_formatters/cmake)
+[0.942s] -- Found ecl_math: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_math/cmake)
+[1.132s] -- Configuring done
+[1.165s] -- Generating done
+[1.174s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_linear_algebra
+[1.182s] Invoked command in '/home/lfvmu/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_linear_algebra -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.189s] Invoking command in '/home/lfvmu/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_linear_algebra -- -j4 -l4
+[1.331s] [ 33%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_helpers.cpp.o[0m
+[1.335s] [ 66%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_linear_algebra.dir/sophus_interpolators.cpp.o[0m
+[32.193s] [100%] [32m[1mLinking CXX shared library libecl_linear_algebra.so[0m
+[32.773s] [100%] Built target ecl_linear_algebra
+[32.797s] Invoked command in '/home/lfvmu/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_linear_algebra -- -j4 -l4
+[32.849s] Invoking command in '/home/lfvmu/kobuki/build/ecl_linear_algebra': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_linear_algebra
+[32.868s] -- Install configuration: "RelWithDebInfo"
+[32.868s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/library_path.sh
+[32.869s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/library_path.dsv
+[32.869s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_linear_algebra
+[32.869s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_linear_algebra
+[32.869s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/ament_prefix_path.sh
+[32.870s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/ament_prefix_path.dsv
+[32.870s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/path.sh
+[32.870s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/environment/path.dsv
+[32.871s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/local_setup.bash
+[32.871s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/local_setup.sh
+[32.871s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/local_setup.zsh
+[32.871s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/local_setup.dsv
+[32.872s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/package.dsv
+[32.872s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_linear_algebra
+[32.872s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport.cmake
+[32.872s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraExport-relwithdebinfo.cmake
+[32.873s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_targets-extras.cmake
+[32.873s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.873s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_libraries-extras.cmake
+[32.874s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.874s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig.cmake
+[32.874s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake/ecl_linear_algebraConfig-version.cmake
+[32.874s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_linear_algebra/package.xml
+[32.875s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra.hpp
+[32.875s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/eigen.hpp
+[32.875s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/sophus.hpp
+[32.876s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/eigen/formatters.hpp
+[32.876s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/eigen/plugin.hpp
+[32.876s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/eigen/unsupported/nonlinear_optimization.hpp
+[32.877s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/eigen/unsupported/numerical_diff.hpp
+[32.877s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/sophus/formatters.hpp
+[32.877s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/sophus/helpers.hpp
+[32.877s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/linear_algebra/sophus/interpolators.hpp
+[32.878s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_linear_algebra.so.1.2.1
+[32.912s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_linear_algebra.so.1.2.1" to ""
+[32.913s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_linear_algebra.so
+[32.928s] Invoked command in '/home/lfvmu/kobuki/build/ecl_linear_algebra' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_linear_algebra

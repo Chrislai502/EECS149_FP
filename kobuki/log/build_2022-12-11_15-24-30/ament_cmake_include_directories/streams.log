@@ -1,0 +1,38 @@
+[0.060s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_include_directories -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.092s] Re-run cmake no build system arguments
+[0.097s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.649s] -- Configuring done
+[0.650s] -- Generating done
+[0.657s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_include_directories
+[1.021s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_include_directories -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.027s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_include_directories -- -j4 -l4
+[1.074s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_cmake/ament_cmake_include_directories -B/home/lfvmu/kobuki/build/ament_cmake_include_directories --check-build-system CMakeFiles/Makefile.cmake 0
+[1.101s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_include_directories/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_include_directories/CMakeFiles/progress.marks
+[1.138s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.138s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_include_directories'
+[1.139s] make[1]: Nothing to be done for 'all'.
+[1.139s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_include_directories'
+[1.139s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_include_directories/CMakeFiles 0
+[1.255s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_include_directories -- -j4 -l4
+[1.394s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_include_directories
+[1.441s] -- Install configuration: "RelWithDebInfo"
+[1.442s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_include_directories
+[1.442s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_include_directories
+[1.443s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/environment/ament_prefix_path.sh
+[1.443s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/environment/ament_prefix_path.dsv
+[1.443s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/environment/path.sh
+[1.444s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/environment/path.dsv
+[1.445s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/local_setup.bash
+[1.445s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/local_setup.sh
+[1.445s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/local_setup.zsh
+[1.446s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/local_setup.dsv
+[1.446s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/package.dsv
+[1.447s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_include_directories
+[1.447s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directories-extras.cmake
+[1.447s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig.cmake
+[1.448s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/cmake/ament_cmake_include_directoriesConfig-version.cmake
+[1.448s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/package.xml
+[1.449s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/cmake
+[1.449s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_include_directories/cmake/ament_include_directories_order.cmake
+[1.451s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_include_directories' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_include_directories

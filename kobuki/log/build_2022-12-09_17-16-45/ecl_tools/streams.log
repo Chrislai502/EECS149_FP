@@ -1,0 +1,35 @@
+[0.210s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.234s] Re-run cmake no build system arguments
+[0.262s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.799s] -- Configuring done
+[0.803s] -- Generating done
+[0.810s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_tools
+[0.941s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.943s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[0.984s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_tools/ecl_tools -B/home/lfvmu/kobuki/build/ecl_tools --check-build-system CMakeFiles/Makefile.cmake 0
+[1.027s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles/progress.marks
+[1.031s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.035s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_tools'
+[1.035s] make[1]: Nothing to be done for 'all'.
+[1.036s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_tools'
+[1.036s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles 0
+[1.310s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[1.418s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools
+[1.446s] -- Install configuration: ""
+[1.446s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_tools
+[1.447s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_tools
+[1.447s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.sh
+[1.448s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.dsv
+[1.448s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.sh
+[1.449s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.dsv
+[1.449s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.bash
+[1.454s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.sh
+[1.454s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.zsh
+[1.456s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.dsv
+[1.456s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/package.dsv
+[1.458s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_tools
+[1.458s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig.cmake
+[1.458s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig-version.cmake
+[1.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/package.xml
+[1.478s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools

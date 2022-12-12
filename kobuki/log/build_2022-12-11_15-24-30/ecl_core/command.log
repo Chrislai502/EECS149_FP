@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core
+Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core

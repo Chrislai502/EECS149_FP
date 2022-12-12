@@ -1,0 +1,38 @@
+[0.066s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_test': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_test -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.100s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.494s] -- Found ament_cmake_python: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_python/cmake)
+[0.652s] -- Configuring done
+[0.658s] -- Generating done
+[0.668s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_test
+[0.671s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_test' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_test -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.677s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_test': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_test -- -j4 -l4
+[0.790s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_test' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_test -- -j4 -l4
+[0.845s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_test': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_test
+[0.878s] -- Install configuration: "RelWithDebInfo"
+[0.879s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/pythonpath.sh
+[0.879s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/pythonpath.dsv
+[0.880s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_test
+[0.881s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_test/__init__.py
+[0.955s] Listing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_test'...
+[0.965s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_test
+[0.965s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_test
+[0.965s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/ament_prefix_path.sh
+[0.965s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/ament_prefix_path.dsv
+[0.965s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/path.sh
+[0.966s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_test/environment/path.dsv
+[0.966s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/local_setup.bash
+[0.966s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/local_setup.sh
+[0.967s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/local_setup.zsh
+[0.967s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_test/local_setup.dsv
+[0.967s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_test/package.dsv
+[0.967s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_test
+[0.967s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_test-extras.cmake
+[0.968s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_testConfig.cmake
+[0.968s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/ament_cmake_testConfig-version.cmake
+[0.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/package.xml
+[0.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake
+[0.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/ament_add_test_label.cmake
+[0.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/ament_add_test.cmake
+[0.969s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_test/cmake/run_test.py
+[1.066s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_test' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_test

@@ -1,0 +1,39 @@
+[0.364s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_nose -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.380s] Re-run cmake no build system arguments
+[0.382s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.439s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.886s] -- Configuring done
+[0.886s] -- Generating done
+[0.898s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_nose
+[1.085s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_nose -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.091s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_nose -- -j4 -l4
+[1.277s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_cmake/ament_cmake_nose -B/home/lfvmu/kobuki/build/ament_cmake_nose --check-build-system CMakeFiles/Makefile.cmake 0
+[1.278s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_nose/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_nose/CMakeFiles/progress.marks
+[1.279s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.279s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_nose'
+[1.292s] make[1]: Nothing to be done for 'all'.
+[1.292s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_nose'
+[1.293s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_nose/CMakeFiles 0
+[1.352s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_nose -- -j4 -l4
+[1.464s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_nose
+[1.491s] -- Install configuration: "RelWithDebInfo"
+[1.491s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_nose
+[1.492s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_nose
+[1.492s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.sh
+[1.493s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.dsv
+[1.493s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/path.sh
+[1.493s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/path.dsv
+[1.494s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.bash
+[1.494s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.sh
+[1.495s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.zsh
+[1.495s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.dsv
+[1.496s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/package.dsv
+[1.497s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_nose
+[1.497s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_nose-extras.cmake
+[1.498s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig.cmake
+[1.498s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig-version.cmake
+[1.499s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/package.xml
+[1.499s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake
+[1.499s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_add_nose_test.cmake
+[1.499s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_find_nosetests.cmake
+[1.508s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_nose

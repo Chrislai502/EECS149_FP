@@ -1,0 +1,71 @@
+[0.253s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.295s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.681s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.714s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.715s] -- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+[0.835s] -- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)
+[0.839s] -- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+[0.876s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[0.953s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[0.977s] -- Found ecl_ipc: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_ipc/cmake)
+[1.011s] -- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)
+[1.011s] -- Found ecl_streams: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_streams/cmake)
+[1.207s] -- Configuring done
+[1.332s] -- Generating done
+[1.347s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_core_apps
+[1.355s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.361s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[1.489s] [  5%] Built target ecl_bench_string_conversions
+[1.494s] [ 11%] Built target ecl_bench_snooze
+[1.495s] [ 17%] Built target ecl_bench_exceptions
+[1.514s] [ 23%] Built target ecl_bench_files
+[1.559s] [ 29%] Built target ecl_bench_streams
+[1.590s] [ 35%] Built target ecl_bench_eigen3_transforms
+[1.615s] [ 41%] Built target ecl_bench_eigen3_decompositions
+[1.627s] [ 47%] Built target ecl_bench_eigen3_inverse
+[1.647s] [ 52%] Built target ecl_bench_containers
+[1.661s] [ 58%] Built target ecl_bench_flops
+[1.694s] [ 64%] Built target ecl_hex
+[1.706s] [ 70%] Built target ecl_socket_server
+[1.724s] [ 76%] Built target ecl_serial
+[1.741s] [ 82%] Built target ecl_process_statistics
+[1.782s] [ 88%] Built target ecl_quaternion2yaw
+[1.789s] [ 94%] Built target ecl_yaw2quaternion
+[1.794s] [100%] Built target ecl_socket_client
+[1.819s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[1.889s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps
+[1.908s] -- Install configuration: "RelWithDebInfo"
+[1.909s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+[1.909s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+[1.909s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.sh
+[1.909s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.dsv
+[1.910s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.sh
+[1.910s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.dsv
+[1.910s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.bash
+[1.910s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.sh
+[1.911s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.zsh
+[1.911s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.dsv
+[1.911s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.dsv
+[1.911s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_core_apps
+[1.911s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+[1.911s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+[1.912s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.xml
+[1.913s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_containers
+[1.914s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_files
+[1.915s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_flops
+[1.916s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_exceptions
+[1.917s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_snooze
+[1.918s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_streams
+[1.919s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_string_conversions
+[1.919s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_inverse
+[1.920s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_decompositions
+[1.921s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_transforms
+[1.923s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_hex
+[1.924s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_serial
+[1.925s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_client
+[1.926s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_server
+[1.927s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_process_statistics
+[1.928s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_quaternion2yaw
+[1.928s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_yaw2quaternion
+[1.933s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps

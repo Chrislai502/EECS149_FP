@@ -1,0 +1,19 @@
+[1.914s] Invoking command in '/home/lfvmu/kobuki/src/ament_cmake_ros/domain_coordinator': PYTHONPATH=/home/lfvmu/kobuki/build/domain_coordinator/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/lfvmu/kobuki/build/domain_coordinator/build install --record /home/lfvmu/kobuki/build/domain_coordinator/install.log --single-version-externally-managed
+[2.301s] running egg_info
+[2.301s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[2.302s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[2.302s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[2.303s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[2.406s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[2.407s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[2.407s] running build
+[2.407s] running build_py
+[2.407s] running install
+[2.407s] running install_lib
+[2.408s] running install_data
+[2.414s] running install_egg_info
+[2.414s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/domain_coordinator-0.9.2-py3.8.egg-info' (and everything under it)
+[2.414s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/domain_coordinator-0.9.2-py3.8.egg-info
+[2.414s] running install_scripts
+[2.454s] writing list of installed files to '/home/lfvmu/kobuki/build/domain_coordinator/install.log'
+[2.601s] Invoked command in '/home/lfvmu/kobuki/src/ament_cmake_ros/domain_coordinator' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/domain_coordinator/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/lfvmu/kobuki/build/domain_coordinator/build install --record /home/lfvmu/kobuki/build/domain_coordinator/install.log --single-version-externally-managed

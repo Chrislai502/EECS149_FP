@@ -1,0 +1,66 @@
+[0.152s] Invoking command in '/home/lfvmu/kobuki/build/ecl_io': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_lite/ecl_io -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.191s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.673s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.701s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.701s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[0.922s] -- Configuring done
+[0.963s] -- Generating done
+[0.963s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_io
+[1.246s] Invoked command in '/home/lfvmu/kobuki/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_lite/ecl_io -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.252s] Invoking command in '/home/lfvmu/kobuki/build/ecl_io': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_io -- -j4 -l4
+[1.420s] [ 10%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/socketpair.cpp.o[0m
+[1.423s] [ 20%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/poll.cpp.o[0m
+[1.458s] [ 30%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_io.dir/sockets.cpp.o[0m
+[2.685s] [ 40%] [32m[1mLinking CXX shared library libecl_io.so[0m
+[2.949s] [ 40%] Built target ecl_io
+[3.026s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_io_example_poll.dir/poll.cpp.o[0m
+[3.051s] [ 60%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_io_example_socketpair.dir/socketpair.cpp.o[0m
+[3.076s] [ 70%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_io_example_sockets.dir/sockets.cpp.o[0m
+[4.826s] [ 80%] [32m[1mLinking CXX executable demo_sockets[0m
+[5.210s] [ 90%] [32m[1mLinking CXX executable demo_poll[0m
+[5.389s] [ 90%] Built target ecl_io_example_sockets
+[5.487s] [100%] [32m[1mLinking CXX executable demo_socketpair[0m
+[5.737s] [100%] Built target ecl_io_example_poll
+[5.865s] [100%] Built target ecl_io_example_socketpair
+[6.067s] Invoked command in '/home/lfvmu/kobuki/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_io -- -j4 -l4
+[6.517s] Invoking command in '/home/lfvmu/kobuki/build/ecl_io': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_io
+[6.577s] -- Install configuration: "RelWithDebInfo"
+[6.577s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/environment/library_path.sh
+[6.578s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/environment/library_path.dsv
+[6.578s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_io
+[6.580s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_io
+[6.580s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/environment/ament_prefix_path.sh
+[6.580s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/environment/ament_prefix_path.dsv
+[6.581s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/environment/path.sh
+[6.582s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/environment/path.dsv
+[6.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/local_setup.bash
+[6.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/local_setup.sh
+[6.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/local_setup.zsh
+[6.584s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/local_setup.dsv
+[6.584s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/package.dsv
+[6.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_io
+[6.586s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ecl_ioExport.cmake
+[6.587s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ecl_ioExport-relwithdebinfo.cmake
+[6.587s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ament_cmake_export_targets-extras.cmake
+[6.587s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.588s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ament_cmake_export_libraries-extras.cmake
+[6.588s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.590s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ecl_ioConfig.cmake
+[6.590s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/cmake/ecl_ioConfig-version.cmake
+[6.590s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_io/package.xml
+[6.596s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/io.hpp
+[6.598s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sockets/macros.hpp
+[6.598s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sockets/poll.hpp
+[6.598s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sockets/socketpair.hpp
+[6.599s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sockets/sockets.hpp
+[6.601s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_io.so.1.1.0
+[6.602s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_io.so.1.1.0" to ""
+[6.603s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_io.so
+[6.613s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_io/demo_sockets
+[6.614s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_io/demo_sockets" to ""
+[6.615s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_io/demo_socketpair
+[6.617s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_io/demo_socketpair" to ""
+[6.617s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_io/demo_poll
+[6.619s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_io/demo_poll" to ""
+[6.629s] Invoked command in '/home/lfvmu/kobuki/build/ecl_io' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_io

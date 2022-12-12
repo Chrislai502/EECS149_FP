@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_auto': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_auto -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_auto' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_auto -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_auto': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_auto -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_auto' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_auto -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_auto': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_auto
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_auto' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_auto

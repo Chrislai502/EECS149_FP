@@ -1,0 +1,21 @@
+[1.813s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pclint': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pclint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/lfvmu/kobuki/build/ament_pclint/build install --record /home/lfvmu/kobuki/build/ament_pclint/install.log --single-version-externally-managed
+[2.220s] running egg_info
+[2.220s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[2.220s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[2.220s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[2.224s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[2.224s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[2.316s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.317s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.317s] running build
+[2.317s] running build_py
+[2.317s] running install
+[2.317s] running install_lib
+[2.320s] running install_data
+[2.321s] running install_egg_info
+[2.334s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pclint-0.9.7-py3.8.egg-info' (and everything under it)
+[2.335s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pclint-0.9.7-py3.8.egg-info
+[2.335s] running install_scripts
+[2.395s] Installing ament_pclint script to /home/lfvmu/kobuki/install/bin
+[2.395s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pclint/install.log'
+[2.452s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pclint' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pclint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/lfvmu/kobuki/build/ament_pclint/build install --record /home/lfvmu/kobuki/build/ament_pclint/install.log --single-version-externally-managed

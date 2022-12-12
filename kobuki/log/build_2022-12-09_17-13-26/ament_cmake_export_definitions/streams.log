@@ -1,0 +1,33 @@
+[0.075s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_definitions -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.105s] Not searching for unused variables given on the command line.
+[0.110s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.701s] -- Configuring done
+[0.714s] -- Generating done
+[0.738s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_export_definitions
+[1.079s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_definitions -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.082s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_definitions -- -j4 -l4
+[1.365s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_definitions -- -j4 -l4
+[1.434s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_definitions
+[1.458s] -- Install configuration: ""
+[1.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_definitions
+[1.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_definitions
+[1.460s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/ament_prefix_path.sh
+[1.460s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/ament_prefix_path.dsv
+[1.461s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/path.sh
+[1.461s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/path.dsv
+[1.461s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.bash
+[1.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.sh
+[1.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.zsh
+[1.463s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.dsv
+[1.463s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/package.dsv
+[1.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_export_definitions
+[1.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake
+[1.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig.cmake
+[1.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig-version.cmake
+[1.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/package.xml
+[1.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake
+[1.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions_package_hook.cmake
+[1.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake.in
+[1.470s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_export_definitions.cmake
+[1.476s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_definitions

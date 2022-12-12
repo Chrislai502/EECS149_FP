@@ -1,0 +1,49 @@
+Re-run cmake no build system arguments
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:1 (add_subdirectory):
+  The source directory
+
+    /home/lfvmu/kobuki/src/ecl_core
+
+  does not contain a CMakeLists.txt file.
+
+  CMake does not support this case but it used to work accidentally and is
+  being allowed for compatibility.
+
+  Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+  "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.16)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lfvmu/kobuki/build/src
+/usr/bin/cmake -S/home/lfvmu/kobuki/src -B/home/lfvmu/kobuki/build/src --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/src/CMakeFiles /home/lfvmu/kobuki/build/src/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/lfvmu/kobuki/build/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/lfvmu/kobuki/build/src'
+/usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/src/CMakeFiles 0

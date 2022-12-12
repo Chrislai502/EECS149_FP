@@ -1,0 +1,4 @@
+Invoking command in '/home/lfvmu/kobuki/build/kobuki_core': /usr/bin/cmake --build /home/lfvmu/kobuki/build/kobuki_core -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/kobuki_core' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/kobuki_core -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/kobuki_core': /usr/bin/cmake --install /home/lfvmu/kobuki/build/kobuki_core
+Invoked command in '/home/lfvmu/kobuki/build/kobuki_core' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/kobuki_core

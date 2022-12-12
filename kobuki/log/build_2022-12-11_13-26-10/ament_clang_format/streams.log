@@ -1,0 +1,21 @@
+[2.027s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_format': PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_format/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/lfvmu/kobuki/build/ament_clang_format/build install --record /home/lfvmu/kobuki/build/ament_clang_format/install.log --single-version-externally-managed
+[2.509s] running egg_info
+[2.514s] writing ../../../build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[2.515s] writing dependency_links to ../../../build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[2.516s] writing entry points to ../../../build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[2.516s] writing requirements to ../../../build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[2.516s] writing top-level names to ../../../build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[2.517s] reading manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[2.517s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[2.517s] running build
+[2.518s] running build_py
+[2.518s] running install
+[2.518s] running install_lib
+[2.518s] running install_data
+[2.519s] running install_egg_info
+[2.520s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_format-0.9.7-py3.8.egg-info' (and everything under it)
+[2.521s] Copying ../../../build/ament_clang_format/ament_clang_format.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_format-0.9.7-py3.8.egg-info
+[2.526s] running install_scripts
+[2.572s] Installing ament_clang_format script to /home/lfvmu/kobuki/install/bin
+[2.573s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_clang_format/install.log'
+[3.010s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_format' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_format/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/lfvmu/kobuki/build/ament_clang_format/build install --record /home/lfvmu/kobuki/build/ament_clang_format/install.log --single-version-externally-managed

@@ -1,0 +1,33 @@
+[0.436s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gtest': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gtest -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.461s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.963s] -- Configuring done
+[0.970s] -- Generating done
+[0.973s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_gtest
+[1.333s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gtest' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gtest -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.338s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gtest': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gtest -- -j4 -l4
+[1.573s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gtest' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gtest -- -j4 -l4
+[1.638s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gtest': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gtest
+[1.675s] -- Install configuration: "RelWithDebInfo"
+[1.685s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gtest
+[1.686s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gtest
+[1.686s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/environment/ament_prefix_path.sh
+[1.686s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/environment/ament_prefix_path.dsv
+[1.686s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/environment/path.sh
+[1.688s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/environment/path.dsv
+[1.688s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/local_setup.bash
+[1.688s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/local_setup.sh
+[1.688s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/local_setup.zsh
+[1.688s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/local_setup.dsv
+[1.689s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/package.dsv
+[1.689s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_gtest
+[1.689s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_cmake_gtest-extras.cmake
+[1.689s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig.cmake
+[1.690s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig-version.cmake
+[1.690s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/package.xml
+[1.690s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake
+[1.690s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_find_gtest.cmake
+[1.690s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake
+[1.691s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake
+[1.691s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake
+[1.840s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gtest' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gtest

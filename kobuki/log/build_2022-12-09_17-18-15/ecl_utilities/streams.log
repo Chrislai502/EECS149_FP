@@ -1,0 +1,46 @@
+[0.247s] Invoking command in '/home/lfvmu/kobuki/build/ecl_utilities': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_utilities -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.286s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.709s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.733s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[0.939s] -- Configuring done
+[0.990s] -- Generating done
+[1.005s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_utilities
+[1.022s] Invoked command in '/home/lfvmu/kobuki/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_utilities -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.029s] Invoking command in '/home/lfvmu/kobuki/build/ecl_utilities': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_utilities -- -j4 -l4
+[1.250s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_constructors.dir/constructors.cpp.o[0m
+[2.355s] [100%] [32m[1mLinking CXX executable demo_constructors[0m
+[2.592s] [100%] Built target ecl_demo_constructors
+[2.629s] Invoked command in '/home/lfvmu/kobuki/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_utilities -- -j4 -l4
+[2.715s] Invoking command in '/home/lfvmu/kobuki/build/ecl_utilities': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_utilities
+[2.752s] -- Install configuration: "RelWithDebInfo"
+[2.753s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_utilities
+[2.753s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_utilities
+[2.754s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/environment/ament_prefix_path.sh
+[2.754s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_utilities/environment/ament_prefix_path.dsv
+[2.754s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/environment/path.sh
+[2.755s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_utilities/environment/path.dsv
+[2.755s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/local_setup.bash
+[2.755s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/local_setup.sh
+[2.756s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/local_setup.zsh
+[2.756s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_utilities/local_setup.dsv
+[2.756s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_utilities/package.dsv
+[2.756s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_utilities
+[2.757s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ecl_utilitiesExport.cmake
+[2.757s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ament_cmake_export_targets-extras.cmake
+[2.757s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.758s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.758s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ecl_utilitiesConfig.cmake
+[2.758s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/cmake/ecl_utilitiesConfig-version.cmake
+[2.758s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_utilities/package.xml
+[2.758s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities.hpp
+[2.759s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/blueprints.hpp
+[2.759s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/flags.hpp
+[2.759s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/function_objects.hpp
+[2.759s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/parameter.hpp
+[2.760s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/references.hpp
+[2.760s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/singleton.hpp
+[2.760s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/utilities/void.hpp
+[2.760s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_utilities/demo_constructors
+[2.761s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_utilities/demo_constructors" to ""
+[2.771s] Invoked command in '/home/lfvmu/kobuki/build/ecl_utilities' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_utilities

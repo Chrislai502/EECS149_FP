@@ -1,0 +1,41 @@
+[0.077s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_google_benchmark -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.131s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.196s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.196s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.529s] -- Found ament_cmake_python: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_python/cmake)
+[0.744s] -- Configuring done
+[0.755s] -- Generating done
+[0.755s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_google_benchmark
+[0.998s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_google_benchmark -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.000s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_google_benchmark -- -j4 -l4
+[1.224s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_google_benchmark -- -j4 -l4
+[1.286s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_google_benchmark
+[1.307s] -- Install configuration: ""
+[1.308s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.sh
+[1.308s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.dsv
+[1.308s] -- Installing: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark
+[1.309s] -- Installing: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py
+[1.393s] Listing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark'...
+[1.393s] Compiling '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py'...
+[1.402s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_google_benchmark
+[1.402s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_google_benchmark
+[1.403s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.sh
+[1.403s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.dsv
+[1.403s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/path.sh
+[1.404s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/path.dsv
+[1.404s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.bash
+[1.404s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.sh
+[1.405s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.zsh
+[1.405s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.dsv
+[1.405s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/package.dsv
+[1.406s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_google_benchmark
+[1.406s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmark-extras.cmake
+[1.407s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig.cmake
+[1.407s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig-version.cmake
+[1.407s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/package.xml
+[1.407s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_executable.cmake
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_test.cmake
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark.cmake
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/run_and_convert.py
+[1.418s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_google_benchmark

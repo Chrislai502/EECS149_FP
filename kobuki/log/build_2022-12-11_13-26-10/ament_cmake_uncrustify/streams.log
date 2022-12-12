@@ -1,0 +1,40 @@
+[0.170s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.189s] Re-run cmake no build system arguments
+[0.194s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.244s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.578s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.716s] -- Configuring done
+[0.722s] -- Generating done
+[0.723s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_uncrustify
+[0.971s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.972s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[1.029s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -B/home/lfvmu/kobuki/build/ament_cmake_uncrustify --check-build-system CMakeFiles/Makefile.cmake 0
+[1.057s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles/progress.marks
+[1.096s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.097s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_uncrustify'
+[1.099s] make[1]: Nothing to be done for 'all'.
+[1.100s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_uncrustify'
+[1.100s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles 0
+[1.376s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[1.445s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_uncrustify
+[1.511s] -- Install configuration: "RelWithDebInfo"
+[1.511s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_uncrustify
+[1.514s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_uncrustify
+[1.514s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.sh
+[1.515s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.dsv
+[1.515s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/path.sh
+[1.516s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/path.dsv
+[1.517s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.bash
+[1.517s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.sh
+[1.517s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.zsh
+[1.518s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.dsv
+[1.518s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/package.dsv
+[1.519s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_uncrustify
+[1.519s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify-extras.cmake
+[1.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig.cmake
+[1.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig-version.cmake
+[1.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/package.xml
+[1.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake
+[1.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake
+[1.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake
+[1.711s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_uncrustify

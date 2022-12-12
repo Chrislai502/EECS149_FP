@@ -1,0 +1,31 @@
+[0.300s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_version': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_version -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.327s] Not searching for unused variables given on the command line.
+[0.333s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.376s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.859s] -- Configuring done
+[0.860s] -- Generating done
+[0.861s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_version
+[1.061s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_version' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_version -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.067s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_version': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_version -- -j4 -l4
+[1.328s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_version' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_version -- -j4 -l4
+[1.394s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_version': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_version
+[1.426s] -- Install configuration: "RelWithDebInfo"
+[1.427s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_version
+[1.427s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_version
+[1.428s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/environment/ament_prefix_path.sh
+[1.428s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_version/environment/ament_prefix_path.dsv
+[1.428s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/environment/path.sh
+[1.429s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_version/environment/path.dsv
+[1.430s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/local_setup.bash
+[1.430s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/local_setup.sh
+[1.430s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/local_setup.zsh
+[1.430s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_version/local_setup.dsv
+[1.431s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_version/package.dsv
+[1.431s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_version
+[1.431s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/cmake/ament_cmake_version-extras.cmake
+[1.431s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/cmake/ament_cmake_versionConfig.cmake
+[1.432s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/cmake/ament_cmake_versionConfig-version.cmake
+[1.433s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/package.xml
+[1.433s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/cmake
+[1.433s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_version/cmake/ament_export_development_version_if_higher_than_manifest.cmake
+[1.444s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_version' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_version

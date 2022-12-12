@@ -1,0 +1,35 @@
+[0.235s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.307s] -- Configuring done
+[0.328s] -- Generating done
+[0.329s] -- Build files have been written to: /home/lfvmu/kobuki/build/sophus
+[0.470s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.476s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[0.621s] [ 50%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[9.549s] [100%] [32m[1mLinking CXX executable HelloSO3[0m
+[9.848s] [100%] Built target HelloSO3
+[9.909s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[9.978s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus
+[10.001s] -- Install configuration: "RelWithDebInfo"
+[10.002s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusTargets.cmake
+[10.002s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfig.cmake
+[10.003s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfigVersion.cmake
+[10.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/average.hpp
+[10.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/common.hpp
+[10.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/geometry.hpp
+[10.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/interpolate.hpp
+[10.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/interpolate_details.hpp
+[10.005s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/num_diff.hpp
+[10.005s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rotation_matrix.hpp
+[10.005s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rxso2.hpp
+[10.006s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rxso3.hpp
+[10.006s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/se2.hpp
+[10.007s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/se3.hpp
+[10.007s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim2.hpp
+[10.007s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim3.hpp
+[10.008s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim_details.hpp
+[10.008s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/so2.hpp
+[10.008s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/so3.hpp
+[10.008s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/types.hpp
+[10.009s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/velocities.hpp
+[10.009s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/formatstring.hpp
+[10.018s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus

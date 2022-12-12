@@ -1,0 +1,21 @@
+[2.226s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_tidy': PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_tidy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/lfvmu/kobuki/build/ament_clang_tidy/build install --record /home/lfvmu/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed
+[2.717s] running egg_info
+[2.719s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[2.719s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[2.719s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[2.720s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[2.720s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[2.856s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[2.865s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[2.865s] running build
+[2.871s] running build_py
+[2.871s] running install
+[2.871s] running install_lib
+[2.872s] running install_data
+[2.877s] running install_egg_info
+[2.878s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.7-py3.8.egg-info' (and everything under it)
+[2.878s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.7-py3.8.egg-info
+[2.879s] running install_scripts
+[2.914s] Installing ament_clang_tidy script to /home/lfvmu/kobuki/install/bin
+[2.915s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_clang_tidy/install.log'
+[3.143s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_tidy' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_tidy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/lfvmu/kobuki/build/ament_clang_tidy/build install --record /home/lfvmu/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed

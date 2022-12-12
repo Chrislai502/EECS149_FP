@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_flake8': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_flake8 -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_flake8' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_flake8 -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_flake8': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_flake8 -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_flake8' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_flake8 -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_flake8': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_flake8
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_flake8' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_flake8

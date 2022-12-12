@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_pyflakes -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_pyflakes -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pyflakes -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pyflakes -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pyflakes
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pyflakes' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pyflakes

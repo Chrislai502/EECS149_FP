@@ -1,0 +1,31 @@
+[0.288s] Invoking command in '/home/lfvmu/kobuki/build/ament_lint_auto': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_lint_auto -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.307s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.842s] -- Configuring done
+[0.842s] -- Generating done
+[0.842s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_lint_auto
+[1.079s] Invoked command in '/home/lfvmu/kobuki/build/ament_lint_auto' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_lint_auto -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.084s] Invoking command in '/home/lfvmu/kobuki/build/ament_lint_auto': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_lint_auto -- -j4 -l4
+[1.558s] Invoked command in '/home/lfvmu/kobuki/build/ament_lint_auto' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_lint_auto -- -j4 -l4
+[1.599s] Invoking command in '/home/lfvmu/kobuki/build/ament_lint_auto': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_lint_auto
+[1.617s] -- Install configuration: "RelWithDebInfo"
+[1.617s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_lint_auto
+[1.618s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_lint_auto
+[1.618s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/environment/ament_prefix_path.sh
+[1.619s] -- Installing: /home/lfvmu/kobuki/install/share/ament_lint_auto/environment/ament_prefix_path.dsv
+[1.619s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/environment/path.sh
+[1.619s] -- Installing: /home/lfvmu/kobuki/install/share/ament_lint_auto/environment/path.dsv
+[1.619s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/local_setup.bash
+[1.620s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/local_setup.sh
+[1.620s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/local_setup.zsh
+[1.620s] -- Installing: /home/lfvmu/kobuki/install/share/ament_lint_auto/local_setup.dsv
+[1.620s] -- Installing: /home/lfvmu/kobuki/install/share/ament_lint_auto/package.dsv
+[1.621s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_lint_auto
+[1.621s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake
+[1.621s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake
+[1.622s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake/ament_lint_autoConfig-version.cmake
+[1.622s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/package.xml
+[1.622s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake
+[1.622s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake
+[1.623s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake
+[1.631s] Invoked command in '/home/lfvmu/kobuki/build/ament_lint_auto' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_lint_auto

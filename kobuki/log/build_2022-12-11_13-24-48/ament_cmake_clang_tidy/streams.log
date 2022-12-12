@@ -1,0 +1,33 @@
+[0.317s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.350s] Not searching for unused variables given on the command line.
+[0.351s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.403s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.718s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.894s] -- Configuring done
+[0.894s] -- Generating done
+[0.894s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_clang_tidy
+[1.036s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.038s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[1.310s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[1.389s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy
+[1.407s] -- Install configuration: "RelWithDebInfo"
+[1.407s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_clang_tidy
+[1.407s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_clang_tidy
+[1.407s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.sh
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.dsv
+[1.408s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/path.sh
+[1.408s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/path.dsv
+[1.408s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.bash
+[1.409s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.sh
+[1.409s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.zsh
+[1.409s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.dsv
+[1.410s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/package.dsv
+[1.410s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_clang_tidy
+[1.411s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy-extras.cmake
+[1.411s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig.cmake
+[1.411s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig-version.cmake
+[1.411s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/package.xml
+[1.411s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake
+[1.412s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_clang_tidy.cmake
+[1.412s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy_lint_hook.cmake
+[1.431s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy

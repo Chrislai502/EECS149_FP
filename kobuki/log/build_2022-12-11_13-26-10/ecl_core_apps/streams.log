@@ -1,0 +1,214 @@
+[0.258s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.284s] Re-run cmake no build system arguments
+[0.316s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.727s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.745s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.748s] -- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+[0.887s] -- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)
+[0.889s] -- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+[0.928s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[1.018s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[1.035s] -- Found ecl_ipc: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_ipc/cmake)
+[1.058s] -- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)
+[1.068s] -- Found ecl_streams: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_streams/cmake)
+[1.254s] -- Configuring done
+[1.404s] -- Generating done
+[1.424s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_core_apps
+[1.493s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.495s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[1.534s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_core_apps -B/home/lfvmu/kobuki/build/ecl_core_apps --check-build-system CMakeFiles/Makefile.cmake 0
+[1.559s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_core_apps/CMakeFiles /home/lfvmu/kobuki/build/ecl_core_apps/CMakeFiles/progress.marks
+[1.582s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.586s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.586s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/depend
+[1.587s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/depend
+[1.587s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_files.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_files.dir/depend
+[1.591s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.591s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/DependInfo.cmake --color=
+[1.591s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/depend
+[1.593s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.594s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/DependInfo.cmake --color=
+[1.595s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.595s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_files.dir/DependInfo.cmake --color=
+[1.598s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.599s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/DependInfo.cmake --color=
+[1.616s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.617s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_files.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_files.dir/build
+[1.621s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.622s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_files.dir/build'.
+[1.622s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.630s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.630s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/build
+[1.634s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.634s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/build
+[1.635s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.635s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/build'.
+[1.636s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.643s] [  5%] Built target ecl_bench_files
+[1.650s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.651s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/build
+[1.651s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.651s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/build'.
+[1.652s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.652s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.652s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/build'.
+[1.653s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.653s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_streams.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_streams.dir/depend
+[1.657s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.657s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_streams.dir/DependInfo.cmake --color=
+[1.668s] [ 11%] Built target ecl_bench_string_conversions
+[1.670s] [ 17%] Built target ecl_bench_exceptions
+[1.671s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/depend
+[1.684s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/depend
+[1.684s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.684s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_streams.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_streams.dir/build
+[1.691s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.691s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/DependInfo.cmake --color=
+[1.691s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.692s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_streams.dir/build'.
+[1.692s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.693s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.693s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/DependInfo.cmake --color=
+[1.702s] [ 23%] Built target ecl_bench_snooze
+[1.704s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/depend
+[1.711s] [ 29%] Built target ecl_bench_streams
+[1.717s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.718s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/build
+[1.718s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_containers.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_containers.dir/depend
+[1.720s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.720s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/DependInfo.cmake --color=
+[1.727s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.727s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_containers.dir/DependInfo.cmake --color=
+[1.743s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.743s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/build
+[1.752s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.753s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/build'.
+[1.753s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.761s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.762s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/build
+[1.775s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.776s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/build'.
+[1.776s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.779s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.781s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_containers.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_containers.dir/build
+[1.787s] [ 35%] Built target ecl_bench_eigen3_transforms
+[1.792s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_flops.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_flops.dir/depend
+[1.796s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.796s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_containers.dir/build'.
+[1.797s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.799s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.800s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/build'.
+[1.800s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.801s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.810s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks /home/lfvmu/kobuki/build/ecl_core_apps/src/benchmarks/CMakeFiles/ecl_bench_flops.dir/DependInfo.cmake --color=
+[1.818s] [ 41%] Built target ecl_bench_eigen3_inverse
+[1.824s] /usr/bin/make -f src/utils/CMakeFiles/ecl_hex.dir/build.make src/utils/CMakeFiles/ecl_hex.dir/depend
+[1.829s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.829s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_hex.dir/DependInfo.cmake --color=
+[1.831s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.831s] /usr/bin/make -f src/benchmarks/CMakeFiles/ecl_bench_flops.dir/build.make src/benchmarks/CMakeFiles/ecl_bench_flops.dir/build
+[1.835s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.836s] make[2]: Nothing to be done for 'src/benchmarks/CMakeFiles/ecl_bench_flops.dir/build'.
+[1.836s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.838s] [ 47%] Built target ecl_bench_containers
+[1.844s] /usr/bin/make -f src/utils/CMakeFiles/ecl_socket_server.dir/build.make src/utils/CMakeFiles/ecl_socket_server.dir/depend
+[1.854s] [ 52%] Built target ecl_bench_eigen3_decompositions
+[1.857s] [ 58%] Built target ecl_bench_flops
+[1.858s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.858s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_socket_server.dir/DependInfo.cmake --color=
+[1.859s] /usr/bin/make -f src/utils/CMakeFiles/ecl_serial.dir/build.make src/utils/CMakeFiles/ecl_serial.dir/depend
+[1.861s] /usr/bin/make -f src/utils/CMakeFiles/ecl_process_statistics.dir/build.make src/utils/CMakeFiles/ecl_process_statistics.dir/depend
+[1.863s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.864s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_serial.dir/DependInfo.cmake --color=
+[1.865s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.865s] /usr/bin/make -f src/utils/CMakeFiles/ecl_hex.dir/build.make src/utils/CMakeFiles/ecl_hex.dir/build
+[1.867s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.867s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_process_statistics.dir/DependInfo.cmake --color=
+[1.880s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.881s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_hex.dir/build'.
+[1.881s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.889s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.889s] /usr/bin/make -f src/utils/CMakeFiles/ecl_serial.dir/build.make src/utils/CMakeFiles/ecl_serial.dir/build
+[1.897s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.897s] /usr/bin/make -f src/utils/CMakeFiles/ecl_process_statistics.dir/build.make src/utils/CMakeFiles/ecl_process_statistics.dir/build
+[1.898s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.898s] /usr/bin/make -f src/utils/CMakeFiles/ecl_socket_server.dir/build.make src/utils/CMakeFiles/ecl_socket_server.dir/build
+[1.899s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.900s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_process_statistics.dir/build'.
+[1.900s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.901s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.901s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_serial.dir/build'.
+[1.902s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.913s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.913s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_socket_server.dir/build'.
+[1.913s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.918s] [ 64%] Built target ecl_hex
+[1.920s] /usr/bin/make -f src/utils/CMakeFiles/ecl_quaternion2yaw.dir/build.make src/utils/CMakeFiles/ecl_quaternion2yaw.dir/depend
+[1.935s] [ 70%] Built target ecl_process_statistics
+[1.937s] [ 76%] Built target ecl_serial
+[1.937s] /usr/bin/make -f src/utils/CMakeFiles/ecl_yaw2quaternion.dir/build.make src/utils/CMakeFiles/ecl_yaw2quaternion.dir/depend
+[1.941s] /usr/bin/make -f src/utils/CMakeFiles/ecl_socket_client.dir/build.make src/utils/CMakeFiles/ecl_socket_client.dir/depend
+[1.942s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.943s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_quaternion2yaw.dir/DependInfo.cmake --color=
+[1.947s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.947s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_socket_client.dir/DependInfo.cmake --color=
+[1.948s] [ 82%] Built target ecl_socket_server
+[1.952s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.953s] cd /home/lfvmu/kobuki/build/ecl_core_apps && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps /home/lfvmu/kobuki/src/ecl_core/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps /home/lfvmu/kobuki/build/ecl_core_apps/src/utils /home/lfvmu/kobuki/build/ecl_core_apps/src/utils/CMakeFiles/ecl_yaw2quaternion.dir/DependInfo.cmake --color=
+[1.975s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.976s] /usr/bin/make -f src/utils/CMakeFiles/ecl_quaternion2yaw.dir/build.make src/utils/CMakeFiles/ecl_quaternion2yaw.dir/build
+[1.977s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.977s] /usr/bin/make -f src/utils/CMakeFiles/ecl_yaw2quaternion.dir/build.make src/utils/CMakeFiles/ecl_yaw2quaternion.dir/build
+[1.981s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.981s] /usr/bin/make -f src/utils/CMakeFiles/ecl_socket_client.dir/build.make src/utils/CMakeFiles/ecl_socket_client.dir/build
+[1.996s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[1.997s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_socket_client.dir/build'.
+[1.997s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.000s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.000s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_quaternion2yaw.dir/build'.
+[2.000s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.008s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.009s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_yaw2quaternion.dir/build'.
+[2.009s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.018s] [ 88%] Built target ecl_socket_client
+[2.019s] [ 94%] Built target ecl_quaternion2yaw
+[2.036s] [100%] Built target ecl_yaw2quaternion
+[2.039s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_core_apps'
+[2.039s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_core_apps/CMakeFiles 0
+[2.067s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core_apps -- -j4 -l4
+[2.162s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core_apps': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps
+[2.191s] -- Install configuration: "RelWithDebInfo"
+[2.191s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+[2.192s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+[2.192s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.sh
+[2.192s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.dsv
+[2.193s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.sh
+[2.193s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.dsv
+[2.193s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.bash
+[2.194s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.sh
+[2.194s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.zsh
+[2.194s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.dsv
+[2.194s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.dsv
+[2.195s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_core_apps
+[2.195s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+[2.195s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+[2.195s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.xml
+[2.196s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_containers
+[2.197s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_files
+[2.198s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_flops
+[2.199s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_exceptions
+[2.200s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_snooze
+[2.201s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_streams
+[2.202s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_string_conversions
+[2.202s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_inverse
+[2.203s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_decompositions
+[2.204s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_transforms
+[2.206s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_hex
+[2.207s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_serial
+[2.208s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_client
+[2.209s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_server
+[2.210s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_process_statistics
+[2.219s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_quaternion2yaw
+[2.219s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_yaw2quaternion
+[2.236s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core_apps' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core_apps

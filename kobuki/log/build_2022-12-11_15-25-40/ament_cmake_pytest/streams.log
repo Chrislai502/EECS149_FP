@@ -1,0 +1,32 @@
+[0.070s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_pytest -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.109s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.659s] -- Configuring done
+[0.664s] -- Generating done
+[0.667s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_pytest
+[1.058s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_pytest -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.060s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pytest -- -j4 -l4
+[1.310s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pytest -- -j4 -l4
+[1.760s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pytest
+[1.786s] -- Install configuration: "RelWithDebInfo"
+[1.786s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pytest
+[1.786s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pytest
+[1.786s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/ament_prefix_path.sh
+[1.787s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/ament_prefix_path.dsv
+[1.787s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/path.sh
+[1.788s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/path.dsv
+[1.788s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.bash
+[1.788s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.sh
+[1.789s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.zsh
+[1.789s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.dsv
+[1.789s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/package.dsv
+[1.789s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_pytest
+[1.790s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake
+[1.790s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake
+[1.790s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig-version.cmake
+[1.790s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/package.xml
+[1.790s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake
+[1.791s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_has_pytest.cmake
+[1.791s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_get_pytest_cov_version.cmake
+[1.791s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake
+[2.039s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pytest

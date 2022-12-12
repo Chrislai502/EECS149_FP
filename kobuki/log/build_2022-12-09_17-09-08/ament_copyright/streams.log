@@ -1,0 +1,93 @@
+[1.529s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed
+[1.922s] running egg_info
+[1.922s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[1.922s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[1.923s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[1.923s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[1.923s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[1.923s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[1.923s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.029s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.031s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.032s] running build
+[2.032s] running build_py
+[2.033s] creating /home/lfvmu/kobuki/build/ament_copyright/build
+[2.033s] creating /home/lfvmu/kobuki/build/ament_copyright/build/lib
+[2.033s] creating /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.034s] copying ament_copyright/main.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.034s] copying ament_copyright/pytest_marker.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.034s] copying ament_copyright/copyright_names.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.034s] copying ament_copyright/parser.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.034s] copying ament_copyright/licenses.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.035s] copying ament_copyright/crawler.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.035s] copying ament_copyright/__init__.py -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright
+[2.035s] creating /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.035s] copying ament_copyright/template/mit_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.036s] copying ament_copyright/template/apache2_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.036s] copying ament_copyright/template/boost1_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.036s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.036s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.037s] copying ament_copyright/template/mit_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.037s] copying ament_copyright/template/mit_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.037s] copying ament_copyright/template/lgplv3_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.037s] copying ament_copyright/template/bsd2_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.038s] copying ament_copyright/template/gplv3_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.038s] copying ament_copyright/template/lgplv3_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.038s] copying ament_copyright/template/bsd2_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.039s] copying ament_copyright/template/apache2_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.039s] copying ament_copyright/template/apache2_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.039s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.039s] copying ament_copyright/template/gplv3_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.040s] copying ament_copyright/template/gplv3_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.040s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.040s] copying ament_copyright/template/boost1_contributing.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.040s] copying ament_copyright/template/boost1_license.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.041s] copying ament_copyright/template/bsd2_header.txt -> /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template
+[2.041s] running install
+[2.041s] running install_lib
+[2.043s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.043s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.044s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.044s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.044s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.045s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.045s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.045s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.045s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.046s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.046s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.046s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.046s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.047s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.047s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.047s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.047s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.048s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.048s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.048s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.048s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.049s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.049s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.049s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.049s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.050s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.050s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.050s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.050s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/template
+[2.051s] copying /home/lfvmu/kobuki/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright
+[2.051s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/main.py to main.cpython-38.pyc
+[2.061s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-38.pyc
+[2.061s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-38.pyc
+[2.062s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/parser.py to parser.cpython-38.pyc
+[2.066s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/licenses.py to licenses.cpython-38.pyc
+[2.066s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/crawler.py to crawler.cpython-38.pyc
+[2.068s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright/__init__.py to __init__.cpython-38.pyc
+[2.069s] running install_data
+[2.070s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_copyright
+[2.071s] copying resource/ament_copyright -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[2.071s] running install_egg_info
+[2.074s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info
+[2.075s] running install_scripts
+[2.126s] Installing ament_copyright script to /home/lfvmu/kobuki/install/bin
+[2.126s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_copyright/install.log'
+[2.178s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed

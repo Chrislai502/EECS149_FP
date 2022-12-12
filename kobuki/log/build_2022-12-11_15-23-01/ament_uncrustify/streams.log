@@ -1,0 +1,21 @@
+[2.542s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_uncrustify': PYTHONPATH=/home/lfvmu/kobuki/build/ament_uncrustify/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/lfvmu/kobuki/build/ament_uncrustify/build install --record /home/lfvmu/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed
+[2.919s] running egg_info
+[2.920s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[2.920s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[2.921s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[2.922s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[2.923s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[3.018s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[3.020s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[3.020s] running build
+[3.020s] running build_py
+[3.021s] running install
+[3.022s] running install_lib
+[3.025s] running install_data
+[3.025s] running install_egg_info
+[3.028s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.7-py3.8.egg-info' (and everything under it)
+[3.029s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.7-py3.8.egg-info
+[3.031s] running install_scripts
+[3.069s] Installing ament_uncrustify script to /home/lfvmu/kobuki/install/bin
+[3.070s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_uncrustify/install.log'
+[3.119s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_uncrustify' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_uncrustify/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/lfvmu/kobuki/build/ament_uncrustify/build install --record /home/lfvmu/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed

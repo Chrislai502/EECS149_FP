@@ -1,0 +1,21 @@
+[2.758s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_cppcheck': PYTHONPATH=/home/lfvmu/kobuki/build/ament_cppcheck/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/lfvmu/kobuki/build/ament_cppcheck/build install --record /home/lfvmu/kobuki/build/ament_cppcheck/install.log --single-version-externally-managed
+[3.308s] running egg_info
+[3.309s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[3.310s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[3.310s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[3.310s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[3.311s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[3.468s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[3.474s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[3.474s] running build
+[3.475s] running build_py
+[3.475s] running install
+[3.475s] running install_lib
+[3.477s] running install_data
+[3.477s] running install_egg_info
+[3.481s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cppcheck-0.9.7-py3.8.egg-info' (and everything under it)
+[3.481s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cppcheck-0.9.7-py3.8.egg-info
+[3.490s] running install_scripts
+[3.532s] Installing ament_cppcheck script to /home/lfvmu/kobuki/install/bin
+[3.532s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_cppcheck/install.log'
+[3.661s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_cppcheck/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/lfvmu/kobuki/build/ament_cppcheck/build install --record /home/lfvmu/kobuki/build/ament_cppcheck/install.log --single-version-externally-managed

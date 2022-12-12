@@ -1,0 +1,72 @@
+[0.211s] Invoking command in '/home/lfvmu/kobuki/build/ecl_formatters': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_formatters -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.372s] -- The C compiler identification is GNU 9.4.0
+[0.561s] -- The CXX compiler identification is GNU 9.4.0
+[0.576s] -- Check for working C compiler: /usr/bin/cc
+[0.799s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.799s] -- Detecting C compiler ABI info
+[1.011s] -- Detecting C compiler ABI info - done
+[1.064s] -- Detecting C compile features
+[1.065s] -- Detecting C compile features - done
+[1.074s] -- Check for working CXX compiler: /usr/bin/c++
+[1.295s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.298s] -- Detecting CXX compiler ABI info
+[1.563s] -- Detecting CXX compiler ABI info - done
+[1.616s] -- Detecting CXX compile features
+[1.618s] -- Detecting CXX compile features - done
+[1.621s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[1.674s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.674s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.242s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[2.307s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[2.314s] -- Found ecl_converters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_converters/cmake)
+[2.853s] -- Configuring done
+[2.898s] -- Generating done
+[2.904s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_formatters
+[3.047s] Invoked command in '/home/lfvmu/kobuki/build/ecl_formatters' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_formatters -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[3.054s] Invoking command in '/home/lfvmu/kobuki/build/ecl_formatters': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_formatters -- -j4 -l4
+[3.330s] [35m[1mScanning dependencies of target ecl_formatters[0m
+[3.398s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_formatters.dir/strings.cpp.o[0m
+[4.147s] [ 50%] [32m[1mLinking CXX shared library libecl_formatters.so[0m
+[4.426s] [ 50%] Built target ecl_formatters
+[4.453s] [35m[1mScanning dependencies of target ecl_demo_formatters[0m
+[4.500s] [ 75%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_formatters.dir/formatters.cpp.o[0m
+[6.223s] [100%] [32m[1mLinking CXX executable demo_formatters[0m
+[6.493s] [100%] Built target ecl_demo_formatters
+[6.609s] Invoked command in '/home/lfvmu/kobuki/build/ecl_formatters' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_formatters -- -j4 -l4
+[6.686s] Invoking command in '/home/lfvmu/kobuki/build/ecl_formatters': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_formatters
+[6.703s] -- Install configuration: ""
+[6.704s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/library_path.sh
+[6.704s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/library_path.dsv
+[6.705s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_formatters
+[6.705s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_formatters
+[6.705s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.sh
+[6.706s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/ament_prefix_path.dsv
+[6.706s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/path.sh
+[6.706s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/environment/path.dsv
+[6.707s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/local_setup.bash
+[6.708s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/local_setup.sh
+[6.709s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/local_setup.zsh
+[6.709s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/local_setup.dsv
+[6.709s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/package.dsv
+[6.710s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_formatters
+[6.710s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport.cmake
+[6.710s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ecl_formattersExport-noconfig.cmake
+[6.715s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_targets-extras.cmake
+[6.716s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.716s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_libraries-extras.cmake
+[6.716s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.717s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig.cmake
+[6.717s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/cmake/ecl_formattersConfig-version.cmake
+[6.717s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_formatters/package.xml
+[6.718s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters.hpp
+[6.734s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters/common.hpp
+[6.742s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters/floats.hpp
+[6.742s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters/macros.hpp
+[6.742s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters/number.hpp
+[6.743s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/formatters/strings.hpp
+[6.744s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_formatters.so.1.2.1
+[6.745s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_formatters.so.1.2.1" to ""
+[6.745s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_formatters.so
+[6.746s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_formatters/demo_formatters
+[6.746s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_formatters/demo_formatters" to ""
+[7.027s] Invoked command in '/home/lfvmu/kobuki/build/ecl_formatters' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_formatters

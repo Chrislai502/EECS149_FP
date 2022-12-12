@@ -1,0 +1,46 @@
+[0.606s] Invoking command in '/home/lfvmu/kobuki/build/ecl_mobile_robot': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_mobile_robot -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.659s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.704s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.091s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[1.120s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[1.132s] -- Found ecl_formatters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_formatters/cmake)
+[1.207s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[1.493s] -- Configuring done
+[1.502s] -- Generating done
+[1.506s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_mobile_robot
+[1.515s] Invoked command in '/home/lfvmu/kobuki/build/ecl_mobile_robot' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_mobile_robot -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.522s] Invoking command in '/home/lfvmu/kobuki/build/ecl_mobile_robot': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_mobile_robot -- -j4 -l4
+[1.695s] [100%] Built target ecl_mobile_robot
+[1.718s] Invoked command in '/home/lfvmu/kobuki/build/ecl_mobile_robot' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_mobile_robot -- -j4 -l4
+[1.775s] Invoking command in '/home/lfvmu/kobuki/build/ecl_mobile_robot': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_mobile_robot
+[1.793s] -- Install configuration: "RelWithDebInfo"
+[1.793s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/library_path.sh
+[1.794s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/library_path.dsv
+[1.794s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_mobile_robot
+[1.794s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_mobile_robot
+[1.795s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/ament_prefix_path.sh
+[1.796s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/ament_prefix_path.dsv
+[1.796s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/path.sh
+[1.796s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/environment/path.dsv
+[1.796s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/local_setup.bash
+[1.797s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/local_setup.sh
+[1.797s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/local_setup.zsh
+[1.798s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/local_setup.dsv
+[1.798s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/package.dsv
+[1.798s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_mobile_robot
+[1.799s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ecl_mobile_robotExport.cmake
+[1.799s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ecl_mobile_robotExport-relwithdebinfo.cmake
+[1.799s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ament_cmake_export_targets-extras.cmake
+[1.799s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.800s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[1.800s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.800s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ecl_mobile_robotConfig.cmake
+[1.801s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake/ecl_mobile_robotConfig-version.cmake
+[1.801s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_mobile_robot/package.xml
+[1.801s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/mobile_robot.hpp
+[1.801s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/mobile_robot/differential_drive.hpp
+[1.802s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/mobile_robot/macros.hpp
+[1.802s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/mobile_robot/kinematics/differential_drive.hpp
+[1.802s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_mobile_robot.so.1.2.1
+[1.802s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_mobile_robot.so
+[1.811s] Invoked command in '/home/lfvmu/kobuki/build/ecl_mobile_robot' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_mobile_robot

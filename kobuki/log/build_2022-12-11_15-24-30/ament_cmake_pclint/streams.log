@@ -1,0 +1,40 @@
+[0.301s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pclint': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_pclint -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.319s] Re-run cmake no build system arguments
+[0.321s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.371s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.717s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.859s] -- Configuring done
+[0.864s] -- Generating done
+[0.869s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_pclint
+[1.215s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pclint' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_pclint -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.221s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pclint': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pclint -- -j4 -l4
+[1.272s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_lint/ament_cmake_pclint -B/home/lfvmu/kobuki/build/ament_cmake_pclint --check-build-system CMakeFiles/Makefile.cmake 0
+[1.315s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_pclint/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_pclint/CMakeFiles/progress.marks
+[1.332s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.337s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_pclint'
+[1.338s] make[1]: Nothing to be done for 'all'.
+[1.338s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_pclint'
+[1.338s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_pclint/CMakeFiles 0
+[1.463s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pclint' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pclint -- -j4 -l4
+[1.559s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pclint': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pclint
+[1.577s] -- Install configuration: "RelWithDebInfo"
+[1.577s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pclint
+[1.578s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pclint
+[1.578s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/environment/ament_prefix_path.sh
+[1.578s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/environment/ament_prefix_path.dsv
+[1.579s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/environment/path.sh
+[1.579s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/environment/path.dsv
+[1.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/local_setup.bash
+[1.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/local_setup.sh
+[1.584s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/local_setup.zsh
+[1.584s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/local_setup.dsv
+[1.584s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/package.dsv
+[1.584s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_pclint
+[1.584s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake/ament_cmake_pclint-extras.cmake
+[1.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake/ament_cmake_pclintConfig.cmake
+[1.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake/ament_cmake_pclintConfig-version.cmake
+[1.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/package.xml
+[1.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake
+[1.585s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake/ament_cmake_pclint_lint_hook.cmake
+[1.586s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pclint/cmake/ament_pclint.cmake
+[1.604s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pclint' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pclint

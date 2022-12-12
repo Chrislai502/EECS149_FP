@@ -1,0 +1,21 @@
+[2.408s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_mypy': PYTHONPATH=/home/lfvmu/kobuki/build/ament_mypy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/lfvmu/kobuki/build/ament_mypy/build install --record /home/lfvmu/kobuki/build/ament_mypy/install.log --single-version-externally-managed
+[2.809s] running egg_info
+[2.810s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[2.811s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[2.812s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[2.812s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[2.813s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[2.922s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[2.924s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[2.925s] running build
+[2.925s] running build_py
+[2.925s] running install
+[2.927s] running install_lib
+[2.933s] running install_data
+[2.934s] running install_egg_info
+[2.939s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_mypy-0.9.7-py3.8.egg-info' (and everything under it)
+[2.956s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_mypy-0.9.7-py3.8.egg-info
+[2.956s] running install_scripts
+[2.991s] Installing ament_mypy script to /home/lfvmu/kobuki/install/bin
+[2.991s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_mypy/install.log'
+[3.230s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_mypy' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_mypy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/lfvmu/kobuki/build/ament_mypy/build install --record /home/lfvmu/kobuki/build/ament_mypy/install.log --single-version-externally-managed

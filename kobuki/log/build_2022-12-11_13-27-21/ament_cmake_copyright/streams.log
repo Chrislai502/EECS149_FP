@@ -1,0 +1,32 @@
+[0.085s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_copyright -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.139s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.182s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.515s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.655s] -- Configuring done
+[0.661s] -- Generating done
+[0.664s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_copyright
+[1.057s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_copyright -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.058s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_copyright -- -j4 -l4
+[2.124s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_copyright -- -j4 -l4
+[2.379s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_copyright
+[2.396s] -- Install configuration: "RelWithDebInfo"
+[2.396s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_copyright
+[2.397s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_copyright
+[2.397s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/ament_prefix_path.sh
+[2.397s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/ament_prefix_path.dsv
+[2.397s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/path.sh
+[2.398s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/path.dsv
+[2.398s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.bash
+[2.398s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.sh
+[2.399s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.zsh
+[2.399s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.dsv
+[2.399s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/package.dsv
+[2.400s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_copyright
+[2.400s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright-extras.cmake
+[2.401s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig.cmake
+[2.401s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig-version.cmake
+[2.401s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/package.xml
+[2.401s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake
+[2.402s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright_lint_hook.cmake
+[2.402s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_copyright.cmake
+[2.412s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_copyright

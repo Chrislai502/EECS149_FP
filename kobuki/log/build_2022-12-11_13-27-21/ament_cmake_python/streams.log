@@ -1,0 +1,31 @@
+[0.063s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_python': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_python -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.113s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.657s] -- Configuring done
+[0.663s] -- Generating done
+[0.666s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_python
+[0.671s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_python' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_python -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.679s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_python': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_python -- -j4 -l4
+[0.774s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_python' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_python -- -j4 -l4
+[0.853s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_python': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_python
+[0.892s] -- Install configuration: "RelWithDebInfo"
+[0.892s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_python
+[0.893s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_python
+[0.893s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/environment/ament_prefix_path.sh
+[0.893s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_python/environment/ament_prefix_path.dsv
+[0.894s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/environment/path.sh
+[0.894s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_python/environment/path.dsv
+[0.894s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/local_setup.bash
+[0.894s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/local_setup.sh
+[0.894s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/local_setup.zsh
+[0.895s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_python/local_setup.dsv
+[0.895s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_python/package.dsv
+[0.896s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_python
+[0.896s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake
+[0.897s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake/ament_cmake_pythonConfig.cmake
+[0.897s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake/ament_cmake_pythonConfig-version.cmake
+[0.897s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/package.xml
+[0.897s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake
+[0.897s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake/ament_python_install_package.cmake
+[0.898s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_python/cmake/ament_python_install_module.cmake
+[1.065s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_python' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_python

@@ -1,0 +1,21 @@
+[1.436s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_tidy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/lfvmu/kobuki/build/ament_clang_tidy/build install --record /home/lfvmu/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed
+[1.829s] running egg_info
+[1.831s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.831s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.831s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.831s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.831s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.923s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.926s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.926s] running build
+[1.926s] running build_py
+[1.932s] running install
+[1.938s] running install_lib
+[1.943s] running install_data
+[1.944s] running install_egg_info
+[1.945s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.7-py3.8.egg-info' (and everything under it)
+[1.965s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_clang_tidy-0.9.7-py3.8.egg-info
+[1.966s] running install_scripts
+[2.003s] Installing ament_clang_tidy script to /home/lfvmu/kobuki/install/bin
+[2.003s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_clang_tidy/install.log'
+[2.075s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_clang_tidy/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/lfvmu/kobuki/build/ament_clang_tidy/build install --record /home/lfvmu/kobuki/build/ament_clang_tidy/install.log --single-version-externally-managed

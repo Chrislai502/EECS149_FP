@@ -1,0 +1,57 @@
+[0.508s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.682s] -- The C compiler identification is GNU 9.4.0
+[0.873s] -- The CXX compiler identification is GNU 9.4.0
+[0.899s] -- Check for working C compiler: /usr/bin/cc
+[1.094s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.098s] -- Detecting C compiler ABI info
+[1.316s] -- Detecting C compiler ABI info - done
+[1.369s] -- Detecting C compile features
+[1.371s] -- Detecting C compile features - done
+[1.386s] -- Check for working CXX compiler: /usr/bin/c++
+[1.673s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.673s] -- Detecting CXX compiler ABI info
+[1.900s] -- Detecting CXX compiler ABI info - done
+[1.946s] -- Detecting CXX compile features
+[1.948s] -- Detecting CXX compile features - done
+[1.962s] -- Found Eigen3: /home/lfvmu/kobuki/install/include/eigen3 (Required is at least version "3.3.0") 
+[1.986s] -- Configuring done
+[1.997s] -- Generating done
+[1.999s] CMake Warning:
+[2.000s]   Manually-specified variables were not used by the project:
+[2.000s] 
+[2.000s]     BUILD_TESTING
+[2.000s] 
+[2.001s] 
+[2.001s] -- Build files have been written to: /home/lfvmu/kobuki/build/sophus
+[2.093s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[2.100s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[2.242s] [35m[1mScanning dependencies of target HelloSO3[0m
+[2.321s] [ 50%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[8.330s] [100%] [32m[1mLinking CXX executable HelloSO3[0m
+[8.558s] [100%] Built target HelloSO3
+[8.607s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[8.669s] Invoking command in '/home/lfvmu/kobuki/build/sophus': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus
+[8.688s] -- Install configuration: "Release"
+[8.688s] -- Installing: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusTargets.cmake
+[8.689s] -- Installing: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfig.cmake
+[8.689s] -- Installing: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfigVersion.cmake
+[8.689s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/average.hpp
+[8.689s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/common.hpp
+[8.690s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/geometry.hpp
+[8.690s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/interpolate.hpp
+[8.690s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/interpolate_details.hpp
+[8.691s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/num_diff.hpp
+[8.691s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/rotation_matrix.hpp
+[8.691s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/rxso2.hpp
+[8.692s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/rxso3.hpp
+[8.692s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/se2.hpp
+[8.692s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/se3.hpp
+[8.692s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/sim2.hpp
+[8.692s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/sim3.hpp
+[8.693s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/sim_details.hpp
+[8.693s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/so2.hpp
+[8.693s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/so3.hpp
+[8.694s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/types.hpp
+[8.694s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/velocities.hpp
+[8.694s] -- Installing: /home/lfvmu/kobuki/install/include/sophus/formatstring.hpp
+[8.703s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus

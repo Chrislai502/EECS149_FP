@@ -1,0 +1,32 @@
+[0.044s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.096s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.146s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.634s] -- Configuring done
+[0.639s] -- Generating done
+[0.642s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_gmock
+[1.018s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.020s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[1.252s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[1.520s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gmock
+[1.552s] -- Install configuration: ""
+[1.553s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gmock
+[1.553s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gmock
+[1.554s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.sh
+[1.554s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.dsv
+[1.554s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/path.sh
+[1.555s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/path.dsv
+[1.555s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.bash
+[1.556s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.sh
+[1.556s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.zsh
+[1.567s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.dsv
+[1.567s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/package.dsv
+[1.568s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_gmock
+[1.568s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmock-extras.cmake
+[1.569s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig.cmake
+[1.569s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig-version.cmake
+[1.570s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/package.xml
+[1.570s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake
+[1.571s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake
+[1.571s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_find_gmock.cmake
+[1.581s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gmock

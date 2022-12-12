@@ -1,0 +1,21 @@
+[3.011s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_flake8': PYTHONPATH=/home/lfvmu/kobuki/build/ament_flake8/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/lfvmu/kobuki/build/ament_flake8/build install --record /home/lfvmu/kobuki/build/ament_flake8/install.log --single-version-externally-managed
+[3.436s] running egg_info
+[3.436s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[3.437s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[3.437s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[3.437s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[3.437s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[3.543s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[3.543s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[3.543s] running build
+[3.544s] running build_py
+[3.546s] running install
+[3.546s] running install_lib
+[3.546s] running install_data
+[3.546s] running install_egg_info
+[3.557s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8-0.9.7-py3.8.egg-info' (and everything under it)
+[3.558s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8-0.9.7-py3.8.egg-info
+[3.564s] running install_scripts
+[3.612s] Installing ament_flake8 script to /home/lfvmu/kobuki/install/bin
+[3.613s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_flake8/install.log'
+[3.929s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_flake8' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_flake8/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/lfvmu/kobuki/build/ament_flake8/build install --record /home/lfvmu/kobuki/build/ament_flake8/install.log --single-version-externally-managed

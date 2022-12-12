@@ -1,0 +1,265 @@
+[0.000000] (-) TimerEvent: {}
+[0.004972] (-) JobUnselected: {'identifier': 'ament_clang_format'}
+[0.005060] (-) JobUnselected: {'identifier': 'ament_clang_tidy'}
+[0.005132] (-) JobUnselected: {'identifier': 'ament_cmake'}
+[0.005192] (-) JobUnselected: {'identifier': 'ament_cmake_auto'}
+[0.005250] (-) JobUnselected: {'identifier': 'ament_cmake_clang_format'}
+[0.005308] (-) JobUnselected: {'identifier': 'ament_cmake_clang_tidy'}
+[0.005366] (-) JobUnselected: {'identifier': 'ament_cmake_copyright'}
+[0.005433] (-) JobUnselected: {'identifier': 'ament_cmake_core'}
+[0.005494] (-) JobUnselected: {'identifier': 'ament_cmake_cppcheck'}
+[0.005555] (-) JobUnselected: {'identifier': 'ament_cmake_cpplint'}
+[0.005632] (-) JobUnselected: {'identifier': 'ament_cmake_export_definitions'}
+[0.005696] (-) JobUnselected: {'identifier': 'ament_cmake_export_dependencies'}
+[0.005757] (-) JobUnselected: {'identifier': 'ament_cmake_export_include_directories'}
+[0.005817] (-) JobUnselected: {'identifier': 'ament_cmake_export_interfaces'}
+[0.005878] (-) JobUnselected: {'identifier': 'ament_cmake_export_libraries'}
+[0.005939] (-) JobUnselected: {'identifier': 'ament_cmake_export_link_flags'}
+[0.005999] (-) JobUnselected: {'identifier': 'ament_cmake_export_targets'}
+[0.006059] (-) JobUnselected: {'identifier': 'ament_cmake_flake8'}
+[0.006120] (-) JobUnselected: {'identifier': 'ament_cmake_gmock'}
+[0.006181] (-) JobUnselected: {'identifier': 'ament_cmake_google_benchmark'}
+[0.006242] (-) JobUnselected: {'identifier': 'ament_cmake_gtest'}
+[0.006302] (-) JobUnselected: {'identifier': 'ament_cmake_include_directories'}
+[0.006363] (-) JobUnselected: {'identifier': 'ament_cmake_libraries'}
+[0.006423] (-) JobUnselected: {'identifier': 'ament_cmake_lint_cmake'}
+[0.006483] (-) JobUnselected: {'identifier': 'ament_cmake_mypy'}
+[0.006544] (-) JobUnselected: {'identifier': 'ament_cmake_nose'}
+[0.006631] (-) JobUnselected: {'identifier': 'ament_cmake_pclint'}
+[0.006694] (-) JobUnselected: {'identifier': 'ament_cmake_pep257'}
+[0.006755] (-) JobUnselected: {'identifier': 'ament_cmake_pycodestyle'}
+[0.006816] (-) JobUnselected: {'identifier': 'ament_cmake_pyflakes'}
+[0.006876] (-) JobUnselected: {'identifier': 'ament_cmake_pytest'}
+[0.006936] (-) JobUnselected: {'identifier': 'ament_cmake_python'}
+[0.006997] (-) JobUnselected: {'identifier': 'ament_cmake_ros'}
+[0.007057] (-) JobUnselected: {'identifier': 'ament_cmake_target_dependencies'}
+[0.007118] (-) JobUnselected: {'identifier': 'ament_cmake_test'}
+[0.007178] (-) JobUnselected: {'identifier': 'ament_cmake_uncrustify'}
+[0.007239] (-) JobUnselected: {'identifier': 'ament_cmake_version'}
+[0.007299] (-) JobUnselected: {'identifier': 'ament_cmake_xmllint'}
+[0.007360] (-) JobUnselected: {'identifier': 'ament_copyright'}
+[0.007420] (-) JobUnselected: {'identifier': 'ament_cppcheck'}
+[0.007481] (-) JobUnselected: {'identifier': 'ament_cpplint'}
+[0.007541] (-) JobUnselected: {'identifier': 'ament_flake8'}
+[0.007618] (-) JobUnselected: {'identifier': 'ament_lint'}
+[0.007680] (-) JobUnselected: {'identifier': 'ament_lint_auto'}
+[0.007741] (-) JobUnselected: {'identifier': 'ament_lint_cmake'}
+[0.007801] (-) JobUnselected: {'identifier': 'ament_lint_common'}
+[0.007861] (-) JobUnselected: {'identifier': 'ament_mypy'}
+[0.007922] (-) JobUnselected: {'identifier': 'ament_package'}
+[0.007983] (-) JobUnselected: {'identifier': 'ament_pclint'}
+[0.008043] (-) JobUnselected: {'identifier': 'ament_pep257'}
+[0.008104] (-) JobUnselected: {'identifier': 'ament_pycodestyle'}
+[0.008370] (-) JobUnselected: {'identifier': 'ament_pyflakes'}
+[0.008444] (-) JobUnselected: {'identifier': 'ament_uncrustify'}
+[0.008507] (-) JobUnselected: {'identifier': 'ament_xmllint'}
+[0.008587] (-) JobUnselected: {'identifier': 'domain_coordinator'}
+[0.008649] (-) JobUnselected: {'identifier': 'ecl_build'}
+[0.008710] (-) JobUnselected: {'identifier': 'ecl_command_line'}
+[0.008771] (-) JobUnselected: {'identifier': 'ecl_concepts'}
+[0.008831] (-) JobUnselected: {'identifier': 'ecl_config'}
+[0.008892] (-) JobUnselected: {'identifier': 'ecl_console'}
+[0.008962] (-) JobUnselected: {'identifier': 'ecl_containers'}
+[0.009246] (-) JobUnselected: {'identifier': 'ecl_converters'}
+[0.009300] (-) JobUnselected: {'identifier': 'ecl_converters_lite'}
+[0.009344] (-) JobUnselected: {'identifier': 'ecl_core'}
+[0.009385] (-) JobUnselected: {'identifier': 'ecl_core_apps'}
+[0.009425] (-) JobUnselected: {'identifier': 'ecl_devices'}
+[0.009464] (-) JobUnselected: {'identifier': 'ecl_eigen'}
+[0.009504] (-) JobUnselected: {'identifier': 'ecl_errors'}
+[0.009597] (-) JobUnselected: {'identifier': 'ecl_exceptions'}
+[0.009657] (-) JobUnselected: {'identifier': 'ecl_filesystem'}
+[0.009715] (-) JobUnselected: {'identifier': 'ecl_formatters'}
+[0.009775] (-) JobUnselected: {'identifier': 'ecl_geometry'}
+[0.009834] (-) JobUnselected: {'identifier': 'ecl_io'}
+[0.009893] (-) JobUnselected: {'identifier': 'ecl_ipc'}
+[0.009951] (-) JobUnselected: {'identifier': 'ecl_license'}
+[0.010010] (-) JobUnselected: {'identifier': 'ecl_linear_algebra'}
+[0.010069] (-) JobUnselected: {'identifier': 'ecl_lite'}
+[0.010139] (-) JobUnselected: {'identifier': 'ecl_manipulators'}
+[0.010198] (-) JobUnselected: {'identifier': 'ecl_math'}
+[0.010257] (-) JobUnselected: {'identifier': 'ecl_mobile_robot'}
+[0.010316] (-) JobUnselected: {'identifier': 'ecl_mpl'}
+[0.010375] (-) JobUnselected: {'identifier': 'ecl_sigslots'}
+[0.010434] (-) JobUnselected: {'identifier': 'ecl_sigslots_lite'}
+[0.010508] (-) JobUnselected: {'identifier': 'ecl_statistics'}
+[0.010570] (-) JobUnselected: {'identifier': 'ecl_streams'}
+[0.010629] (-) JobUnselected: {'identifier': 'ecl_threads'}
+[0.010688] (-) JobUnselected: {'identifier': 'ecl_time'}
+[0.010747] (-) JobUnselected: {'identifier': 'ecl_time_lite'}
+[0.010806] (-) JobUnselected: {'identifier': 'ecl_tools'}
+[0.010865] (-) JobUnselected: {'identifier': 'ecl_type_traits'}
+[0.010932] (-) JobUnselected: {'identifier': 'ecl_utilities'}
+[0.010990] (-) JobUnselected: {'identifier': 'eigen'}
+[0.011047] (-) JobUnselected: {'identifier': 'sophus'}
+[0.011108] (kobuki_core) JobQueued: {'identifier': 'kobuki_core', 'dependencies': OrderedDict([('ament_package', '/home/lfvmu/kobuki/install'), ('eigen', '/home/lfvmu/kobuki/install'), ('ament_cmake_core', '/home/lfvmu/kobuki/install'), ('sophus', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_definitions', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_include_directories', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_libraries', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_link_flags', '/home/lfvmu/kobuki/install'), ('ament_cmake_include_directories', '/home/lfvmu/kobuki/install'), ('ament_cmake_libraries', '/home/lfvmu/kobuki/install'), ('ament_cmake_python', '/home/lfvmu/kobuki/install'), ('ament_cmake_version', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_dependencies', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_interfaces', '/home/lfvmu/kobuki/install'), ('ament_cmake_export_targets', '/home/lfvmu/kobuki/install'), ('ament_cmake_target_dependencies', '/home/lfvmu/kobuki/install'), ('ament_cmake_test', '/home/lfvmu/kobuki/install'), ('ament_cmake', '/home/lfvmu/kobuki/install'), ('ament_cmake_gtest', '/home/lfvmu/kobuki/install'), ('ament_cmake_pytest', '/home/lfvmu/kobuki/install'), ('domain_coordinator', '/home/lfvmu/kobuki/install'), ('ament_cmake_gmock', '/home/lfvmu/kobuki/install'), ('ecl_license', '/home/lfvmu/kobuki/install'), ('ecl_build', '/home/lfvmu/kobuki/install'), ('ament_cmake_ros', '/home/lfvmu/kobuki/install'), ('ecl_command_line', '/home/lfvmu/kobuki/install'), ('ecl_config', '/home/lfvmu/kobuki/install'), ('ecl_eigen', '/home/lfvmu/kobuki/install'), ('ecl_mpl', '/home/lfvmu/kobuki/install'), ('ecl_console', '/home/lfvmu/kobuki/install'), ('ecl_errors', '/home/lfvmu/kobuki/install'), ('ecl_type_traits', '/home/lfvmu/kobuki/install'), ('ecl_concepts', '/home/lfvmu/kobuki/install'), ('ecl_exceptions', '/home/lfvmu/kobuki/install'), ('ecl_math', '/home/lfvmu/kobuki/install'), ('ecl_time_lite', '/home/lfvmu/kobuki/install'), ('ecl_converters', '/home/lfvmu/kobuki/install'), ('ecl_time', '/home/lfvmu/kobuki/install'), ('ecl_utilities', '/home/lfvmu/kobuki/install'), ('ecl_formatters', '/home/lfvmu/kobuki/install'), ('ecl_threads', '/home/lfvmu/kobuki/install'), ('ecl_containers', '/home/lfvmu/kobuki/install'), ('ecl_linear_algebra', '/home/lfvmu/kobuki/install'), ('ecl_sigslots', '/home/lfvmu/kobuki/install'), ('ecl_devices', '/home/lfvmu/kobuki/install'), ('ecl_geometry', '/home/lfvmu/kobuki/install'), ('ecl_mobile_robot', '/home/lfvmu/kobuki/install')])}
+[0.011256] (kobuki_core) JobStarted: {'identifier': 'kobuki_core'}
+[0.099511] (-) TimerEvent: {}
+[0.200241] (-) TimerEvent: {}
+[0.272215] (kobuki_core) JobProgress: {'identifier': 'kobuki_core', 'progress': 'cmake'}
+[0.274337] (kobuki_core) Command: {'cmd': ['/usr/bin/cmake', '/home/lfvmu/kobuki/src/kobuki_core', '-DBUILD_TESTING=OFF', '-DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install'], 'cwd': '/home/lfvmu/kobuki/build/kobuki_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lfvmu'), ('SSH_AGENT_PID', '1070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lfvmu/kobuki/install/lib'), ('HOME', '/home/lfvmu'), ('OLDPWD', '/home/lfvmu/kobuki/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/lfvmu/.nvm/versions/node/v14.18.0/bin'), ('NVM_INC', '/home/lfvmu/.nvm/versions/node/v14.18.0/include/node'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('MAVEN_HOME', '/opt/maven'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/lfvmu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('LOGNAME', 'lfvmu'), ('JOURNAL_STREAM', '8:28621'), ('_', '/home/lfvmu/.local/bin/colcon'), ('PKG_CONFIG_PATH', '/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lfvmu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/lfvmu/kobuki/install/bin:/home/lfvmu/.local/bin:/home/lfvmu/.nvm/versions/node/v14.18.0/bin:/home/lfvmu/.local/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lfvm:@/tmp/.ICE-unix/1107,unix/lfvm:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', 'd66faa40673646dd91ef5e057ee6f91b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71e0e3bf_63c8_49b1_8670_399c40eb784a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/'), ('PWD', '/home/lfvmu/kobuki/build/kobuki_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('M2_HOME', '/opt/maven'), ('PYTHONPATH', '/home/lfvmu/kobuki/install/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lfvmu/kobuki/install')]), 'shell': False}
+[0.308241] (-) TimerEvent: {}
+[0.346028] (kobuki_core) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)\n'}
+[0.387931] (kobuki_core) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.408521] (-) TimerEvent: {}
+[0.508969] (-) TimerEvent: {}
+[0.609380] (-) TimerEvent: {}
+[0.709918] (-) TimerEvent: {}
+[0.732361] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)\n'}
+[0.754393] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)\n'}
+[0.760579] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)\n'}
+[0.766571] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_console: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_console/cmake)\n'}
+[0.774546] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_converters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_converters/cmake)\n'}
+[0.810213] (-) TimerEvent: {}
+[0.835274] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)\n'}
+[0.910510] (-) TimerEvent: {}
+[0.952737] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)\n'}
+[1.010736] (-) TimerEvent: {}
+[1.012304] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_mobile_robot: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake)\n'}
+[1.032522] (kobuki_core) StdoutLine: {'line': b'-- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)\n'}
+[1.111287] (-) TimerEvent: {}
+[1.192326] (kobuki_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.211772] (-) TimerEvent: {}
+[1.288168] (kobuki_core) StdoutLine: {'line': b'-- Generating done\n'}
+[1.300616] (kobuki_core) StdoutLine: {'line': b'-- Build files have been written to: /home/lfvmu/kobuki/build/kobuki_core\n'}
+[1.310387] (kobuki_core) CommandEnded: {'returncode': 0}
+[1.311709] (kobuki_core) JobProgress: {'identifier': 'kobuki_core', 'progress': 'build'}
+[1.311793] (-) TimerEvent: {}
+[1.316486] (kobuki_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lfvmu/kobuki/build/kobuki_core', '--', '-j4', '-l4'], 'cwd': '/home/lfvmu/kobuki/build/kobuki_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lfvmu'), ('SSH_AGENT_PID', '1070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lfvmu/kobuki/install/lib'), ('HOME', '/home/lfvmu'), ('OLDPWD', '/home/lfvmu/kobuki/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/lfvmu/.nvm/versions/node/v14.18.0/bin'), ('NVM_INC', '/home/lfvmu/.nvm/versions/node/v14.18.0/include/node'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('MAVEN_HOME', '/opt/maven'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/lfvmu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('LOGNAME', 'lfvmu'), ('JOURNAL_STREAM', '8:28621'), ('_', '/home/lfvmu/.local/bin/colcon'), ('PKG_CONFIG_PATH', '/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lfvmu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/lfvmu/kobuki/install/bin:/home/lfvmu/.local/bin:/home/lfvmu/.nvm/versions/node/v14.18.0/bin:/home/lfvmu/.local/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lfvm:@/tmp/.ICE-unix/1107,unix/lfvm:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', 'd66faa40673646dd91ef5e057ee6f91b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71e0e3bf_63c8_49b1_8670_399c40eb784a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/'), ('PWD', '/home/lfvmu/kobuki/build/kobuki_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('M2_HOME', '/opt/maven'), ('PYTHONPATH', '/home/lfvmu/kobuki/install/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lfvmu/kobuki/install')]), 'shell': False}
+[1.412043] (-) TimerEvent: {}
+[1.513098] (-) TimerEvent: {}
+[1.530537] (kobuki_core) StdoutLine: {'line': b'[ 41%] Built target kobuki_core\n'}
+[1.613255] (-) TimerEvent: {}
+[1.619805] (kobuki_core) StdoutLine: {'line': b'[ 47%] Built target kobuki_core_demo_raw_data_stream\n'}
+[1.621965] (kobuki_core) StdoutLine: {'line': b'[ 52%] Built target kobuki_core_demo_buttons\n'}
+[1.622574] (kobuki_core) StdoutLine: {'line': b'[ 58%] Built target kobuki_core_demo_custom_logging\n'}
+[1.658662] (kobuki_core) StdoutLine: {'line': b'[ 64%] Built target kobuki_core_demo_data_stream\n'}
+[1.713778] (-) TimerEvent: {}
+[1.768432] (kobuki_core) StdoutLine: {'line': b'[ 70%] Built target kobuki_core_demo_velocity_commands\n'}
+[1.779408] (kobuki_core) StdoutLine: {'line': b'[ 76%] Built target kobuki_core_demo_simple_loop\n'}
+[1.785140] (kobuki_core) StdoutLine: {'line': b'[ 82%] Built target kobuki_core_demo_chirp\n'}
+[1.814045] (-) TimerEvent: {}
+[1.814723] (kobuki_core) StdoutLine: {'line': b'[ 88%] Built target kobuki_core_tool_square\n'}
+[1.890504] (kobuki_core) StdoutLine: {'line': b'[ 94%] Built target kobuki_core_tool_version_info\n'}
+[1.890853] (kobuki_core) StdoutLine: {'line': b'[100%] Built target kobuki_core_tool_simple_keyop\n'}
+[1.914160] (-) TimerEvent: {}
+[1.921925] (kobuki_core) CommandEnded: {'returncode': 0}
+[2.003913] (kobuki_core) JobProgress: {'identifier': 'kobuki_core', 'progress': 'install'}
+[2.014706] (-) TimerEvent: {}
+[2.035008] (kobuki_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lfvmu/kobuki/build/kobuki_core'], 'cwd': '/home/lfvmu/kobuki/build/kobuki_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lfvmu'), ('SSH_AGENT_PID', '1070'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lfvmu/kobuki/install/lib'), ('HOME', '/home/lfvmu'), ('OLDPWD', '/home/lfvmu/kobuki/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/lfvmu/.nvm/versions/node/v14.18.0/bin'), ('NVM_INC', '/home/lfvmu/.nvm/versions/node/v14.18.0/include/node'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '817'), ('MAVEN_HOME', '/opt/maven'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/lfvmu/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('LOGNAME', 'lfvmu'), ('JOURNAL_STREAM', '8:28621'), ('_', '/home/lfvmu/.local/bin/colcon'), ('PKG_CONFIG_PATH', '/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lfvmu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/lfvmu/kobuki/install/bin:/home/lfvmu/.local/bin:/home/lfvmu/.nvm/versions/node/v14.18.0/bin:/home/lfvmu/.local/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lfvm:@/tmp/.ICE-unix/1107,unix/lfvm:/tmp/.ICE-unix/1107'), ('INVOCATION_ID', 'd66faa40673646dd91ef5e057ee6f91b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71e0e3bf_63c8_49b1_8670_399c40eb784a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lfvmu/kobuki/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64/'), ('PWD', '/home/lfvmu/kobuki/build/kobuki_core'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('M2_HOME', '/opt/maven'), ('PYTHONPATH', '/home/lfvmu/kobuki/install/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lfvmu/kobuki/install')]), 'shell': False}
+[2.054560] (kobuki_core) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[2.055136] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include\n'}
+[2.055404] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core\n'}
+[2.055633] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/macros.hpp\n'}
+[2.055900] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/dock_drive.hpp\n'}
+[2.056204] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/version_info.hpp\n'}
+[2.056430] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/command.hpp\n'}
+[2.056665] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules.hpp\n'}
+[2.057246] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/event_manager.hpp\n'}
+[2.057520] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets.hpp\n'}
+[2.057767] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets\n'}
+[2.058020] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/controller_info.hpp\n'}
+[2.058277] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/gp_input.hpp\n'}
+[2.058482] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/current.hpp\n'}
+[2.058696] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp\n'}
+[2.058912] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/cliff.hpp\n'}
+[2.059125] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/firmware.hpp\n'}
+[2.059338] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/eeprom.hpp\n'}
+[2.059551] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/dock_ir.hpp\n'}
+[2.060017] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/core_sensors.hpp\n'}
+[2.060264] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/inertia.hpp\n'}
+[2.060511] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp\n'}
+[2.060699] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/hardware.hpp\n'}
+[2.060927] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler\n'}
+[2.061142] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp\n'}
+[2.061356] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp\n'}
+[2.061569] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp\n'}
+[2.061800] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/parameters.hpp\n'}
+[2.062013] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/kobuki.hpp\n'}
+[2.062225] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/logging.hpp\n'}
+[2.062438] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules\n'}
+[2.062650] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp\n'}
+[2.062882] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/battery.hpp\n'}
+[2.063299] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/digital_output.hpp\n'}
+[2.063469] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/led_array.hpp\n'}
+[2.063628] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/diff_drive.hpp\n'}
+[2.063857] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/sound.hpp\n'}
+[2.064073] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/CMakeLists.txt\n'}
+[2.064370] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/library_path.sh\n'}
+[2.064585] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/library_path.dsv\n'}
+[2.064819] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/kobuki_core\n'}
+[2.065034] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/kobuki_core\n'}
+[2.065249] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/ament_prefix_path.sh\n'}
+[2.065455] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/ament_prefix_path.dsv\n'}
+[2.065659] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/path.sh\n'}
+[2.065858] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/path.dsv\n'}
+[2.066055] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.bash\n'}
+[2.066243] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.sh\n'}
+[2.066449] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.zsh\n'}
+[2.066722] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.dsv\n'}
+[2.066941] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/package.dsv\n'}
+[2.067696] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/kobuki_core\n'}
+[2.067842] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport.cmake\n'}
+[2.067962] (kobuki_core) StdoutLine: {'line': b'-- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport-relwithdebinfo.cmake\n'}
+[2.068132] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.068321] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.068537] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.068773] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.068987] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig.cmake\n'}
+[2.069199] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake\n'}
+[2.069412] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/package.xml\n'}
+[2.069651] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core\n'}
+[2.069848] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/macros.hpp\n'}
+[2.070070] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/dock_drive.hpp\n'}
+[2.070273] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/version_info.hpp\n'}
+[2.070477] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/command.hpp\n'}
+[2.070689] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules.hpp\n'}
+[2.070901] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/event_manager.hpp\n'}
+[2.071113] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets.hpp\n'}
+[2.071325] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets\n'}
+[2.071589] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/controller_info.hpp\n'}
+[2.071783] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/gp_input.hpp\n'}
+[2.071990] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/current.hpp\n'}
+[2.072268] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp\n'}
+[2.072498] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/cliff.hpp\n'}
+[2.072712] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/firmware.hpp\n'}
+[2.072939] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/eeprom.hpp\n'}
+[2.073154] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/dock_ir.hpp\n'}
+[2.073365] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/core_sensors.hpp\n'}
+[2.073597] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/inertia.hpp\n'}
+[2.073809] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp\n'}
+[2.074173] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/hardware.hpp\n'}
+[2.074345] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler\n'}
+[2.074575] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp\n'}
+[2.074788] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp\n'}
+[2.075000] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp\n'}
+[2.075212] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/parameters.hpp\n'}
+[2.075441] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/kobuki.hpp\n'}
+[2.075654] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/logging.hpp\n'}
+[2.075866] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules\n'}
+[2.076078] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp\n'}
+[2.076353] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/battery.hpp\n'}
+[2.076601] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/digital_output.hpp\n'}
+[2.076775] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/led_array.hpp\n'}
+[2.076947] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/diff_drive.hpp\n'}
+[2.077118] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/sound.hpp\n'}
+[2.077331] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/libkobuki_core.so.1.3.1\n'}
+[2.077559] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/libkobuki_core.so\n'}
+[2.077772] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_chirp\n'}
+[2.077983] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_custom_logging\n'}
+[2.078195] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_buttons\n'}
+[2.078426] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_raw_data_stream\n'}
+[2.078638] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_data_stream\n'}
+[2.078989] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_velocity_commands\n'}
+[2.079191] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_simple_loop\n'}
+[2.079540] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/bin/kobuki-version-info\n'}
+[2.080388] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/bin/kobuki-simple-keyop\n'}
+[2.081289] (kobuki_core) StdoutLine: {'line': b'-- Up-to-date: /home/lfvmu/kobuki/install/bin/kobuki-square\n'}
+[2.089243] (kobuki_core) CommandEnded: {'returncode': 0}
+[2.114948] (-) TimerEvent: {}
+[2.220625] (-) TimerEvent: {}
+[2.328555] (-) TimerEvent: {}
+[2.429393] (-) TimerEvent: {}
+[2.535603] (-) TimerEvent: {}
+[2.593003] (kobuki_core) JobEnded: {'identifier': 'kobuki_core', 'rc': 0}
+[2.594451] (-) EventReactorShutdown: {}

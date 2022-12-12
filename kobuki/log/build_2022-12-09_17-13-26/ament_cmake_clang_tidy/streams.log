@@ -1,0 +1,33 @@
+[0.247s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.271s] Not searching for unused variables given on the command line.
+[0.278s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.334s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.647s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.783s] -- Configuring done
+[0.791s] -- Generating done
+[0.792s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_clang_tidy
+[0.821s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.824s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[1.105s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+[1.376s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy
+[1.410s] -- Install configuration: ""
+[1.416s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_clang_tidy
+[1.416s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_clang_tidy
+[1.417s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.sh
+[1.417s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/ament_prefix_path.dsv
+[1.417s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/path.sh
+[1.417s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/environment/path.dsv
+[1.417s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.bash
+[1.417s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.sh
+[1.418s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.zsh
+[1.423s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/local_setup.dsv
+[1.423s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/package.dsv
+[1.423s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_clang_tidy
+[1.423s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy-extras.cmake
+[1.424s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig.cmake
+[1.424s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidyConfig-version.cmake
+[1.424s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/package.xml
+[1.424s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake
+[1.424s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_clang_tidy.cmake
+[1.425s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_tidy/cmake/ament_cmake_clang_tidy_lint_hook.cmake
+[1.624s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy

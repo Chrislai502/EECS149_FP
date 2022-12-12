@@ -1,0 +1,113 @@
+[0.825s] Invoking command in '/home/lfvmu/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_devices -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.240s] -- The C compiler identification is GNU 9.4.0
+[1.611s] -- The CXX compiler identification is GNU 9.4.0
+[1.641s] -- Check for working C compiler: /usr/bin/cc
+[2.131s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.132s] -- Detecting C compiler ABI info
+[2.551s] -- Detecting C compiler ABI info - done
+[2.651s] -- Detecting C compile features
+[2.659s] -- Detecting C compile features - done
+[2.672s] -- Check for working CXX compiler: /usr/bin/c++
+[3.059s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.067s] -- Detecting CXX compiler ABI info
+[3.603s] -- Detecting CXX compiler ABI info - done
+[3.707s] -- Detecting CXX compile features
+[3.708s] -- Detecting CXX compile features - done
+[3.723s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[3.791s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.792s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.259s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[4.287s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[4.299s] -- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+[4.439s] -- Found ecl_threads: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_threads/cmake)
+[4.440s] -- Looking for pthread.h
+[4.751s] -- Looking for pthread.h - found
+[4.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.008s] -- Looking for pthread_create in pthreads
+[5.497s] -- Looking for pthread_create in pthreads - not found
+[5.497s] -- Looking for pthread_create in pthread
+[5.792s] -- Looking for pthread_create in pthread - found
+[5.795s] -- Found Threads: TRUE  
+[5.797s] -- Check if compiler accepts -pthread
+[6.317s] -- Check if compiler accepts -pthread - yes
+[6.756s] -- Configuring done
+[6.832s] -- Generating done
+[6.847s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_devices
+[6.864s] Invoked command in '/home/lfvmu/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_devices -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[6.867s] Invoking command in '/home/lfvmu/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_devices -- -j4 -l4
+[7.074s] [35m[1mScanning dependencies of target ecl_devices[0m
+[7.176s] [  6%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/character_buffer.cpp.o[0m
+[7.195s] [ 12%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/error_handler.cpp.o[0m
+[7.199s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/exception_handler_pos.cpp.o[0m
+[7.229s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/detail/socket_exception_handler_pos.cpp.o[0m
+[7.441s] [ 31%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/console.cpp.o[0m
+[8.497s] [ 37%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/ofile_pos.cpp.o[0m
+[8.502s] [ 43%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/ofile_w32.cpp.o[0m
+[8.656s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/serial_pos.cpp.o[0m
+[8.882s] [ 56%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/serial_w32.cpp.o[0m
+[9.229s] [ 62%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/shared_file.cpp.o[0m
+[9.299s] [ 68%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/socket_client_pos.cpp.o[0m
+[9.892s] [ 75%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/socket_server_pos.cpp.o[0m
+[10.090s] [ 81%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_devices.dir/string.cpp.o[0m
+[11.413s] [ 87%] [32m[1mLinking CXX shared library libecl_devices.so[0m
+[11.757s] [ 87%] Built target ecl_devices
+[11.772s] [35m[1mScanning dependencies of target ecl_demo_serial_timeouts[0m
+[11.813s] [ 93%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_serial_timeouts.dir/serial_timeouts.cpp.o[0m
+[12.755s] [100%] [32m[1mLinking CXX executable demo_serial_timeouts[0m
+[12.975s] [100%] Built target ecl_demo_serial_timeouts
+[13.000s] Invoked command in '/home/lfvmu/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_devices -- -j4 -l4
+[13.049s] Invoking command in '/home/lfvmu/kobuki/build/ecl_devices': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_devices
+[13.067s] -- Install configuration: ""
+[13.068s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/library_path.sh
+[13.068s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/library_path.dsv
+[13.068s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_devices
+[13.069s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_devices
+[13.069s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/ament_prefix_path.sh
+[13.069s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/ament_prefix_path.dsv
+[13.069s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/path.sh
+[13.070s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/environment/path.dsv
+[13.070s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/local_setup.bash
+[13.070s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/local_setup.sh
+[13.071s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/local_setup.zsh
+[13.071s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/local_setup.dsv
+[13.071s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/package.dsv
+[13.072s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_devices
+[13.073s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ecl_devicesExport.cmake
+[13.073s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ecl_devicesExport-noconfig.cmake
+[13.073s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_targets-extras.cmake
+[13.074s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.074s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_libraries-extras.cmake
+[13.075s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.075s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ecl_devicesConfig.cmake
+[13.075s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake
+[13.076s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_devices/package.xml
+[13.077s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices.hpp
+[13.078s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/console.hpp
+[13.078s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/macros.hpp
+[13.078s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/modes.hpp
+[13.078s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/ofile.hpp
+[13.079s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/ofile_pos.hpp
+[13.079s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/ofile_w32.hpp
+[13.079s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/serial.hpp
+[13.080s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/serial_parameters.hpp
+[13.080s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/serial_pos.hpp
+[13.080s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/serial_w32.hpp
+[13.080s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/shared_file.hpp
+[13.080s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/socket.hpp
+[13.081s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/socket_client_pos.hpp
+[13.081s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/socket_connection_status.hpp
+[13.081s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/socket_server_pos.hpp
+[13.081s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/string.hpp
+[13.082s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/traits.hpp
+[13.082s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/detail/character_buffer.hpp
+[13.082s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/detail/error_handler.hpp
+[13.083s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/detail/exception_handler_pos.hpp
+[13.083s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/detail/socket_error_handler_pos.hpp
+[13.083s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/devices/detail/socket_exception_handler_pos.hpp
+[13.084s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_devices.so.1.2.1
+[13.086s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_devices.so.1.2.1" to ""
+[13.086s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_devices.so
+[13.087s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_devices/demo_serial_timeouts
+[13.088s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_devices/demo_serial_timeouts" to ""
+[13.097s] Invoked command in '/home/lfvmu/kobuki/build/ecl_devices' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_devices

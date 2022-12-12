@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ecl_math': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_math -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ecl_math' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_math -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ecl_math': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_math -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ecl_math' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_math -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ecl_math': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_math
+Invoked command in '/home/lfvmu/kobuki/build/ecl_math' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_math

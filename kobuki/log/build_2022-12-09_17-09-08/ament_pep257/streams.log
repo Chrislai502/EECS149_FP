@@ -1,0 +1,37 @@
+[1.264s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pep257/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/lfvmu/kobuki/build/ament_pep257/build install --record /home/lfvmu/kobuki/build/ament_pep257/install.log --single-version-externally-managed
+[1.696s] running egg_info
+[1.697s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[1.698s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[1.698s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[1.699s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[1.699s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[1.700s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.806s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.807s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.807s] running build
+[1.808s] running build_py
+[1.808s] creating /home/lfvmu/kobuki/build/ament_pep257/build
+[1.808s] creating /home/lfvmu/kobuki/build/ament_pep257/build/lib
+[1.809s] creating /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257
+[1.809s] copying ament_pep257/main.py -> /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257
+[1.809s] copying ament_pep257/pytest_marker.py -> /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257
+[1.810s] copying ament_pep257/__init__.py -> /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257
+[1.810s] running install
+[1.812s] running install_lib
+[1.813s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257
+[1.814s] copying /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257
+[1.814s] copying /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257
+[1.814s] copying /home/lfvmu/kobuki/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257
+[1.815s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257/main.py to main.cpython-38.pyc
+[1.823s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.823s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257/__init__.py to __init__.cpython-38.pyc
+[1.823s] running install_data
+[1.824s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_pep257
+[1.825s] copying resource/ament_pep257 -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[1.825s] running install_egg_info
+[1.828s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257-0.9.7-py3.8.egg-info
+[1.830s] running install_scripts
+[1.871s] Installing ament_pep257 script to /home/lfvmu/kobuki/install/bin
+[1.873s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pep257/install.log'
+[1.923s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pep257/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/lfvmu/kobuki/build/ament_pep257/build install --record /home/lfvmu/kobuki/build/ament_pep257/install.log --single-version-externally-managed

@@ -1,0 +1,46 @@
+[0.063s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.078s] Not searching for unused variables given on the command line.
+[0.081s] CMake Warning (dev) in CMakeLists.txt:
+[0.082s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.082s]   contain a literal, direct call to the project() command.  Add a line of
+[0.082s]   code such as
+[0.082s] 
+[0.082s]     project(ProjectName)
+[0.082s] 
+[0.083s]   near the top of the file, but after cmake_minimum_required().
+[0.083s] 
+[0.083s]   CMake is pretending there is a "project(Project)" command on the first
+[0.083s]   line.
+[0.083s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.083s] 
+[0.106s] CMake Warning (dev) at CMakeLists.txt:1 (add_subdirectory):
+[0.106s]   The source directory
+[0.106s] 
+[0.106s]     /home/lfvmu/kobuki/src/ecl_core
+[0.106s] 
+[0.106s]   does not contain a CMakeLists.txt file.
+[0.107s] 
+[0.107s]   CMake does not support this case but it used to work accidentally and is
+[0.107s]   being allowed for compatibility.
+[0.107s] 
+[0.110s] -- Configuring done
+[0.110s]   Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+[0.110s]   "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+[0.110s]   command to set the policy and suppress this warning.
+[0.110s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.110s] 
+[0.110s] CMake Warning (dev) in CMakeLists.txt:
+[0.111s]   No cmake_minimum_required command is present.  A line of code such as
+[0.111s] 
+[0.111s]     cmake_minimum_required(VERSION 3.16)
+[0.111s] 
+[0.111s]   should be added at the top of the file.  The version specified may be lower
+[0.111s]   if you wish to support older CMake versions for this project.  For more
+[0.112s]   information run "cmake --help-policy CMP0000".
+[0.112s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.112s] 
+[0.114s] -- Generating done
+[0.116s] -- Build files have been written to: /home/lfvmu/kobuki/build/src
+[0.122s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.128s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4
+[0.203s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4

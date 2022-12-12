@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_libraries -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_libraries -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_libraries -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_libraries -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_libraries
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_libraries' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_libraries

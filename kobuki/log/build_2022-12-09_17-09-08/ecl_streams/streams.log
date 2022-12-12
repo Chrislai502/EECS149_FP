@@ -1,0 +1,102 @@
+[0.189s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_streams -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.353s] -- The C compiler identification is GNU 9.4.0
+[0.561s] -- The CXX compiler identification is GNU 9.4.0
+[0.577s] -- Check for working C compiler: /usr/bin/cc
+[0.773s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.776s] -- Detecting C compiler ABI info
+[0.977s] -- Detecting C compiler ABI info - done
+[1.032s] -- Detecting C compile features
+[1.033s] -- Detecting C compile features - done
+[1.043s] -- Check for working CXX compiler: /usr/bin/c++
+[1.276s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.280s] -- Detecting CXX compiler ABI info
+[1.519s] -- Detecting CXX compiler ABI info - done
+[1.579s] -- Detecting CXX compile features
+[1.580s] -- Detecting CXX compile features - done
+[1.585s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[1.633s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.633s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.068s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[2.102s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[2.142s] -- Found ecl_converters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_converters/cmake)
+[2.192s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[2.273s] -- Looking for pthread.h
+[2.479s] -- Looking for pthread.h - found
+[2.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.687s] -- Looking for pthread_create in pthreads
+[2.829s] -- Looking for pthread_create in pthreads - not found
+[2.834s] -- Looking for pthread_create in pthread
+[3.028s] -- Looking for pthread_create in pthread - found
+[3.029s] -- Found Threads: TRUE  
+[3.030s] -- Check if compiler accepts -pthread
+[3.232s] -- Check if compiler accepts -pthread - yes
+[3.463s] -- Configuring done
+[3.502s] -- Generating done
+[3.509s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_streams
+[3.521s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_streams -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[3.528s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_streams -- -j4 -l4
+[3.620s] [35m[1mScanning dependencies of target ecl_streams[0m
+[3.673s] [ 14%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_streams.dir/log_stream.cpp.o[0m
+[3.694s] [ 28%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_streams.dir/manipulators.cpp.o[0m
+[5.713s] [ 42%] [32m[1mLinking CXX shared library libecl_streams.so[0m
+[6.078s] [ 42%] Built target ecl_streams
+[6.151s] [35m[1mScanning dependencies of target ecl_time_example_console_streams[0m
+[6.154s] [35m[1mScanning dependencies of target ecl_time_example_log_streams[0m
+[6.263s] [ 57%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_console_streams.dir/console_streams.cpp.o[0m
+[6.284s] [ 71%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_log_streams.dir/log_streams.cpp.o[0m
+[8.767s] [ 85%] [32m[1mLinking CXX executable demo_console_streams[0m
+[9.081s] [ 85%] Built target ecl_time_example_console_streams
+[9.554s] [100%] [32m[1mLinking CXX executable demo_log_streams[0m
+[10.101s] [100%] Built target ecl_time_example_log_streams
+[10.168s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_streams -- -j4 -l4
+[10.446s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_streams
+[10.499s] -- Install configuration: ""
+[10.511s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/library_path.sh
+[10.512s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/library_path.dsv
+[10.512s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_streams
+[10.513s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_streams
+[10.513s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/ament_prefix_path.sh
+[10.514s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/ament_prefix_path.dsv
+[10.514s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/path.sh
+[10.515s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/path.dsv
+[10.525s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.bash
+[10.525s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.sh
+[10.526s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.zsh
+[10.526s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.dsv
+[10.526s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/package.dsv
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_streams
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsExport.cmake
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsExport-noconfig.cmake
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_targets-extras.cmake
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.527s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_libraries-extras.cmake
+[10.528s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.528s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsConfig.cmake
+[10.528s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsConfig-version.cmake
+[10.528s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/package.xml
+[10.528s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams.hpp
+[10.529s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/console_streams.hpp
+[10.529s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/file_streams.hpp
+[10.535s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/log_stream.hpp
+[10.535s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/macros.hpp
+[10.536s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators.hpp
+[10.536s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/serial_stream.hpp
+[10.536s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/shared_file_stream.hpp
+[10.537s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/socket_streams.hpp
+[10.537s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/string_stream.hpp
+[10.537s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/text_stream.hpp
+[10.538s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/clear_screen.hpp
+[10.538s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/end_of_line.hpp
+[10.539s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/manipulator.hpp
+[10.540s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/base_text_stream.hpp
+[10.540s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/input_text_stream.hpp
+[10.541s] -- Installing: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/output_text_stream.hpp
+[10.542s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_streams.so.1.2.1
+[10.543s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_streams.so.1.2.1" to ""
+[10.543s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_streams.so
+[10.544s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_streams/demo_console_streams
+[10.546s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_streams/demo_console_streams" to ""
+[10.546s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_streams/demo_log_streams
+[10.547s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_streams/demo_log_streams" to ""
+[10.560s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_streams

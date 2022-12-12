@@ -1,0 +1,35 @@
+[0.318s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.337s] Re-run cmake no build system arguments
+[0.364s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.926s] -- Configuring done
+[0.927s] -- Generating done
+[0.928s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_tools
+[1.348s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.356s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[1.448s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_tools/ecl_tools -B/home/lfvmu/kobuki/build/ecl_tools --check-build-system CMakeFiles/Makefile.cmake 0
+[1.471s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles/progress.marks
+[1.512s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.518s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_tools'
+[1.518s] make[1]: Nothing to be done for 'all'.
+[1.519s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_tools'
+[1.521s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_tools/CMakeFiles 0
+[1.642s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[1.710s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools
+[1.737s] -- Install configuration: "RelWithDebInfo"
+[1.737s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_tools
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_tools
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.sh
+[1.738s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.dsv
+[1.739s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.sh
+[1.739s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.dsv
+[1.739s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.bash
+[1.739s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.sh
+[1.740s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.zsh
+[1.741s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.dsv
+[1.741s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/package.dsv
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_tools
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig.cmake
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig-version.cmake
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/package.xml
+[1.749s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools

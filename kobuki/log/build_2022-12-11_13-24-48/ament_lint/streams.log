@@ -1,0 +1,20 @@
+[2.802s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/lfvmu/kobuki/build/ament_lint/build install --record /home/lfvmu/kobuki/build/ament_lint/install.log --single-version-externally-managed
+[3.191s] running egg_info
+[3.192s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[3.193s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[3.193s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[3.193s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[3.194s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[3.451s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[3.453s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[3.453s] running build
+[3.453s] running build_py
+[3.453s] running install
+[3.453s] running install_lib
+[3.454s] running install_data
+[3.454s] running install_egg_info
+[3.475s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.7-py3.8.egg-info' (and everything under it)
+[3.476s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.7-py3.8.egg-info
+[3.476s] running install_scripts
+[3.553s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_lint/install.log'
+[3.836s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/lfvmu/kobuki/build/ament_lint/build install --record /home/lfvmu/kobuki/build/ament_lint/install.log --single-version-externally-managed

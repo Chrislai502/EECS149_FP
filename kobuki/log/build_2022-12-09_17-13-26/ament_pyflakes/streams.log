@@ -1,0 +1,21 @@
+[2.143s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pyflakes/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/lfvmu/kobuki/build/ament_pyflakes/build install --record /home/lfvmu/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed
+[2.537s] running egg_info
+[2.537s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[2.537s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[2.537s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[2.538s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[2.538s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[2.633s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.636s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[2.637s] running build
+[2.637s] running build_py
+[2.638s] running install
+[2.639s] running install_lib
+[2.642s] running install_data
+[2.643s] running install_egg_info
+[2.646s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pyflakes-0.9.7-py3.8.egg-info' (and everything under it)
+[2.647s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pyflakes-0.9.7-py3.8.egg-info
+[2.649s] running install_scripts
+[2.687s] Installing ament_pyflakes script to /home/lfvmu/kobuki/install/bin
+[2.692s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pyflakes/install.log'
+[2.744s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pyflakes/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/lfvmu/kobuki/build/ament_pyflakes/build install --record /home/lfvmu/kobuki/build/ament_pyflakes/install.log --single-version-externally-managed

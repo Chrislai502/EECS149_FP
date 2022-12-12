@@ -1,0 +1,33 @@
+[0.045s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_pytest -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.097s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.158s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.159s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.636s] -- Configuring done
+[0.636s] -- Generating done
+[0.636s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_pytest
+[0.771s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_pytest -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.774s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pytest -- -j4 -l4
+[1.010s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_pytest -- -j4 -l4
+[1.080s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_pytest': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pytest
+[1.099s] -- Install configuration: ""
+[1.099s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pytest
+[1.100s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pytest
+[1.100s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/ament_prefix_path.sh
+[1.100s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/ament_prefix_path.dsv
+[1.101s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/path.sh
+[1.101s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/environment/path.dsv
+[1.101s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.bash
+[1.102s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.sh
+[1.102s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.zsh
+[1.102s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/local_setup.dsv
+[1.103s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/package.dsv
+[1.103s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_pytest
+[1.103s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake
+[1.104s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake
+[1.104s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig-version.cmake
+[1.105s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/package.xml
+[1.105s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake
+[1.105s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_has_pytest.cmake
+[1.105s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_get_pytest_cov_version.cmake
+[1.105s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake
+[1.125s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_pytest' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_pytest

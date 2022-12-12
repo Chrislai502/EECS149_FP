@@ -1,0 +1,65 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+-- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+-- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+-- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)
+-- Found ecl_containers: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_containers/cmake)
+-- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+-- Found ecl_ipc: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_ipc/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)
+-- Found ecl_streams: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_streams/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lfvmu/kobuki/build/ecl_core_apps
+[  8%] Built target ecl_bench_exceptions
+[ 11%] Built target ecl_bench_string_conversions
+[ 17%] Built target ecl_bench_snooze
+[ 23%] Built target ecl_bench_files
+[ 29%] Built target ecl_bench_streams
+[ 35%] Built target ecl_bench_eigen3_inverse
+[ 41%] Built target ecl_bench_eigen3_transforms
+[ 47%] Built target ecl_bench_eigen3_decompositions
+[ 52%] Built target ecl_bench_containers
+[ 58%] Built target ecl_hex
+[ 64%] Built target ecl_bench_flops
+[ 70%] Built target ecl_socket_server
+[ 76%] Built target ecl_process_statistics
+[ 82%] Built target ecl_serial
+[ 88%] Built target ecl_quaternion2yaw
+[ 94%] Built target ecl_socket_client
+[100%] Built target ecl_yaw2quaternion
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.sh
+-- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.sh
+-- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/environment/path.dsv
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.bash
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.sh
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.zsh
+-- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/local_setup.dsv
+-- Installing: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.dsv
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_core_apps
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+-- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core_apps/package.xml
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_containers
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_files
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_flops
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_exceptions
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_snooze
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_streams
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_string_conversions
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_inverse
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_decompositions
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_bench_eigen3_transforms
+-- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_hex
+-- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_serial
+-- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_client
+-- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_core_apps/ecl_socket_server
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_process_statistics
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_quaternion2yaw
+-- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_yaw2quaternion

@@ -1,0 +1,33 @@
+[0.070s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_definitions -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.098s] Not searching for unused variables given on the command line.
+[0.102s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.625s] -- Configuring done
+[0.627s] -- Generating done
+[0.630s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_export_definitions
+[0.636s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_definitions -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.641s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_definitions -- -j4 -l4
+[0.744s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_definitions -- -j4 -l4
+[0.929s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_definitions
+[0.952s] -- Install configuration: "RelWithDebInfo"
+[0.953s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_definitions
+[0.954s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_definitions
+[0.954s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/ament_prefix_path.sh
+[0.955s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/ament_prefix_path.dsv
+[0.955s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/path.sh
+[0.956s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/environment/path.dsv
+[0.957s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.bash
+[0.957s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.sh
+[0.958s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.zsh
+[0.958s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/local_setup.dsv
+[0.959s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/package.dsv
+[0.959s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_export_definitions
+[0.960s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake
+[0.962s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig.cmake
+[0.963s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig-version.cmake
+[0.964s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/package.xml
+[0.964s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake
+[0.964s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions_package_hook.cmake
+[0.964s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake.in
+[0.973s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_definitions/cmake/ament_export_definitions.cmake
+[1.331s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_definitions' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_definitions

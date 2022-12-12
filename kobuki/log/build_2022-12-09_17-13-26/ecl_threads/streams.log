@@ -1,0 +1,79 @@
+[0.528s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.538s] Not searching for unused variables given on the command line.
+[0.564s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.618s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.969s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[1.016s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[1.016s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[1.016s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[1.038s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[1.060s] -- Found ecl_time: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_time/cmake)
+[1.087s] -- Found ecl_utilities: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_utilities/cmake)
+[1.344s] -- Configuring done
+[1.381s] -- Generating done
+[1.383s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_threads
+[1.538s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.540s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_threads -- -j4 -l4
+[1.682s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_pos.cpp.o[0m
+[1.685s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_w32.cpp.o[0m
+[1.708s] [ 27%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_win.cpp.o[0m
+[1.713s] [ 36%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_pos.cpp.o[0m
+[1.755s] [ 45%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_pos.cpp.o[0m
+[1.805s] [ 54%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_win.cpp.o[0m
+[3.055s] [ 63%] [32m[1mLinking CXX shared library libecl_threads.so[0m
+[3.305s] [ 63%] Built target ecl_threads
+[3.356s] [ 72%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_thread.dir/thread.cpp.o[0m
+[3.359s] [ 81%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_mutex.dir/mutex.cpp.o[0m
+[4.378s] [ 90%] [32m[1mLinking CXX executable demo_mutex[0m
+[4.612s] [ 90%] Built target ecl_demo_mutex
+[4.662s] [100%] [32m[1mLinking CXX executable demo_thread[0m
+[4.885s] [100%] Built target ecl_demo_thread
+[4.910s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_threads -- -j4 -l4
+[4.975s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_threads
+[4.993s] -- Install configuration: ""
+[4.993s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/library_path.sh
+[4.993s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/library_path.dsv
+[4.994s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_threads
+[4.994s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_threads
+[4.995s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/ament_prefix_path.sh
+[4.995s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/ament_prefix_path.dsv
+[4.995s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/path.sh
+[4.996s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/path.dsv
+[4.996s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.bash
+[4.996s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.sh
+[4.997s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.zsh
+[4.997s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.dsv
+[4.997s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/package.dsv
+[4.998s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_threads
+[4.998s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport.cmake
+[4.998s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport-noconfig.cmake
+[4.999s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threads-extras.cmake
+[4.999s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_targets-extras.cmake
+[5.000s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.000s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_libraries-extras.cmake
+[5.000s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.000s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig.cmake
+[5.001s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig-version.cmake
+[5.001s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/package.xml
+[5.001s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads.hpp
+[5.002s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/macros.hpp
+[5.002s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex.hpp
+[5.002s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex_pos.hpp
+[5.002s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex_w32.hpp
+[5.002s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority.hpp
+[5.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_common.hpp
+[5.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_pos.hpp
+[5.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_win.hpp
+[5.003s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread.hpp
+[5.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_exceptions_pos.hpp
+[5.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_pos.hpp
+[5.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_win.hpp
+[5.004s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/threadable.hpp
+[5.004s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_threads.so.1.2.1
+[5.005s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_threads.so.1.2.1" to ""
+[5.005s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_threads.so
+[5.006s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_threads/demo_thread
+[5.007s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_threads/demo_thread" to ""
+[5.007s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_threads/demo_mutex
+[5.008s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_threads/demo_mutex" to ""
+[5.020s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_threads

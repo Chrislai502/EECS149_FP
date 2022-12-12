@@ -1,0 +1,21 @@
+[2.624s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_xmllint': PYTHONPATH=/home/lfvmu/kobuki/build/ament_xmllint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/lfvmu/kobuki/build/ament_xmllint/build install --record /home/lfvmu/kobuki/build/ament_xmllint/install.log --single-version-externally-managed
+[2.989s] running egg_info
+[2.990s] writing ../../../build/ament_xmllint/ament_xmllint.egg-info/PKG-INFO
+[2.991s] writing dependency_links to ../../../build/ament_xmllint/ament_xmllint.egg-info/dependency_links.txt
+[2.991s] writing entry points to ../../../build/ament_xmllint/ament_xmllint.egg-info/entry_points.txt
+[2.992s] writing requirements to ../../../build/ament_xmllint/ament_xmllint.egg-info/requires.txt
+[2.992s] writing top-level names to ../../../build/ament_xmllint/ament_xmllint.egg-info/top_level.txt
+[3.093s] reading manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[3.096s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[3.096s] running build
+[3.097s] running build_py
+[3.098s] running install
+[3.100s] running install_lib
+[3.104s] running install_data
+[3.104s] running install_egg_info
+[3.106s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_xmllint-0.9.7-py3.8.egg-info' (and everything under it)
+[3.107s] Copying ../../../build/ament_xmllint/ament_xmllint.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_xmllint-0.9.7-py3.8.egg-info
+[3.109s] running install_scripts
+[3.147s] Installing ament_xmllint script to /home/lfvmu/kobuki/install/bin
+[3.148s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_xmllint/install.log'
+[3.198s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_xmllint' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_xmllint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/lfvmu/kobuki/build/ament_xmllint/build install --record /home/lfvmu/kobuki/build/ament_xmllint/install.log --single-version-externally-managed

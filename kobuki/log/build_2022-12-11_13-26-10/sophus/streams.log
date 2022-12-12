@@ -1,0 +1,48 @@
+[0.334s] Invoking command in '/home/lfvmu/kobuki/build/sophus': /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.355s] Re-run cmake no build system arguments
+[0.415s] -- Configuring done
+[0.427s] -- Generating done
+[0.430s] -- Build files have been written to: /home/lfvmu/kobuki/build/sophus
+[1.056s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/sophus -DBUILD_TESTING=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.058s] Invoking command in '/home/lfvmu/kobuki/build/sophus': /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[1.172s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/sophus -B/home/lfvmu/kobuki/build/sophus --check-build-system CMakeFiles/Makefile.cmake 0
+[1.184s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/sophus/CMakeFiles /home/lfvmu/kobuki/build/sophus/CMakeFiles/progress.marks
+[1.185s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.185s] make[1]: Entering directory '/home/lfvmu/kobuki/build/sophus'
+[1.185s] /usr/bin/make -f examples/CMakeFiles/HelloSO3.dir/build.make examples/CMakeFiles/HelloSO3.dir/depend
+[1.195s] make[2]: Entering directory '/home/lfvmu/kobuki/build/sophus'
+[1.196s] cd /home/lfvmu/kobuki/build/sophus && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/sophus /home/lfvmu/kobuki/src/sophus/examples /home/lfvmu/kobuki/build/sophus /home/lfvmu/kobuki/build/sophus/examples /home/lfvmu/kobuki/build/sophus/examples/CMakeFiles/HelloSO3.dir/DependInfo.cmake --color=
+[1.234s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/sophus'
+[1.235s] /usr/bin/make -f examples/CMakeFiles/HelloSO3.dir/build.make examples/CMakeFiles/HelloSO3.dir/build
+[1.242s] make[2]: Entering directory '/home/lfvmu/kobuki/build/sophus'
+[1.244s] make[2]: Nothing to be done for 'examples/CMakeFiles/HelloSO3.dir/build'.
+[1.245s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/sophus'
+[1.279s] [100%] Built target HelloSO3
+[1.286s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/sophus'
+[1.287s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/sophus/CMakeFiles 0
+[1.936s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/sophus -- -j4 -l4
+[2.220s] Invoking command in '/home/lfvmu/kobuki/build/sophus': /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus
+[2.248s] -- Install configuration: "RelWithDebInfo"
+[2.249s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusTargets.cmake
+[2.249s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfig.cmake
+[2.249s] -- Up-to-date: /home/lfvmu/kobuki/install/share/sophus/cmake/SophusConfigVersion.cmake
+[2.250s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/average.hpp
+[2.250s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/common.hpp
+[2.250s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/geometry.hpp
+[2.251s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/interpolate.hpp
+[2.251s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/interpolate_details.hpp
+[2.251s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/num_diff.hpp
+[2.252s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rotation_matrix.hpp
+[2.252s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rxso2.hpp
+[2.252s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/rxso3.hpp
+[2.253s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/se2.hpp
+[2.253s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/se3.hpp
+[2.253s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim2.hpp
+[2.253s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim3.hpp
+[2.254s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/sim_details.hpp
+[2.254s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/so2.hpp
+[2.254s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/so3.hpp
+[2.254s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/types.hpp
+[2.255s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/velocities.hpp
+[2.255s] -- Up-to-date: /home/lfvmu/kobuki/install/include/sophus/formatstring.hpp
+[2.917s] Invoked command in '/home/lfvmu/kobuki/build/sophus' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/sophus

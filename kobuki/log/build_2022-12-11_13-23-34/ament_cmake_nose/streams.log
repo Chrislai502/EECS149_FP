@@ -1,0 +1,31 @@
+[0.083s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_nose -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.123s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.604s] -- Configuring done
+[0.608s] -- Generating done
+[0.612s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_nose
+[0.682s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_nose -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.688s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_nose -- -j4 -l4
+[0.923s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_nose -- -j4 -l4
+[1.138s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_nose': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_nose
+[1.171s] -- Install configuration: "RelWithDebInfo"
+[1.173s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_nose
+[1.173s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_nose
+[1.174s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.sh
+[1.174s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/ament_prefix_path.dsv
+[1.175s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/path.sh
+[1.175s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/environment/path.dsv
+[1.176s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.bash
+[1.176s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.sh
+[1.177s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.zsh
+[1.177s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/local_setup.dsv
+[1.184s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_nose/package.dsv
+[1.184s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_nose
+[1.184s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_nose-extras.cmake
+[1.185s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig.cmake
+[1.185s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_cmake_noseConfig-version.cmake
+[1.190s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/package.xml
+[1.191s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake
+[1.191s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_add_nose_test.cmake
+[1.191s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_nose/cmake/ament_find_nosetests.cmake
+[1.419s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_nose' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_nose

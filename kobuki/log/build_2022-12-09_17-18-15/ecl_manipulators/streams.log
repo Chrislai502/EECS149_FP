@@ -1,0 +1,54 @@
+[0.411s] Invoking command in '/home/lfvmu/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_manipulators -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.453s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.495s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.854s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.878s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[0.910s] -- Found ecl_formatters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_formatters/cmake)
+[0.975s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[1.267s] -- Configuring done
+[1.297s] -- Generating done
+[1.304s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_manipulators
+[1.314s] Invoked command in '/home/lfvmu/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_manipulators -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.316s] Invoking command in '/home/lfvmu/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_manipulators -- -j4 -l4
+[1.487s] [ 33%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_manipulators.dir/trajectory.cpp.o[0m
+[1.508s] [ 66%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_manipulators.dir/waypoint.cpp.o[0m
+[49.804s] [100%] [32m[1mLinking CXX shared library libecl_manipulators.so[0m
+[50.298s] [100%] Built target ecl_manipulators
+[50.327s] Invoked command in '/home/lfvmu/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_manipulators -- -j4 -l4
+[50.582s] Invoking command in '/home/lfvmu/kobuki/build/ecl_manipulators': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_manipulators
+[50.636s] -- Install configuration: "RelWithDebInfo"
+[50.639s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/scripts
+[50.640s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/scripts/linear.x11
+[50.640s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/scripts/tension.x11
+[50.640s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/scripts/Makefile
+[50.641s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/library_path.sh
+[50.641s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/library_path.dsv
+[50.645s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_manipulators
+[50.646s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_manipulators
+[50.646s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/ament_prefix_path.sh
+[50.646s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/ament_prefix_path.dsv
+[50.647s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/path.sh
+[50.647s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/environment/path.dsv
+[50.648s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/local_setup.bash
+[50.648s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/local_setup.sh
+[50.649s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/local_setup.zsh
+[50.649s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/local_setup.dsv
+[50.649s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/package.dsv
+[50.651s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_manipulators
+[50.654s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsExport.cmake
+[50.654s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsExport-relwithdebinfo.cmake
+[50.655s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_targets-extras.cmake
+[50.656s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.656s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_libraries-extras.cmake
+[50.657s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.658s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsConfig.cmake
+[50.658s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/cmake/ecl_manipulatorsConfig-version.cmake
+[50.658s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_manipulators/package.xml
+[50.660s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/manipulators.hpp
+[50.662s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/manipulators/trajectory.hpp
+[50.662s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/manipulators/types.hpp
+[50.663s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/manipulators/waypoint.hpp
+[50.667s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_manipulators.so.1.2.1
+[50.674s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_manipulators.so.1.2.1" to ""
+[50.675s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_manipulators.so
+[50.691s] Invoked command in '/home/lfvmu/kobuki/build/ecl_manipulators' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_manipulators

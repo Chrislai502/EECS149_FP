@@ -1,0 +1,40 @@
+[0.105s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_interfaces -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.137s] Re-run cmake no build system arguments
+[0.148s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.672s] -- Configuring done
+[0.688s] -- Generating done
+[0.688s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_export_interfaces
+[0.840s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_interfaces -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.845s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_interfaces -- -j4 -l4
+[1.060s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_interfaces -B/home/lfvmu/kobuki/build/ament_cmake_export_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+[1.060s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_export_interfaces/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_export_interfaces/CMakeFiles/progress.marks
+[1.060s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.060s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces'
+[1.061s] make[1]: Nothing to be done for 'all'.
+[1.061s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces'
+[1.061s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_export_interfaces/CMakeFiles 0
+[1.078s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_interfaces -- -j4 -l4
+[1.184s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_interfaces
+[1.207s] -- Install configuration: "RelWithDebInfo"
+[1.208s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_interfaces
+[1.208s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_interfaces
+[1.208s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/environment/ament_prefix_path.sh
+[1.208s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/environment/ament_prefix_path.dsv
+[1.209s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/environment/path.sh
+[1.209s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/environment/path.dsv
+[1.209s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/local_setup.bash
+[1.210s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/local_setup.sh
+[1.210s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/local_setup.zsh
+[1.210s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/local_setup.dsv
+[1.228s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/package.dsv
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_export_interfaces
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig.cmake
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig-version.cmake
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/package.xml
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces_package_hook.cmake
+[1.230s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake.in
+[1.397s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_interfaces' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_interfaces

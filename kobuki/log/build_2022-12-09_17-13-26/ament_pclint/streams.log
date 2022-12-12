@@ -1,0 +1,21 @@
+[1.416s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pclint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/lfvmu/kobuki/build/ament_pclint/build install --record /home/lfvmu/kobuki/build/ament_pclint/install.log --single-version-externally-managed
+[1.851s] running egg_info
+[1.852s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[1.852s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[1.853s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[1.853s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[1.963s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.966s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.966s] running build
+[1.967s] running build_py
+[1.969s] running install
+[1.971s] running install_lib
+[1.976s] running install_data
+[1.976s] running install_egg_info
+[1.980s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pclint-0.9.7-py3.8.egg-info' (and everything under it)
+[1.981s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pclint-0.9.7-py3.8.egg-info
+[1.983s] running install_scripts
+[2.034s] Installing ament_pclint script to /home/lfvmu/kobuki/install/bin
+[2.034s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pclint/install.log'
+[2.191s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_pclint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/lfvmu/kobuki/build/ament_pclint/build install --record /home/lfvmu/kobuki/build/ament_pclint/install.log --single-version-externally-managed

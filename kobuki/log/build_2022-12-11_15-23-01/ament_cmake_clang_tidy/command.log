@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_tidy -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_tidy -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_tidy' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_tidy

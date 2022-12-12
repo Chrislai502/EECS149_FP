@@ -1,0 +1,32 @@
+[0.092s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_target_dependencies -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.117s] Not searching for unused variables given on the command line.
+[0.118s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.615s] -- Configuring done
+[0.621s] -- Generating done
+[0.622s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_target_dependencies
+[0.729s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_target_dependencies -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.735s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_target_dependencies -- -j4 -l4
+[0.979s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_target_dependencies -- -j4 -l4
+[1.040s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_target_dependencies
+[1.055s] -- Install configuration: "RelWithDebInfo"
+[1.058s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_target_dependencies
+[1.058s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_target_dependencies
+[1.059s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.sh
+[1.059s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/ament_prefix_path.dsv
+[1.059s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/path.sh
+[1.059s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/environment/path.dsv
+[1.059s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.bash
+[1.060s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.sh
+[1.060s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.zsh
+[1.060s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/local_setup.dsv
+[1.060s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/package.dsv
+[1.060s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_target_dependencies
+[1.061s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake
+[1.061s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig.cmake
+[1.061s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig-version.cmake
+[1.061s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/package.xml
+[1.062s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake
+[1.062s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake
+[1.062s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_target_dependencies/cmake/ament_get_recursive_properties.cmake
+[1.079s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_target_dependencies' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_target_dependencies

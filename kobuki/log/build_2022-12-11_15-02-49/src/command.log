@@ -1,0 +1,4 @@
+Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4

@@ -1,0 +1,27 @@
+[0.357s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.394s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.457s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.950s] -- Configuring done
+[0.962s] -- Generating done
+[0.964s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_core
+[0.969s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.975s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core -- -j4 -l4
+[1.064s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_core -- -j4 -l4
+[1.112s] Invoking command in '/home/lfvmu/kobuki/build/ecl_core': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core
+[1.130s] -- Install configuration: "RelWithDebInfo"
+[1.130s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_core
+[1.130s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_core
+[1.130s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/environment/ament_prefix_path.sh
+[1.131s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core/environment/ament_prefix_path.dsv
+[1.132s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/environment/path.sh
+[1.132s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core/environment/path.dsv
+[1.132s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/local_setup.bash
+[1.132s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/local_setup.sh
+[1.132s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/local_setup.zsh
+[1.133s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core/local_setup.dsv
+[1.133s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_core/package.dsv
+[1.133s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_core
+[1.133s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/cmake/ecl_coreConfig.cmake
+[1.134s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+[1.134s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_core/package.xml
+[1.137s] Invoked command in '/home/lfvmu/kobuki/build/ecl_core' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_core

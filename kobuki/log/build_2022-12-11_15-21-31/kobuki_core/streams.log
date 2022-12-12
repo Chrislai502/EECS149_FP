@@ -1,0 +1,143 @@
+[0.261s] Invoking command in '/home/lfvmu/kobuki/build/kobuki_core': /usr/bin/cmake /home/lfvmu/kobuki/src/kobuki_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.310s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.344s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.689s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.722s] -- Found ecl_command_line: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_command_line/cmake)
+[0.728s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.735s] -- Found ecl_console: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_console/cmake)
+[0.743s] -- Found ecl_converters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_converters/cmake)
+[0.805s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[0.930s] -- Found ecl_geometry: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_geometry/cmake)
+[1.003s] -- Found ecl_mobile_robot: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_mobile_robot/cmake)
+[1.029s] -- Found ecl_sigslots: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_sigslots/cmake)
+[1.211s] -- Configuring done
+[1.358s] -- Generating done
+[1.369s] -- Build files have been written to: /home/lfvmu/kobuki/build/kobuki_core
+[1.378s] Invoked command in '/home/lfvmu/kobuki/build/kobuki_core' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/kobuki_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.384s] Invoking command in '/home/lfvmu/kobuki/build/kobuki_core': /usr/bin/cmake --build /home/lfvmu/kobuki/build/kobuki_core -- -j4 -l4
+[1.643s] [ 41%] Built target kobuki_core
+[1.746s] [ 47%] Built target kobuki_core_demo_custom_logging
+[1.746s] [ 52%] Built target kobuki_core_demo_buttons
+[1.755s] [ 58%] Built target kobuki_core_demo_raw_data_stream
+[1.770s] [ 64%] Built target kobuki_core_demo_data_stream
+[1.815s] [35m[1mScanning dependencies of target kobuki_core_tool_square[0m
+[1.821s] [ 70%] Built target kobuki_core_demo_velocity_commands
+[1.849s] [ 76%] Built target kobuki_core_demo_chirp
+[1.903s] [ 82%] Built target kobuki_core_demo_simple_loop
+[1.926s] [ 88%] Built target kobuki_core_tool_simple_keyop
+[1.965s] [ 94%] Built target kobuki_core_tool_version_info
+[2.263s] [ 97%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_square.dir/square.cpp.o[0m
+[22.050s] [100%] [32m[1mLinking CXX executable kobuki-square[0m
+[22.413s] [100%] Built target kobuki_core_tool_square
+[22.440s] Invoked command in '/home/lfvmu/kobuki/build/kobuki_core' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/kobuki_core -- -j4 -l4
+[22.491s] Invoking command in '/home/lfvmu/kobuki/build/kobuki_core': /usr/bin/cmake --install /home/lfvmu/kobuki/build/kobuki_core
+[22.509s] -- Install configuration: "RelWithDebInfo"
+[22.509s] -- Up-to-date: /home/lfvmu/kobuki/install/include
+[22.509s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core
+[22.509s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/macros.hpp
+[22.510s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/dock_drive.hpp
+[22.510s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/version_info.hpp
+[22.510s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/command.hpp
+[22.510s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules.hpp
+[22.510s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/event_manager.hpp
+[22.511s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets.hpp
+[22.511s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets
+[22.511s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/controller_info.hpp
+[22.511s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/gp_input.hpp
+[22.512s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/current.hpp
+[22.512s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp
+[22.512s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/cliff.hpp
+[22.512s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/firmware.hpp
+[22.512s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/eeprom.hpp
+[22.513s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/dock_ir.hpp
+[22.513s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/core_sensors.hpp
+[22.513s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/inertia.hpp
+[22.513s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp
+[22.513s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/hardware.hpp
+[22.514s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler
+[22.514s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp
+[22.514s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp
+[22.514s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp
+[22.515s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/parameters.hpp
+[22.515s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/kobuki.hpp
+[22.515s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/logging.hpp
+[22.515s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules
+[22.515s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp
+[22.516s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/battery.hpp
+[22.516s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/digital_output.hpp
+[22.517s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/led_array.hpp
+[22.517s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/diff_drive.hpp
+[22.518s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/sound.hpp
+[22.518s] -- Up-to-date: /home/lfvmu/kobuki/install/include/CMakeLists.txt
+[22.518s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/library_path.sh
+[22.518s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/library_path.dsv
+[22.518s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+[22.518s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+[22.519s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/ament_prefix_path.sh
+[22.519s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/ament_prefix_path.dsv
+[22.519s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/environment/path.sh
+[22.519s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/environment/path.dsv
+[22.519s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.bash
+[22.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.sh
+[22.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.zsh
+[22.520s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/local_setup.dsv
+[22.520s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/package.dsv
+[22.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/kobuki_core
+[22.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport.cmake
+[22.520s] -- Installing: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreExport-relwithdebinfo.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+[22.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+[22.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/kobuki_core/package.xml
+[22.522s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core
+[22.522s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/macros.hpp
+[22.522s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/dock_drive.hpp
+[22.522s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/version_info.hpp
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/command.hpp
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules.hpp
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/event_manager.hpp
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets.hpp
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets
+[22.523s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/controller_info.hpp
+[22.524s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/gp_input.hpp
+[22.524s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/current.hpp
+[22.524s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/three_axis_gyro.hpp
+[22.524s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/cliff.hpp
+[22.524s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/firmware.hpp
+[22.525s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/eeprom.hpp
+[22.525s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/dock_ir.hpp
+[22.525s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/core_sensors.hpp
+[22.525s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/inertia.hpp
+[22.525s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/unique_device_id.hpp
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packets/hardware.hpp
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_headers.hpp
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/packet_finder.hpp
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/packet_handler/payload_base.hpp
+[22.526s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/parameters.hpp
+[22.527s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/kobuki.hpp
+[22.527s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/logging.hpp
+[22.527s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules
+[22.527s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/acceleration_limiter.hpp
+[22.527s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/battery.hpp
+[22.528s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/digital_output.hpp
+[22.528s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/led_array.hpp
+[22.528s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/diff_drive.hpp
+[22.528s] -- Up-to-date: /home/lfvmu/kobuki/install/include/kobuki_core/modules/sound.hpp
+[22.529s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libkobuki_core.so.1.3.1
+[22.529s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libkobuki_core.so
+[22.529s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_chirp
+[22.529s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_custom_logging
+[22.529s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_buttons
+[22.530s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_raw_data_stream
+[22.534s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_data_stream
+[22.537s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_velocity_commands
+[22.541s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/kobuki_core/demo_simple_loop
+[22.542s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/kobuki-version-info
+[22.543s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/kobuki-simple-keyop
+[22.544s] -- Installing: /home/lfvmu/kobuki/install/bin/kobuki-square
+[22.556s] -- Set runtime path of "/home/lfvmu/kobuki/install/bin/kobuki-square" to ""
+[22.564s] Invoked command in '/home/lfvmu/kobuki/build/kobuki_core' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/kobuki_core

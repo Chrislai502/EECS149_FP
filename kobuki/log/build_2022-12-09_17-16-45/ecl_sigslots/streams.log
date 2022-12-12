@@ -1,0 +1,68 @@
+[0.426s] Invoking command in '/home/lfvmu/kobuki/build/ecl_sigslots': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.461s] Re-run cmake no build system arguments
+[0.491s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.962s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.984s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.992s] -- Found ecl_threads: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_threads/cmake)
+[1.265s] -- Configuring done
+[1.303s] -- Generating done
+[1.303s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_sigslots
+[1.499s] Invoked command in '/home/lfvmu/kobuki/build/ecl_sigslots' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.508s] Invoking command in '/home/lfvmu/kobuki/build/ecl_sigslots': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_sigslots -- -j4 -l4
+[1.712s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_sigslots -B/home/lfvmu/kobuki/build/ecl_sigslots --check-build-system CMakeFiles/Makefile.cmake 0
+[1.712s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_sigslots/CMakeFiles /home/lfvmu/kobuki/build/ecl_sigslots/CMakeFiles/progress.marks
+[1.713s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.713s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.713s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/build.make src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/depend
+[1.713s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_sigslots.dir/build.make src/examples/CMakeFiles/ecl_demo_sigslots.dir/depend
+[1.713s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.714s] cd /home/lfvmu/kobuki/build/ecl_sigslots && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots/src/examples /home/lfvmu/kobuki/build/ecl_sigslots /home/lfvmu/kobuki/build/ecl_sigslots/src/examples /home/lfvmu/kobuki/build/ecl_sigslots/src/examples/CMakeFiles/ecl_demo_sigslots.dir/DependInfo.cmake --color=
+[1.714s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.715s] cd /home/lfvmu/kobuki/build/ecl_sigslots && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots /home/lfvmu/kobuki/src/ecl_core/ecl_sigslots/src/examples /home/lfvmu/kobuki/build/ecl_sigslots /home/lfvmu/kobuki/build/ecl_sigslots/src/examples /home/lfvmu/kobuki/build/ecl_sigslots/src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/DependInfo.cmake --color=
+[1.715s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.715s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_sigslots.dir/build.make src/examples/CMakeFiles/ecl_demo_sigslots.dir/build
+[1.715s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.715s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_demo_sigslots.dir/build'.
+[1.716s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.716s] [ 50%] Built target ecl_demo_sigslots
+[1.716s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.716s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/build.make src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/build
+[1.716s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.717s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/build'.
+[1.717s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.728s] [100%] Built target ecl_demo_sigslots_manager
+[1.728s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_sigslots'
+[1.728s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_sigslots/CMakeFiles 0
+[1.786s] Invoked command in '/home/lfvmu/kobuki/build/ecl_sigslots' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_sigslots -- -j4 -l4
+[1.901s] Invoking command in '/home/lfvmu/kobuki/build/ecl_sigslots': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_sigslots
+[1.924s] -- Install configuration: ""
+[1.925s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_sigslots
+[1.925s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_sigslots
+[1.925s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/environment/ament_prefix_path.sh
+[1.926s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_sigslots/environment/ament_prefix_path.dsv
+[1.927s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/environment/path.sh
+[1.927s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_sigslots/environment/path.dsv
+[1.927s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/local_setup.bash
+[1.928s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/local_setup.sh
+[1.928s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/local_setup.zsh
+[1.928s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_sigslots/local_setup.dsv
+[1.929s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_sigslots/package.dsv
+[1.929s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_sigslots
+[1.930s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ecl_sigslotsExport.cmake
+[1.930s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ament_cmake_export_targets-extras.cmake
+[1.930s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.931s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.931s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake
+[1.931s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/cmake/ecl_sigslotsConfig-version.cmake
+[1.931s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_sigslots/package.xml
+[1.933s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots.hpp
+[1.934s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/macros.hpp
+[1.934s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/manager.hpp
+[1.934s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/signal.hpp
+[1.935s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/sigslot.hpp
+[1.935s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/slot.hpp
+[1.935s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/sigslots/topic.hpp
+[1.937s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_sigslots/demo_sigslots
+[1.938s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_sigslots/demo_sigslots_manager
+[1.951s] Invoked command in '/home/lfvmu/kobuki/build/ecl_sigslots' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_sigslots

@@ -1,0 +1,65 @@
+[0.074s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.150s] CMake Warning (dev) in CMakeLists.txt:
+[0.150s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.150s]   contain a literal, direct call to the project() command.  Add a line of
+[0.150s]   code such as
+[0.151s] 
+[0.151s]     project(ProjectName)
+[0.151s] 
+[0.151s]   near the top of the file, but after cmake_minimum_required().
+[0.151s] 
+[0.152s]   CMake is pretending there is a "project(Project)" command on the first
+[0.152s]   line.
+[0.152s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.152s] 
+[0.602s] -- The C compiler identification is GNU 9.4.0
+[0.857s] -- The CXX compiler identification is GNU 9.4.0
+[0.885s] -- Check for working C compiler: /usr/bin/cc
+[1.053s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.057s] -- Detecting C compiler ABI info
+[1.233s] -- Detecting C compiler ABI info - done
+[1.293s] -- Detecting C compile features
+[1.293s] -- Detecting C compile features - done
+[1.306s] -- Check for working CXX compiler: /usr/bin/c++
+[1.503s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.506s] -- Detecting CXX compiler ABI info
+[1.721s] -- Detecting CXX compiler ABI info - done
+[1.783s] -- Detecting CXX compile features
+[1.785s] -- Detecting CXX compile features - done
+[1.788s] CMake Warning (dev) at CMakeLists.txt:1 (add_subdirectory):
+[1.788s]   The source directory
+[1.788s] 
+[1.789s]     /home/lfvmu/kobuki/src/ecl_core
+[1.789s] 
+[1.789s]   does not contain a CMakeLists.txt file.
+[1.789s] 
+[1.789s]   CMake does not support this case but it used to work accidentally and is
+[1.789s]   being allowed for compatibility.
+[1.790s] 
+[1.790s]   Policy CMP0014 is not set: Input directories must have CMakeLists.txt.  Run
+[1.790s]   "cmake --help-policy CMP0014" for policy details.  Use the cmake_policy
+[1.790s]   command to set the policy and suppress this warning.
+[1.790s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.790s] 
+[1.791s] CMake Warning (dev) in CMakeLists.txt:
+[1.791s]   No cmake_minimum_required command is present.  A line of code such as
+[1.791s] 
+[1.791s]     cmake_minimum_required(VERSION 3.16)
+[1.792s] 
+[1.792s]   should be added at the top of the file.  The version specified may be lower
+[1.792s]   if you wish to support older CMake versions for this project.  For more
+[1.792s]   information run "cmake --help-policy CMP0000".
+[1.792s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.793s] 
+[1.793s] -- Configuring done
+[1.793s] -- Generating done
+[1.793s] CMake Warning:
+[1.794s]   Manually-specified variables were not used by the project:
+[1.794s] 
+[1.794s]     BUILD_TESTING
+[1.794s] 
+[1.794s] 
+[1.795s] -- Build files have been written to: /home/lfvmu/kobuki/build/src
+[1.800s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.806s] Invoking command in '/home/lfvmu/kobuki/build/src': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4
+[1.881s] Invoked command in '/home/lfvmu/kobuki/build/src' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/src -- -j4 -l4

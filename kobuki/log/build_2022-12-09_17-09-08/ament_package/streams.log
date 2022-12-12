@@ -1,0 +1,100 @@
+[2.625s] Invoking command in '/home/lfvmu/kobuki/src/ament_package': PYTHONPATH=/home/lfvmu/kobuki/build/ament_package/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/lfvmu/kobuki/build/ament_package/build install --record /home/lfvmu/kobuki/build/ament_package/install.log --single-version-externally-managed
+[2.995s] running egg_info
+[2.996s] creating ../../build/ament_package/ament_package.egg-info
+[2.997s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[2.997s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[2.998s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[2.998s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[3.101s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[3.103s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[3.103s] running build
+[3.104s] running build_py
+[3.104s] creating /home/lfvmu/kobuki/build/ament_package/build
+[3.104s] creating /home/lfvmu/kobuki/build/ament_package/build/lib
+[3.104s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package
+[3.105s] copying ament_package/templates.py -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package
+[3.105s] copying ament_package/__init__.py -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package
+[3.105s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template
+[3.105s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.106s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.106s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.106s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.107s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.107s] copying ament_package/template/environment_hook/path.sh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.107s] copying ament_package/template/environment_hook/library_path.sh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.108s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.108s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.108s] copying ament_package/template/environment_hook/path.bat -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook
+[3.108s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.109s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.109s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.109s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.109s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.110s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[3.110s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[3.111s] copying ament_package/template/package_level/local_setup.bash.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[3.111s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[3.111s] copying ament_package/template/package_level/local_setup.sh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[3.111s] copying ament_package/template/package_level/local_setup.bat.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level
+[3.112s] creating /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.112s] copying ament_package/template/prefix_level/setup.sh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.112s] copying ament_package/template/prefix_level/setup.bat.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.113s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.114s] copying ament_package/template/prefix_level/setup.bash -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.114s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.115s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.115s] copying ament_package/template/prefix_level/local_setup.bash -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.115s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.116s] copying ament_package/template/prefix_level/setup.zsh -> /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level
+[3.117s] running install
+[3.117s] running install_lib
+[3.118s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package
+[3.118s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/templates.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package
+[3.119s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template
+[3.119s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.120s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.120s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.122s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.122s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.123s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.123s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.124s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.124s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.124s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/environment_hook
+[3.124s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.125s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.125s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.126s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.126s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.130s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.130s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.131s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.131s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.131s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level
+[3.133s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.135s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.135s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.135s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.136s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.136s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level
+[3.138s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[3.138s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[3.140s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[3.140s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[3.141s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/package_level
+[3.142s] copying /home/lfvmu/kobuki/build/ament_package/build/lib/ament_package/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package
+[3.142s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/templates.py to templates.cpython-38.pyc
+[3.142s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-38.pyc
+[3.152s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-38.pyc
+[3.153s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package/__init__.py to __init__.cpython-38.pyc
+[3.153s] running install_data
+[3.156s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_package
+[3.156s] creating /home/lfvmu/kobuki/install/share/ament_index
+[3.157s] creating /home/lfvmu/kobuki/install/share/ament_index/resource_index
+[3.157s] creating /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[3.158s] copying resource/ament_package -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[3.158s] running install_egg_info
+[3.163s] Copying ../../build/ament_package/ament_package.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package-0.9.5-py3.8.egg-info
+[3.163s] running install_scripts
+[3.188s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_package/install.log'
+[3.243s] Invoked command in '/home/lfvmu/kobuki/src/ament_package' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_package/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/lfvmu/kobuki/build/ament_package/build install --record /home/lfvmu/kobuki/build/ament_package/install.log --single-version-externally-managed

@@ -1,0 +1,11 @@
+Re-run cmake no build system arguments
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lfvmu/kobuki/build/src
+/usr/bin/cmake -S/home/lfvmu/kobuki/src -B/home/lfvmu/kobuki/build/src --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/src/CMakeFiles /home/lfvmu/kobuki/build/src/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/lfvmu/kobuki/build/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/lfvmu/kobuki/build/src'
+/usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/src/CMakeFiles 0

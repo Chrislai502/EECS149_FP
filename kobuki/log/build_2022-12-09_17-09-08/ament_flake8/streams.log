@@ -1,0 +1,44 @@
+[1.811s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_flake8/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/lfvmu/kobuki/build/ament_flake8/build install --record /home/lfvmu/kobuki/build/ament_flake8/install.log --single-version-externally-managed
+[2.190s] running egg_info
+[2.191s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[2.192s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[2.192s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[2.192s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[2.193s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[2.193s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[2.193s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[2.305s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[2.307s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[2.307s] running build
+[2.307s] running build_py
+[2.308s] creating /home/lfvmu/kobuki/build/ament_flake8/build
+[2.308s] creating /home/lfvmu/kobuki/build/ament_flake8/build/lib
+[2.308s] creating /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8
+[2.309s] copying ament_flake8/main.py -> /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8
+[2.309s] copying ament_flake8/pytest_marker.py -> /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8
+[2.309s] copying ament_flake8/legacy.py -> /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8
+[2.309s] copying ament_flake8/__init__.py -> /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8
+[2.310s] creating /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/configuration
+[2.310s] copying ament_flake8/configuration/ament_flake8.ini -> /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/configuration
+[2.310s] running install
+[2.311s] running install_lib
+[2.313s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8
+[2.313s] copying /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8
+[2.314s] copying /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8
+[2.314s] copying /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8
+[2.314s] copying /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8
+[2.315s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/configuration
+[2.315s] copying /home/lfvmu/kobuki/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/configuration
+[2.315s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[2.323s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[2.324s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[2.325s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[2.326s] running install_data
+[2.326s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_flake8
+[2.326s] copying resource/ament_flake8 -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[2.327s] running install_egg_info
+[2.329s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_flake8-0.9.7-py3.8.egg-info
+[2.331s] running install_scripts
+[2.371s] Installing ament_flake8 script to /home/lfvmu/kobuki/install/bin
+[2.371s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_flake8/install.log'
+[2.430s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/build/ament_flake8/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/lfvmu/kobuki/build/ament_flake8/build install --record /home/lfvmu/kobuki/build/ament_flake8/install.log --single-version-externally-managed

@@ -1,0 +1,18 @@
+[2.768s] Invoking command in '/home/lfvmu/kobuki/src/ament_package': PYTHONPATH=/home/lfvmu/kobuki/build/ament_package/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/lfvmu/kobuki/build/ament_package/build install --record /home/lfvmu/kobuki/build/ament_package/install.log --single-version-externally-managed
+[3.172s] running egg_info
+[3.173s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[3.174s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[3.175s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[3.293s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[3.297s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[3.297s] running build
+[3.298s] running build_py
+[3.302s] running install
+[3.304s] running install_lib
+[3.309s] running install_data
+[3.310s] running install_egg_info
+[3.314s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package-0.9.5-py3.8.egg-info' (and everything under it)
+[3.315s] Copying ../../build/ament_package/ament_package.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_package-0.9.5-py3.8.egg-info
+[3.318s] running install_scripts
+[3.358s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_package/install.log'
+[3.409s] Invoked command in '/home/lfvmu/kobuki/src/ament_package' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_package/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/lfvmu/kobuki/build/ament_package/build install --record /home/lfvmu/kobuki/build/ament_package/install.log --single-version-externally-managed

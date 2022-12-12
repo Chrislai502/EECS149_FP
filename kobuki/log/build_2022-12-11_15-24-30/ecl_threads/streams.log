@@ -1,0 +1,95 @@
+[0.314s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.342s] Re-run cmake no build system arguments
+[0.377s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.457s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.872s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.877s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[0.903s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[0.925s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[0.936s] -- Found ecl_time: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_time/cmake)
+[0.969s] -- Found ecl_utilities: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_utilities/cmake)
+[1.163s] -- Configuring done
+[1.185s] -- Generating done
+[1.192s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_threads
+[1.456s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_threads -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.461s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_threads -- -j4 -l4
+[1.532s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_threads -B/home/lfvmu/kobuki/build/ecl_threads --check-build-system CMakeFiles/Makefile.cmake 0
+[1.556s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_threads/CMakeFiles /home/lfvmu/kobuki/build/ecl_threads/CMakeFiles/progress.marks
+[1.584s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.595s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.596s] /usr/bin/make -f src/lib/CMakeFiles/ecl_threads.dir/build.make src/lib/CMakeFiles/ecl_threads.dir/depend
+[1.600s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.601s] cd /home/lfvmu/kobuki/build/ecl_threads && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_threads /home/lfvmu/kobuki/src/ecl_core/ecl_threads/src/lib /home/lfvmu/kobuki/build/ecl_threads /home/lfvmu/kobuki/build/ecl_threads/src/lib /home/lfvmu/kobuki/build/ecl_threads/src/lib/CMakeFiles/ecl_threads.dir/DependInfo.cmake --color=
+[1.637s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.638s] /usr/bin/make -f src/lib/CMakeFiles/ecl_threads.dir/build.make src/lib/CMakeFiles/ecl_threads.dir/build
+[1.652s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.653s] make[2]: Nothing to be done for 'src/lib/CMakeFiles/ecl_threads.dir/build'.
+[1.653s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.679s] [ 63%] Built target ecl_threads
+[1.682s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_mutex.dir/build.make src/examples/CMakeFiles/ecl_demo_mutex.dir/depend
+[1.682s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_thread.dir/build.make src/examples/CMakeFiles/ecl_demo_thread.dir/depend
+[1.685s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.685s] cd /home/lfvmu/kobuki/build/ecl_threads && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_threads /home/lfvmu/kobuki/src/ecl_core/ecl_threads/src/examples /home/lfvmu/kobuki/build/ecl_threads /home/lfvmu/kobuki/build/ecl_threads/src/examples /home/lfvmu/kobuki/build/ecl_threads/src/examples/CMakeFiles/ecl_demo_mutex.dir/DependInfo.cmake --color=
+[1.688s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.689s] cd /home/lfvmu/kobuki/build/ecl_threads && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_threads /home/lfvmu/kobuki/src/ecl_core/ecl_threads/src/examples /home/lfvmu/kobuki/build/ecl_threads /home/lfvmu/kobuki/build/ecl_threads/src/examples /home/lfvmu/kobuki/build/ecl_threads/src/examples/CMakeFiles/ecl_demo_thread.dir/DependInfo.cmake --color=
+[1.712s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.713s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_mutex.dir/build.make src/examples/CMakeFiles/ecl_demo_mutex.dir/build
+[1.725s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.726s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_demo_mutex.dir/build'.
+[1.726s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.737s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.737s] /usr/bin/make -f src/examples/CMakeFiles/ecl_demo_thread.dir/build.make src/examples/CMakeFiles/ecl_demo_thread.dir/build
+[1.747s] [ 81%] Built target ecl_demo_mutex
+[1.748s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.748s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_demo_thread.dir/build'.
+[1.748s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.784s] [100%] Built target ecl_demo_thread
+[1.785s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_threads'
+[1.785s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_threads/CMakeFiles 0
+[1.961s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_threads -- -j4 -l4
+[2.238s] Invoking command in '/home/lfvmu/kobuki/build/ecl_threads': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_threads
+[2.273s] -- Install configuration: "RelWithDebInfo"
+[2.274s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/library_path.sh
+[2.274s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/library_path.dsv
+[2.275s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_threads
+[2.275s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_threads
+[2.276s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/ament_prefix_path.sh
+[2.277s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/ament_prefix_path.dsv
+[2.277s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/environment/path.sh
+[2.278s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/environment/path.dsv
+[2.278s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.bash
+[2.279s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.sh
+[2.279s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.zsh
+[2.280s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/local_setup.dsv
+[2.280s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/package.dsv
+[2.281s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_threads
+[2.281s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport.cmake
+[2.282s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsExport-relwithdebinfo.cmake
+[2.283s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threads-extras.cmake
+[2.283s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_targets-extras.cmake
+[2.284s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.284s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_libraries-extras.cmake
+[2.284s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.285s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig.cmake
+[2.285s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/cmake/ecl_threadsConfig-version.cmake
+[2.286s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_threads/package.xml
+[2.287s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads.hpp
+[2.292s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/macros.hpp
+[2.292s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex.hpp
+[2.293s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex_pos.hpp
+[2.293s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/mutex_w32.hpp
+[2.293s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority.hpp
+[2.293s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_common.hpp
+[2.294s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_pos.hpp
+[2.294s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/priority_win.hpp
+[2.294s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread.hpp
+[2.295s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_exceptions_pos.hpp
+[2.295s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_pos.hpp
+[2.295s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/thread_win.hpp
+[2.295s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/threads/threadable.hpp
+[2.296s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_threads.so.1.2.1
+[2.296s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_threads.so
+[2.296s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_threads/demo_thread
+[2.302s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_threads/demo_mutex
+[2.319s] Invoked command in '/home/lfvmu/kobuki/build/ecl_threads' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_threads

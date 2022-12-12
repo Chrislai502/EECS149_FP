@@ -1,0 +1,34 @@
+[0.280s] Invoking command in '/home/lfvmu/kobuki/build/ecl_eigen': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_eigen -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.290s] Not searching for unused variables given on the command line.
+[0.310s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.367s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.883s] -- Configuring done
+[0.897s] -- Generating done
+[0.914s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_eigen
+[1.040s] Invoked command in '/home/lfvmu/kobuki/build/ecl_eigen' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_eigen -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.047s] Invoking command in '/home/lfvmu/kobuki/build/ecl_eigen': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_eigen -- -j4 -l4
+[1.295s] Invoked command in '/home/lfvmu/kobuki/build/ecl_eigen' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_eigen -- -j4 -l4
+[1.574s] Invoking command in '/home/lfvmu/kobuki/build/ecl_eigen': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_eigen
+[1.592s] -- Install configuration: ""
+[1.593s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/eigen.hpp
+[1.594s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_eigen
+[1.594s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_eigen
+[1.594s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/environment/ament_prefix_path.sh
+[1.595s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_eigen/environment/ament_prefix_path.dsv
+[1.595s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/environment/path.sh
+[1.595s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_eigen/environment/path.dsv
+[1.596s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/local_setup.bash
+[1.596s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/local_setup.sh
+[1.597s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/local_setup.zsh
+[1.597s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_eigen/local_setup.dsv
+[1.597s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_eigen/package.dsv
+[1.598s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_eigen
+[1.598s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ecl_eigenExport.cmake
+[1.598s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[1.599s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.604s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ecl_eigenConfig.cmake
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_eigen/package.xml
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/licenses/eigen/COPYING.LESSER
+[1.612s] Invoked command in '/home/lfvmu/kobuki/build/ecl_eigen' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_eigen

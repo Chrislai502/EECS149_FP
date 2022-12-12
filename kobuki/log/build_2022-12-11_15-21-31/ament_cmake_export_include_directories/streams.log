@@ -1,0 +1,32 @@
+[0.052s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_include_directories -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.094s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.136s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.623s] -- Configuring done
+[0.627s] -- Generating done
+[0.627s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_export_include_directories
+[0.788s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_export_include_directories -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.790s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_include_directories -- -j4 -l4
+[1.010s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_export_include_directories -- -j4 -l4
+[1.223s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_include_directories
+[1.224s] -- Install configuration: "RelWithDebInfo"
+[1.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_include_directories
+[1.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_include_directories
+[1.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/environment/ament_prefix_path.sh
+[1.225s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/environment/ament_prefix_path.dsv
+[1.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/environment/path.sh
+[1.226s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/environment/path.dsv
+[1.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/local_setup.bash
+[1.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/local_setup.sh
+[1.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/local_setup.zsh
+[1.227s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/local_setup.dsv
+[1.227s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/package.dsv
+[1.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_export_include_directories
+[1.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig.cmake
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig-version.cmake
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/package.xml
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake
+[1.228s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake
+[1.229s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake
+[1.419s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_export_include_directories' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_export_include_directories

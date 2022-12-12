@@ -1,0 +1,21 @@
+[1.580s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_pep257': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pep257/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/lfvmu/kobuki/build/ament_pep257/build install --record /home/lfvmu/kobuki/build/ament_pep257/install.log --single-version-externally-managed
+[1.991s] running egg_info
+[1.991s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[1.991s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[1.992s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[1.993s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[1.993s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[2.084s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[2.087s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.087s] running build_py
+[2.088s] running install
+[2.088s] running install_lib
+[2.106s] running install_data
+[2.107s] running install_egg_info
+[2.107s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257-0.9.7-py3.8.egg-info' (and everything under it)
+[2.108s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_pep257-0.9.7-py3.8.egg-info
+[2.108s] running install_scripts
+[2.132s] Installing ament_pep257 script to /home/lfvmu/kobuki/install/bin
+[2.133s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_pep257/install.log'
+[2.200s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_pep257' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_pep257/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/lfvmu/kobuki/build/ament_pep257/build install --record /home/lfvmu/kobuki/build/ament_pep257/install.log --single-version-externally-managed

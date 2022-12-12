@@ -1,0 +1,21 @@
+[2.081s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint_cmake': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint_cmake/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/lfvmu/kobuki/build/ament_lint_cmake/build install --record /home/lfvmu/kobuki/build/ament_lint_cmake/install.log --single-version-externally-managed
+[2.452s] running egg_info
+[2.453s] writing ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/PKG-INFO
+[2.454s] writing dependency_links to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/dependency_links.txt
+[2.454s] writing entry points to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/entry_points.txt
+[2.455s] writing requirements to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/requires.txt
+[2.455s] writing top-level names to ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/top_level.txt
+[2.562s] reading manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[2.563s] writing manifest file '../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[2.563s] running build
+[2.563s] running build_py
+[2.564s] running install
+[2.564s] running install_lib
+[2.564s] running install_data
+[2.564s] running install_egg_info
+[2.564s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake-0.9.7-py3.8.egg-info' (and everything under it)
+[2.570s] Copying ../../../build/ament_lint_cmake/ament_lint_cmake.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint_cmake-0.9.7-py3.8.egg-info
+[2.570s] running install_scripts
+[2.605s] Installing ament_lint_cmake script to /home/lfvmu/kobuki/install/bin
+[2.605s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_lint_cmake/install.log'
+[2.653s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint_cmake' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint_cmake/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint_cmake build --build-base /home/lfvmu/kobuki/build/ament_lint_cmake/build install --record /home/lfvmu/kobuki/build/ament_lint_cmake/install.log --single-version-externally-managed

@@ -1,0 +1,44 @@
+[0.156s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_build -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.206s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.251s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.800s] -- Configuring done
+[0.810s] -- Generating done
+[0.815s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_build
+[0.827s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_build -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.828s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_build -- -j4 -l4
+[0.929s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_build -- -j4 -l4
+[0.988s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_build
+[1.007s] -- Install configuration: "RelWithDebInfo"
+[1.007s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_build
+[1.008s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_build
+[1.008s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/environment/ament_prefix_path.sh
+[1.008s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/environment/ament_prefix_path.dsv
+[1.009s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/environment/path.sh
+[1.009s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/environment/path.dsv
+[1.009s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.bash
+[1.010s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.sh
+[1.010s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.zsh
+[1.011s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.dsv
+[1.012s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/package.dsv
+[1.012s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_build
+[1.013s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_platform_detection.cmake
+[1.013s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_package.cmake
+[1.013s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_find_sse.cmake
+[1.013s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_build_utilities.cmake
+[1.013s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_cxx.cmake
+[1.014s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/cotire.cmake
+[1.014s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_buildConfig.cmake
+[1.014s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_buildConfig-version.cmake
+[1.014s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/package.xml
+[1.014s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake
+[1.015s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/cotire.cmake
+[1.015s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_build_utilities.cmake
+[1.015s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_cxx.cmake
+[1.015s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_package.cmake
+[1.015s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_find_sse.cmake
+[1.016s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/templates
+[1.016s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/templates/uninstall.cmake.in
+[1.016s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_platform_detection.cmake
+[1.016s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/tests
+[1.016s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/tests/is_char_signed.cpp
+[1.039s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_build

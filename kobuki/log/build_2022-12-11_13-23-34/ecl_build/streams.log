@@ -1,0 +1,44 @@
+[0.523s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_build -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.605s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.605s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.073s] -- Configuring done
+[1.083s] -- Generating done
+[1.083s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_build
+[1.591s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_build -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.597s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_build -- -j4 -l4
+[1.899s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_build -- -j4 -l4
+[2.430s] Invoking command in '/home/lfvmu/kobuki/build/ecl_build': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_build
+[2.452s] -- Install configuration: "RelWithDebInfo"
+[2.453s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_build
+[2.453s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_build
+[2.454s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/environment/ament_prefix_path.sh
+[2.454s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/environment/ament_prefix_path.dsv
+[2.454s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/environment/path.sh
+[2.455s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/environment/path.dsv
+[2.455s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.bash
+[2.455s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.sh
+[2.456s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.zsh
+[2.456s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/local_setup.dsv
+[2.456s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_build/package.dsv
+[2.457s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_build
+[2.457s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_platform_detection.cmake
+[2.457s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_package.cmake
+[2.457s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_find_sse.cmake
+[2.458s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_build_utilities.cmake
+[2.458s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_cxx.cmake
+[2.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/cotire.cmake
+[2.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_buildConfig.cmake
+[2.459s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/cmake/ecl_buildConfig-version.cmake
+[2.461s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_build/package.xml
+[2.461s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake
+[2.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/cotire.cmake
+[2.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_build_utilities.cmake
+[2.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_cxx.cmake
+[2.462s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_package.cmake
+[2.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_find_sse.cmake
+[2.463s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/templates
+[2.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/templates/uninstall.cmake.in
+[2.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/ecl_platform_detection.cmake
+[2.464s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/tests
+[2.465s] -- Up-to-date: /home/lfvmu/kobuki/install/share/cmake/tests/is_char_signed.cpp
+[2.477s] Invoked command in '/home/lfvmu/kobuki/build/ecl_build' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_build

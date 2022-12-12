@@ -1,0 +1,32 @@
+[0.244s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_format -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.294s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.677s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.864s] -- Configuring done
+[0.869s] -- Generating done
+[0.869s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_clang_format
+[0.993s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_clang_format -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.994s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_format -- -j4 -l4
+[1.267s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_clang_format -- -j4 -l4
+[1.579s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_format
+[1.598s] -- Install configuration: "RelWithDebInfo"
+[1.599s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_clang_format
+[1.599s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_clang_format
+[1.599s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/environment/ament_prefix_path.sh
+[1.600s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/environment/ament_prefix_path.dsv
+[1.600s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/environment/path.sh
+[1.600s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/environment/path.dsv
+[1.601s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/local_setup.bash
+[1.601s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/local_setup.sh
+[1.601s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/local_setup.zsh
+[1.602s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/local_setup.dsv
+[1.603s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/package.dsv
+[1.604s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_clang_format
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake/ament_cmake_clang_format-extras.cmake
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake/ament_cmake_clang_formatConfig.cmake
+[1.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake/ament_cmake_clang_formatConfig-version.cmake
+[1.606s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/package.xml
+[1.606s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake
+[1.606s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake/ament_cmake_clang_format_lint_hook.cmake
+[1.606s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_clang_format/cmake/ament_clang_format.cmake
+[1.645s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_clang_format' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_clang_format

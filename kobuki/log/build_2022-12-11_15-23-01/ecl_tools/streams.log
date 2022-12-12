@@ -1,0 +1,28 @@
+[0.123s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.150s] Not searching for unused variables given on the command line.
+[0.177s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.696s] -- Configuring done
+[0.704s] -- Generating done
+[0.726s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_tools
+[0.997s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_tools -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.999s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[1.238s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_tools -- -j4 -l4
+[1.496s] Invoking command in '/home/lfvmu/kobuki/build/ecl_tools': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools
+[1.519s] -- Install configuration: "RelWithDebInfo"
+[1.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_tools
+[1.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_tools
+[1.520s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.sh
+[1.520s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/ament_prefix_path.dsv
+[1.521s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.sh
+[1.521s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/environment/path.dsv
+[1.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.bash
+[1.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.sh
+[1.522s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.zsh
+[1.523s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/local_setup.dsv
+[1.523s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_tools/package.dsv
+[1.524s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_tools
+[1.524s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig.cmake
+[1.524s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/cmake/ecl_toolsConfig-version.cmake
+[1.525s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_tools/package.xml
+[1.534s] Invoked command in '/home/lfvmu/kobuki/build/ecl_tools' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_tools

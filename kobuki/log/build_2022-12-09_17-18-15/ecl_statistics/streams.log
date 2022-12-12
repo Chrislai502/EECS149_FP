@@ -1,0 +1,47 @@
+[0.255s] Invoking command in '/home/lfvmu/kobuki/build/ecl_statistics': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_statistics -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.290s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.331s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.657s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.680s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.687s] -- Found ecl_linear_algebra: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_linear_algebra/cmake)
+[0.952s] -- Configuring done
+[0.977s] -- Generating done
+[0.984s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_statistics
+[0.996s] Invoked command in '/home/lfvmu/kobuki/build/ecl_statistics' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_statistics -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.997s] Invoking command in '/home/lfvmu/kobuki/build/ecl_statistics': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_statistics -- -j4 -l4
+[1.130s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_statistics.dir/covariance_ellipsoid.cpp.o[0m
+[153.996s] [100%] [32m[1mLinking CXX shared library libecl_statistics.so[0m
+[155.386s] [100%] Built target ecl_statistics
+[155.503s] Invoked command in '/home/lfvmu/kobuki/build/ecl_statistics' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_statistics -- -j4 -l4
+[155.572s] Invoking command in '/home/lfvmu/kobuki/build/ecl_statistics': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_statistics
+[155.600s] -- Install configuration: "RelWithDebInfo"
+[155.605s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/library_path.sh
+[155.605s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/library_path.dsv
+[155.611s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_statistics
+[155.612s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_statistics
+[155.614s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/ament_prefix_path.sh
+[155.615s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/ament_prefix_path.dsv
+[155.616s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/path.sh
+[155.617s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/environment/path.dsv
+[155.618s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/local_setup.bash
+[155.619s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/local_setup.sh
+[155.619s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/local_setup.zsh
+[155.620s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/local_setup.dsv
+[155.621s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/package.dsv
+[155.623s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_statistics
+[155.626s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ecl_statisticsExport.cmake
+[155.627s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ecl_statisticsExport-relwithdebinfo.cmake
+[155.628s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ament_cmake_export_targets-extras.cmake
+[155.629s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ament_cmake_export_include_directories-extras.cmake
+[155.630s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ament_cmake_export_libraries-extras.cmake
+[155.630s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ament_cmake_export_dependencies-extras.cmake
+[155.631s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ecl_statisticsConfig.cmake
+[155.632s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/cmake/ecl_statisticsConfig-version.cmake
+[155.633s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_statistics/package.xml
+[155.637s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/statistics.hpp
+[155.638s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/statistics/covariance_ellipsoid.hpp
+[155.639s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/statistics/cumulative_statistics.hpp
+[155.642s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_statistics.so.1.2.1
+[155.752s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_statistics.so.1.2.1" to ""
+[155.753s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_statistics.so
+[155.769s] Invoked command in '/home/lfvmu/kobuki/build/ecl_statistics' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PKG_CONFIG_PATH=/home/lfvmu/kobuki/install/lib/x86_64-linux-gnu/pkgconfig:/home/lfvmu/kobuki/install/lib/pkgconfig PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_statistics

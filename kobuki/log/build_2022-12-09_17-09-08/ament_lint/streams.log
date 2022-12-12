@@ -1,0 +1,33 @@
+[2.581s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/lfvmu/kobuki/build/ament_lint/build install --record /home/lfvmu/kobuki/build/ament_lint/install.log --single-version-externally-managed
+[2.985s] running egg_info
+[2.987s] creating ../../../build/ament_lint/ament_lint.egg-info
+[2.987s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[2.988s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[2.989s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[2.990s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[2.990s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[2.991s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[3.129s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[3.131s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[3.132s] running build
+[3.132s] running build_py
+[3.132s] creating /home/lfvmu/kobuki/build/ament_lint/build
+[3.133s] creating /home/lfvmu/kobuki/build/ament_lint/build/lib
+[3.133s] creating /home/lfvmu/kobuki/build/ament_lint/build/lib/ament_lint
+[3.134s] copying ament_lint/pytest_marker.py -> /home/lfvmu/kobuki/build/ament_lint/build/lib/ament_lint
+[3.134s] copying ament_lint/__init__.py -> /home/lfvmu/kobuki/build/ament_lint/build/lib/ament_lint
+[3.135s] running install
+[3.137s] running install_lib
+[3.140s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint
+[3.140s] copying /home/lfvmu/kobuki/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint
+[3.141s] copying /home/lfvmu/kobuki/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint
+[3.143s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[3.148s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[3.149s] running install_data
+[3.150s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_lint
+[3.151s] copying resource/ament_lint -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[3.152s] running install_egg_info
+[3.156s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_lint-0.9.7-py3.8.egg-info
+[3.159s] running install_scripts
+[3.207s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_lint/install.log'
+[3.564s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_lint/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/lfvmu/kobuki/build/ament_lint/build install --record /home/lfvmu/kobuki/build/ament_lint/install.log --single-version-externally-managed

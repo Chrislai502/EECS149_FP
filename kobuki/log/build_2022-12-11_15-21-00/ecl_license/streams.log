@@ -1,0 +1,35 @@
+[0.736s] Invoking command in '/home/lfvmu/kobuki/build/ecl_license': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_license -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.766s] Not searching for unused variables given on the command line.
+[0.800s] -- Found ament_cmake: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake/cmake)
+[0.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.322s] -- Configuring done
+[1.330s] -- Generating done
+[1.335s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_license
+[1.705s] Invoked command in '/home/lfvmu/kobuki/build/ecl_license' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_tools/ecl_license -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.707s] Invoking command in '/home/lfvmu/kobuki/build/ecl_license': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_license -- -j4 -l4
+[2.052s] Invoked command in '/home/lfvmu/kobuki/build/ecl_license' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_license -- -j4 -l4
+[2.720s] Invoking command in '/home/lfvmu/kobuki/build/ecl_license': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_license
+[2.807s] -- Install configuration: "RelWithDebInfo"
+[2.808s] -- Up-to-date: /home/lfvmu/kobuki/install/share/licenses
+[2.808s] -- Up-to-date: /home/lfvmu/kobuki/install/share/licenses/COPYING
+[2.808s] -- Up-to-date: /home/lfvmu/kobuki/install/share/licenses/AUTHORS
+[2.808s] -- Up-to-date: /home/lfvmu/kobuki/install/share/licenses/COPYING-PLAIN
+[2.809s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/environment/library_path.sh
+[2.810s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_license/environment/library_path.dsv
+[2.813s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_license
+[2.814s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_license
+[2.815s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/environment/ament_prefix_path.sh
+[2.815s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_license/environment/ament_prefix_path.dsv
+[2.815s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/environment/path.sh
+[2.816s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_license/environment/path.dsv
+[2.816s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/local_setup.bash
+[2.816s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/local_setup.sh
+[2.816s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/local_setup.zsh
+[2.817s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_license/local_setup.dsv
+[2.817s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_license/package.dsv
+[2.817s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_license
+[2.817s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/cmake/ament_cmake_export_libraries-extras.cmake
+[2.818s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/cmake/ecl_licenseConfig.cmake
+[2.818s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/cmake/ecl_licenseConfig-version.cmake
+[2.818s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_license/package.xml
+[2.837s] Invoked command in '/home/lfvmu/kobuki/build/ecl_license' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_license

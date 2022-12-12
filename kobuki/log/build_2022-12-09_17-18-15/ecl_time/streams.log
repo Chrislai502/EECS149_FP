@@ -1,0 +1,85 @@
+[1.054s] Invoking command in '/home/lfvmu/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_time -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.090s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[1.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.533s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[1.576s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[1.582s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[1.613s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[1.636s] -- Found ecl_time_lite: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_time_lite/cmake)
+[1.953s] -- Configuring done
+[2.039s] -- Generating done
+[2.047s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_time
+[2.067s] Invoked command in '/home/lfvmu/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_time -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[2.074s] Invoking command in '/home/lfvmu/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_time -- -j4 -l4
+[2.425s] [  6%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/frequency.cpp.o[0m
+[2.443s] [ 12%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_win.cpp.o[0m
+[2.444s] [ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/cpuwatch_rt.cpp.o[0m
+[2.469s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_pos.cpp.o[0m
+[2.775s] [ 31%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_pos.cpp.o[0m
+[4.149s] [ 37%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_win.cpp.o[0m
+[4.170s] [ 43%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/stopwatch.cpp.o[0m
+[4.319s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_base.cpp.o[0m
+[4.460s] [ 56%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_pos.cpp.o[0m
+[4.623s] [ 62%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_win.cpp.o[0m
+[4.755s] [ 68%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/time_data.cpp.o[0m
+[5.801s] [ 75%] [32m[1mLinking CXX shared library libecl_time.so[0m
+[6.099s] [ 75%] Built target ecl_time
+[6.151s] [ 81%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_sleep.dir/sleep.cpp.o[0m
+[6.204s] [ 87%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_random_number_generator.dir/random_number_generator.cpp.o[0m
+[7.663s] [ 93%] [32m[1mLinking CXX executable demo_sleep[0m
+[7.891s] [100%] [32m[1mLinking CXX executable demo_random_number_generator[0m
+[7.950s] [100%] Built target ecl_time_example_sleep
+[8.155s] [100%] Built target ecl_time_example_random_number_generator
+[8.185s] Invoked command in '/home/lfvmu/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_time -- -j4 -l4
+[8.261s] Invoking command in '/home/lfvmu/kobuki/build/ecl_time': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_time
+[8.284s] -- Install configuration: "RelWithDebInfo"
+[8.285s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/environment/library_path.sh
+[8.285s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/environment/library_path.dsv
+[8.286s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[8.286s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[8.287s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/environment/ament_prefix_path.sh
+[8.288s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/environment/ament_prefix_path.dsv
+[8.288s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/environment/path.sh
+[8.289s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/environment/path.dsv
+[8.289s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/local_setup.bash
+[8.290s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/local_setup.sh
+[8.290s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/local_setup.zsh
+[8.291s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/local_setup.dsv
+[8.291s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/package.dsv
+[8.292s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_time
+[8.293s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ecl_timeExport.cmake
+[8.293s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ecl_timeExport-relwithdebinfo.cmake
+[8.294s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[8.294s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.295s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[8.295s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.296s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ecl_timeConfig.cmake
+[8.296s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[8.297s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_time/package.xml
+[8.298s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time.hpp
+[8.299s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/cpuwatch.hpp
+[8.299s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/cpuwatch_rt.hpp
+[8.299s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/duration.hpp
+[8.300s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/frequency.hpp
+[8.300s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/macros.hpp
+[8.300s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/random_number_generator.hpp
+[8.301s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/sleep.hpp
+[8.301s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/sleep_pos.hpp
+[8.301s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/sleep_win.hpp
+[8.302s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/snooze.hpp
+[8.302s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/snooze_pos.hpp
+[8.303s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/snooze_win.hpp
+[8.304s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/stopwatch.hpp
+[8.304s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/time_data.hpp
+[8.304s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/timestamp.hpp
+[8.305s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/timestamp_base.hpp
+[8.305s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/timestamp_pos.hpp
+[8.305s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/time/timestamp_win.hpp
+[8.307s] -- Installing: /home/lfvmu/kobuki/install/lib/libecl_time.so.1.2.1
+[8.309s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/libecl_time.so.1.2.1" to ""
+[8.309s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_time.so
+[8.311s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_time/demo_random_number_generator
+[8.312s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_time/demo_random_number_generator" to ""
+[8.313s] -- Installing: /home/lfvmu/kobuki/install/lib/ecl_time/demo_sleep
+[8.314s] -- Set runtime path of "/home/lfvmu/kobuki/install/lib/ecl_time/demo_sleep" to ""
+[8.336s] Invoked command in '/home/lfvmu/kobuki/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_time

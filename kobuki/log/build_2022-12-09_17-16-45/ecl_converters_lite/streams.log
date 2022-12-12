@@ -1,0 +1,43 @@
+[0.441s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_lite/ecl_converters_lite -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.453s] Re-run cmake no build system arguments
+[0.478s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.527s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.914s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.934s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[1.095s] -- Configuring done
+[1.114s] -- Generating done
+[1.115s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_converters_lite
+[1.272s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_lite/ecl_converters_lite -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.274s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_converters_lite -- -j4 -l4
+[1.317s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_lite/ecl_converters_lite -B/home/lfvmu/kobuki/build/ecl_converters_lite --check-build-system CMakeFiles/Makefile.cmake 0
+[1.363s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_converters_lite/CMakeFiles /home/lfvmu/kobuki/build/ecl_converters_lite/CMakeFiles/progress.marks
+[1.384s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.385s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_converters_lite'
+[1.385s] make[1]: Nothing to be done for 'all'.
+[1.385s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_converters_lite'
+[1.385s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_converters_lite/CMakeFiles 0
+[1.537s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_converters_lite -- -j4 -l4
+[1.838s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters_lite': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_converters_lite
+[1.849s] -- Install configuration: ""
+[1.849s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_converters_lite
+[1.850s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_converters_lite
+[1.850s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/environment/ament_prefix_path.sh
+[1.850s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters_lite/environment/ament_prefix_path.dsv
+[1.851s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/environment/path.sh
+[1.852s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters_lite/environment/path.dsv
+[1.852s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/local_setup.bash
+[1.853s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/local_setup.sh
+[1.853s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/local_setup.zsh
+[1.854s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters_lite/local_setup.dsv
+[1.854s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters_lite/package.dsv
+[1.854s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_converters_lite
+[1.855s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ecl_converters_liteExport.cmake
+[1.856s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ament_cmake_export_targets-extras.cmake
+[1.856s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.857s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.857s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ecl_converters_liteConfig.cmake
+[1.858s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/cmake/ecl_converters_liteConfig-version.cmake
+[1.858s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters_lite/package.xml
+[1.859s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters_lite.hpp
+[1.875s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters_lite/byte_array.hpp
+[1.876s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters_lite' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_converters_lite

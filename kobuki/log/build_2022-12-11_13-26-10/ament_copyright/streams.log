@@ -1,0 +1,21 @@
+[1.876s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright': PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed
+[2.304s] running egg_info
+[2.306s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[2.307s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[2.307s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[2.308s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[2.308s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[2.410s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.414s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[2.414s] running build
+[2.414s] running build_py
+[2.418s] running install
+[2.420s] running install_lib
+[2.425s] running install_data
+[2.426s] running install_egg_info
+[2.429s] removing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info' (and everything under it)
+[2.430s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_copyright-0.9.7-py3.8.egg-info
+[2.432s] running install_scripts
+[2.469s] Installing ament_copyright script to /home/lfvmu/kobuki/install/bin
+[2.470s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_copyright/install.log'
+[2.717s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_copyright' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_copyright/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/lfvmu/kobuki/build/ament_copyright/build install --record /home/lfvmu/kobuki/build/ament_copyright/install.log --single-version-externally-managed

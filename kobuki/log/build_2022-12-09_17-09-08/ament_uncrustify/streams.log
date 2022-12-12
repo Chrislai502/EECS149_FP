@@ -1,0 +1,38 @@
+[2.453s] Invoking command in '/home/lfvmu/kobuki/src/ament_lint/ament_uncrustify': PYTHONPATH=/home/lfvmu/kobuki/build/ament_uncrustify/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/lfvmu/kobuki/build/ament_uncrustify/build install --record /home/lfvmu/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed
+[2.878s] running egg_info
+[2.878s] creating ../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[2.879s] writing ../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[2.879s] writing dependency_links to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[2.880s] writing entry points to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[2.880s] writing requirements to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[2.880s] writing top-level names to ../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[2.880s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.988s] reading manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.991s] writing manifest file '../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[2.993s] running build
+[2.993s] running build_py
+[2.994s] creating /home/lfvmu/kobuki/build/ament_uncrustify/build
+[2.994s] creating /home/lfvmu/kobuki/build/ament_uncrustify/build/lib
+[2.994s] creating /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.997s] copying ament_uncrustify/main.py -> /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.997s] copying ament_uncrustify/__init__.py -> /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify
+[2.997s] creating /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[2.997s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[2.998s] running install
+[2.999s] running install_lib
+[3.004s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[3.008s] copying /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[3.008s] copying /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify
+[3.009s] creating /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/configuration
+[3.016s] copying /home/lfvmu/kobuki/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/configuration
+[3.016s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[3.016s] byte-compiling /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[3.018s] running install_data
+[3.018s] copying package.xml -> /home/lfvmu/kobuki/install/share/ament_uncrustify
+[3.018s] copying resource/ament_uncrustify -> /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages
+[3.018s] running install_egg_info
+[3.019s] Copying ../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_uncrustify-0.9.7-py3.8.egg-info
+[3.019s] running install_scripts
+[3.053s] Installing ament_uncrustify script to /home/lfvmu/kobuki/install/bin
+[3.053s] writing list of installed files to '/home/lfvmu/kobuki/build/ament_uncrustify/install.log'
+[3.260s] Invoked command in '/home/lfvmu/kobuki/src/ament_lint/ament_uncrustify' returned '0': PYTHONPATH=/home/lfvmu/kobuki/build/ament_uncrustify/prefix_override:/home/lfvmu/kobuki/install/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ament_uncrustify build --build-base /home/lfvmu/kobuki/build/ament_uncrustify/build install --record /home/lfvmu/kobuki/build/ament_uncrustify/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+[0.110s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.129s] Re-run cmake no build system arguments
+[0.139s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.571s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.694s] -- Configuring done
+[0.705s] -- Generating done
+[0.705s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_uncrustify
+[1.051s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.058s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[1.274s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_lint/ament_cmake_uncrustify -B/home/lfvmu/kobuki/build/ament_cmake_uncrustify --check-build-system CMakeFiles/Makefile.cmake 0
+[1.279s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles/progress.marks
+[1.280s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.280s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_uncrustify'
+[1.281s] make[1]: Nothing to be done for 'all'.
+[1.287s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_uncrustify'
+[1.320s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_uncrustify/CMakeFiles 0
+[1.482s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_uncrustify -- -j4 -l4
+[1.531s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_uncrustify
+[1.578s] -- Install configuration: ""
+[1.579s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_uncrustify
+[1.579s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_uncrustify
+[1.579s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.sh
+[1.579s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/ament_prefix_path.dsv
+[1.580s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/path.sh
+[1.580s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/environment/path.dsv
+[1.580s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.bash
+[1.581s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.sh
+[1.581s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.zsh
+[1.581s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/local_setup.dsv
+[1.581s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/package.dsv
+[1.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_uncrustify
+[1.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify-extras.cmake
+[1.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig.cmake
+[1.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustifyConfig-version.cmake
+[1.582s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/package.xml
+[1.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake
+[1.583s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_uncrustify.cmake
+[1.584s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake
+[1.589s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install LD_LIBRARY_PATH=/home/lfvmu/kobuki/install/lib PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_uncrustify

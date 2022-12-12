@@ -1,0 +1,31 @@
+[0.265s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.312s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.850s] -- Configuring done
+[0.855s] -- Generating done
+[0.857s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_gmock
+[1.363s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_gmock -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.364s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[1.645s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_gmock -- -j4 -l4
+[1.999s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_gmock': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gmock
+[2.076s] -- Install configuration: "RelWithDebInfo"
+[2.077s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gmock
+[2.084s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gmock
+[2.090s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.sh
+[2.090s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/ament_prefix_path.dsv
+[2.091s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/path.sh
+[2.091s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/environment/path.dsv
+[2.092s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.bash
+[2.092s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.sh
+[2.092s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.zsh
+[2.093s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/local_setup.dsv
+[2.093s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/package.dsv
+[2.093s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_gmock
+[2.093s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmock-extras.cmake
+[2.094s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig.cmake
+[2.094s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_cmake_gmockConfig-version.cmake
+[2.094s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/package.xml
+[2.095s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake
+[2.095s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake
+[2.103s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_gmock/cmake/ament_find_gmock.cmake
+[2.307s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_gmock' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_gmock

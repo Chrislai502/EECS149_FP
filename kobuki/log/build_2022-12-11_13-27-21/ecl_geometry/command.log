@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_geometry -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_geometry -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_geometry -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_geometry -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ecl_geometry': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_geometry
+Invoked command in '/home/lfvmu/kobuki/build/ecl_geometry' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_geometry

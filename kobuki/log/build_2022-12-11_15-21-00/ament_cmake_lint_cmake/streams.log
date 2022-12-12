@@ -1,0 +1,4 @@
+[0.092s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_lint_cmake -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.142s] Not searching for unused variables given on the command line.
+[0.142s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3

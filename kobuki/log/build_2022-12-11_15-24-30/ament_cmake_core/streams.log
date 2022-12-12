@@ -1,0 +1,93 @@
+[0.678s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_core': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.687s] Re-run cmake no build system arguments
+[0.728s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.862s] -- ament_cmake_core 0.9.11
+[1.179s] -- Configuring done
+[1.184s] -- Generating done
+[1.187s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_core
+[1.636s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_core' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_core -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.642s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_core': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_core -- -j4 -l4
+[1.703s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ament_cmake/ament_cmake_core -B/home/lfvmu/kobuki/build/ament_cmake_core --check-build-system CMakeFiles/Makefile.cmake 0
+[1.745s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_core/CMakeFiles /home/lfvmu/kobuki/build/ament_cmake_core/CMakeFiles/progress.marks
+[1.781s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.783s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ament_cmake_core'
+[1.783s] make[1]: Nothing to be done for 'all'.
+[1.783s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ament_cmake_core'
+[1.784s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ament_cmake_core/CMakeFiles 0
+[1.827s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_core' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_core -- -j4 -l4
+[1.917s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_core': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_core
+[1.934s] -- Install configuration: "RelWithDebInfo"
+[1.934s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_core
+[1.935s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_core
+[1.935s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/environment/ament_prefix_path.sh
+[1.935s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_core/environment/ament_prefix_path.dsv
+[1.936s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/environment/path.sh
+[1.936s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_core/environment/path.dsv
+[1.937s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/local_setup.bash
+[1.937s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/local_setup.sh
+[1.937s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/local_setup.zsh
+[1.938s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_core/local_setup.dsv
+[1.938s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_core/package.dsv
+[1.939s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_core
+[1.939s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake
+[1.939s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_environment-extras.cmake
+[1.940s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_environment_hooks-extras.cmake
+[1.940s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_index-extras.cmake
+[1.941s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake
+[1.941s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake
+[1.941s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake
+[1.942s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake
+[1.943s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake
+[1.944s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/package.xml
+[1.944s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake
+[1.944s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index
+[1.944s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_has_resource.cmake
+[1.945s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake
+[1.945s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake
+[1.945s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake
+[1.945s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake
+[1.945s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_get_prefix_path.cmake
+[1.946s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake
+[1.946s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks
+[1.946s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake
+[1.946s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/environment
+[1.947s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat
+[1.947s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+[1.947s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+[1.947s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat
+[1.947s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake
+[1.948s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake
+[1.948s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment
+[1.948s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment/ament_generate_environment.cmake
+[1.948s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake
+[1.948s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install
+[1.949s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
+[1.949s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_append_install_code.cmake
+[1.949s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake
+[1.949s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in
+[1.949s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/install.cmake
+[1.950s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_files.cmake
+[1.950s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake
+[1.950s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake
+[1.950s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/uninstall_target
+[1.950s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
+[1.951s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target_append_uninstall_code.cmake
+[1.951s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/package_templates
+[1.951s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.951s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core
+[1.951s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/ament_register_extension.cmake
+[1.952s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.957s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/normalize_path.cmake
+[1.957s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/python.cmake
+[1.958s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/stamp.cmake
+[1.958s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/ament_package.cmake
+[1.958s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake
+[1.959s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/string_ends_with.cmake
+[1.959s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/templates
+[1.959s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/templates/nameConfig-version.cmake.in
+[1.979s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/templates/nameConfig.cmake.in
+[1.980s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake
+[1.980s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/assert_file_exists.cmake
+[1.980s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/all.cmake
+[1.981s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_core/cmake/core/list_append_unique.cmake
+[1.981s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_core' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_core

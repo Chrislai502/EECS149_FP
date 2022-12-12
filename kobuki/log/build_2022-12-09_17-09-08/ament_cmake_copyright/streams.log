@@ -1,0 +1,33 @@
+[0.086s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_copyright -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.134s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.170s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.519s] -- Found ament_cmake_test: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_test/cmake)
+[0.671s] -- Configuring done
+[0.682s] -- Generating done
+[0.684s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_copyright
+[0.692s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_copyright -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.698s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_copyright -- -j4 -l4
+[1.185s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_copyright -- -j4 -l4
+[1.430s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_copyright': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_copyright
+[1.454s] -- Install configuration: ""
+[1.454s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_copyright
+[1.454s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_copyright
+[1.455s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/ament_prefix_path.sh
+[1.455s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/ament_prefix_path.dsv
+[1.455s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/path.sh
+[1.456s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/environment/path.dsv
+[1.456s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.bash
+[1.456s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.sh
+[1.457s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.zsh
+[1.457s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/local_setup.dsv
+[1.457s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/package.dsv
+[1.458s] -- Installing: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_copyright
+[1.459s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright-extras.cmake
+[1.459s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig.cmake
+[1.459s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig-version.cmake
+[1.460s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/package.xml
+[1.460s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake
+[1.460s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_cmake_copyright_lint_hook.cmake
+[1.461s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_copyright/cmake/ament_copyright.cmake
+[1.932s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_copyright' returned '0': AMENT_PREFIX_PATH=/home/lfvmu/kobuki/install CMAKE_PREFIX_PATH=/home/lfvmu/kobuki/install PATH=/home/lfvmu/kobuki/install/bin:${PATH} PYTHONPATH=/home/lfvmu/kobuki/install/lib/python3.8/site-packages /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_copyright

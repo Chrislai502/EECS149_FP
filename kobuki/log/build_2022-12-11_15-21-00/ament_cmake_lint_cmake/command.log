@@ -1,0 +1,1 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_lint_cmake': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_lint_cmake -DBUILD_TESTING=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install

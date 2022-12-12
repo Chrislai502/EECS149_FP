@@ -1,0 +1,61 @@
+[0.401s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_converters -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.429s] Re-run cmake no build system arguments
+[0.454s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.912s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.937s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.945s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[0.974s] -- Found ecl_errors: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_errors/cmake)
+[0.979s] -- Found ecl_exceptions: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_exceptions/cmake)
+[1.205s] -- Configuring done
+[1.217s] -- Generating done
+[1.217s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_converters
+[1.395s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_converters -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.398s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_converters -- -j4 -l4
+[1.441s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_converters -B/home/lfvmu/kobuki/build/ecl_converters --check-build-system CMakeFiles/Makefile.cmake 0
+[1.482s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_converters/CMakeFiles /home/lfvmu/kobuki/build/ecl_converters/CMakeFiles/progress.marks
+[1.505s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.511s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.511s] /usr/bin/make -f src/examples/CMakeFiles/demo_float_converters.dir/build.make src/examples/CMakeFiles/demo_float_converters.dir/depend
+[1.520s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.521s] cd /home/lfvmu/kobuki/build/ecl_converters && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_converters /home/lfvmu/kobuki/src/ecl_core/ecl_converters/src/examples /home/lfvmu/kobuki/build/ecl_converters /home/lfvmu/kobuki/build/ecl_converters/src/examples /home/lfvmu/kobuki/build/ecl_converters/src/examples/CMakeFiles/demo_float_converters.dir/DependInfo.cmake --color=
+[1.564s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.564s] /usr/bin/make -f src/examples/CMakeFiles/demo_float_converters.dir/build.make src/examples/CMakeFiles/demo_float_converters.dir/build
+[1.564s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.565s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/demo_float_converters.dir/build'.
+[1.565s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.626s] [100%] Built target demo_float_converters
+[1.628s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_converters'
+[1.628s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_converters/CMakeFiles 0
+[1.815s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_converters -- -j4 -l4
+[2.168s] Invoking command in '/home/lfvmu/kobuki/build/ecl_converters': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_converters
+[2.218s] -- Install configuration: "RelWithDebInfo"
+[2.218s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_converters
+[2.219s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_converters
+[2.220s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/environment/ament_prefix_path.sh
+[2.220s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters/environment/ament_prefix_path.dsv
+[2.224s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/environment/path.sh
+[2.225s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters/environment/path.dsv
+[2.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/local_setup.bash
+[2.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/local_setup.sh
+[2.225s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/local_setup.zsh
+[2.226s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters/local_setup.dsv
+[2.226s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_converters/package.dsv
+[2.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_converters
+[2.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ecl_convertersExport.cmake
+[2.226s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ament_cmake_export_targets-extras.cmake
+[2.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ecl_convertersConfig.cmake
+[2.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/cmake/ecl_convertersConfig-version.cmake
+[2.227s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_converters/package.xml
+[2.228s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters.hpp
+[2.229s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/char.hpp
+[2.229s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/char_strings.hpp
+[2.230s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/converter.hpp
+[2.230s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/from_byte_array.hpp
+[2.230s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/integers.hpp
+[2.230s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/string.hpp
+[2.231s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/converters/to_byte_array.hpp
+[2.233s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_converters/demo_float_converters
+[2.250s] Invoked command in '/home/lfvmu/kobuki/build/ecl_converters' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_converters

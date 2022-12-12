@@ -1,0 +1,94 @@
+[0.359s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_streams -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.384s] Re-run cmake no build system arguments
+[0.404s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.488s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.874s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.902s] -- Found ecl_concepts: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_concepts/cmake)
+[0.943s] -- Found ecl_converters: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_converters/cmake)
+[0.991s] -- Found ecl_devices: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_devices/cmake)
+[1.263s] -- Configuring done
+[1.306s] -- Generating done
+[1.315s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_streams
+[1.324s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_streams -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.330s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_streams -- -j4 -l4
+[1.367s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_streams -B/home/lfvmu/kobuki/build/ecl_streams --check-build-system CMakeFiles/Makefile.cmake 0
+[1.395s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_streams/CMakeFiles /home/lfvmu/kobuki/build/ecl_streams/CMakeFiles/progress.marks
+[1.412s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.417s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.417s] /usr/bin/make -f src/lib/CMakeFiles/ecl_streams.dir/build.make src/lib/CMakeFiles/ecl_streams.dir/depend
+[1.421s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.421s] cd /home/lfvmu/kobuki/build/ecl_streams && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_streams /home/lfvmu/kobuki/src/ecl_core/ecl_streams/src/lib /home/lfvmu/kobuki/build/ecl_streams /home/lfvmu/kobuki/build/ecl_streams/src/lib /home/lfvmu/kobuki/build/ecl_streams/src/lib/CMakeFiles/ecl_streams.dir/DependInfo.cmake --color=
+[1.449s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.449s] /usr/bin/make -f src/lib/CMakeFiles/ecl_streams.dir/build.make src/lib/CMakeFiles/ecl_streams.dir/build
+[1.456s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.456s] make[2]: Nothing to be done for 'src/lib/CMakeFiles/ecl_streams.dir/build'.
+[1.456s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.476s] [ 42%] Built target ecl_streams
+[1.480s] /usr/bin/make -f src/examples/CMakeFiles/ecl_time_example_log_streams.dir/build.make src/examples/CMakeFiles/ecl_time_example_log_streams.dir/depend
+[1.481s] /usr/bin/make -f src/examples/CMakeFiles/ecl_time_example_console_streams.dir/build.make src/examples/CMakeFiles/ecl_time_example_console_streams.dir/depend
+[1.485s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.486s] cd /home/lfvmu/kobuki/build/ecl_streams && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_streams /home/lfvmu/kobuki/src/ecl_core/ecl_streams/src/examples /home/lfvmu/kobuki/build/ecl_streams /home/lfvmu/kobuki/build/ecl_streams/src/examples /home/lfvmu/kobuki/build/ecl_streams/src/examples/CMakeFiles/ecl_time_example_log_streams.dir/DependInfo.cmake --color=
+[1.489s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.489s] cd /home/lfvmu/kobuki/build/ecl_streams && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_streams /home/lfvmu/kobuki/src/ecl_core/ecl_streams/src/examples /home/lfvmu/kobuki/build/ecl_streams /home/lfvmu/kobuki/build/ecl_streams/src/examples /home/lfvmu/kobuki/build/ecl_streams/src/examples/CMakeFiles/ecl_time_example_console_streams.dir/DependInfo.cmake --color=
+[1.518s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.519s] /usr/bin/make -f src/examples/CMakeFiles/ecl_time_example_console_streams.dir/build.make src/examples/CMakeFiles/ecl_time_example_console_streams.dir/build
+[1.519s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.519s] /usr/bin/make -f src/examples/CMakeFiles/ecl_time_example_log_streams.dir/build.make src/examples/CMakeFiles/ecl_time_example_log_streams.dir/build
+[1.526s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.526s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_time_example_log_streams.dir/build'.
+[1.527s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.534s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.534s] make[2]: Nothing to be done for 'src/examples/CMakeFiles/ecl_time_example_console_streams.dir/build'.
+[1.534s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.552s] [ 71%] Built target ecl_time_example_log_streams
+[1.553s] [100%] Built target ecl_time_example_console_streams
+[1.566s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_streams'
+[1.567s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_streams/CMakeFiles 0
+[1.613s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_streams -- -j4 -l4
+[1.713s] Invoking command in '/home/lfvmu/kobuki/build/ecl_streams': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_streams
+[1.731s] -- Install configuration: "RelWithDebInfo"
+[1.732s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/environment/library_path.sh
+[1.732s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/library_path.dsv
+[1.733s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_streams
+[1.733s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_streams
+[1.733s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/environment/ament_prefix_path.sh
+[1.733s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/ament_prefix_path.dsv
+[1.734s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/environment/path.sh
+[1.734s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/environment/path.dsv
+[1.734s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.bash
+[1.735s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.sh
+[1.735s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.zsh
+[1.735s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/local_setup.dsv
+[1.736s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/package.dsv
+[1.736s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_streams
+[1.736s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsExport.cmake
+[1.736s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsExport-relwithdebinfo.cmake
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_targets-extras.cmake
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.738s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_libraries-extras.cmake
+[1.739s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.740s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsConfig.cmake
+[1.740s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/cmake/ecl_streamsConfig-version.cmake
+[1.740s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_streams/package.xml
+[1.741s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams.hpp
+[1.741s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/console_streams.hpp
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/file_streams.hpp
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/log_stream.hpp
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/macros.hpp
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators.hpp
+[1.742s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/serial_stream.hpp
+[1.743s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/shared_file_stream.hpp
+[1.743s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/socket_streams.hpp
+[1.743s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/string_stream.hpp
+[1.743s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/text_stream.hpp
+[1.744s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/clear_screen.hpp
+[1.744s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/end_of_line.hpp
+[1.744s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/manipulators/manipulator.hpp
+[1.744s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/base_text_stream.hpp
+[1.744s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/input_text_stream.hpp
+[1.745s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/streams/text_streams/output_text_stream.hpp
+[1.745s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_streams.so.1.2.1
+[1.745s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_streams.so
+[1.746s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_streams/demo_console_streams
+[1.747s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/ecl_streams/demo_log_streams
+[1.757s] Invoked command in '/home/lfvmu/kobuki/build/ecl_streams' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_streams

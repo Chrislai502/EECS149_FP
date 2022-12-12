@@ -1,0 +1,39 @@
+[0.094s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_google_benchmark -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.122s] -- Found ament_cmake_core: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_core/cmake)
+[0.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.504s] -- Found ament_cmake_python: 0.9.11 (/home/lfvmu/kobuki/install/share/ament_cmake_python/cmake)
+[0.650s] -- Configuring done
+[0.660s] -- Generating done
+[0.666s] -- Build files have been written to: /home/lfvmu/kobuki/build/ament_cmake_google_benchmark
+[0.683s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_cmake/ament_cmake_google_benchmark -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.685s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_google_benchmark -- -j4 -l4
+[1.001s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_google_benchmark -- -j4 -l4
+[1.077s] Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_google_benchmark
+[1.097s] -- Install configuration: "RelWithDebInfo"
+[1.098s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.sh
+[1.098s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/pythonpath.dsv
+[1.099s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark
+[1.099s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark/__init__.py
+[1.167s] Listing '/home/lfvmu/kobuki/install/lib/python3.8/site-packages/ament_cmake_google_benchmark'...
+[1.177s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ament_cmake_google_benchmark
+[1.177s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ament_cmake_google_benchmark
+[1.184s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.sh
+[1.184s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/ament_prefix_path.dsv
+[1.185s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/path.sh
+[1.185s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/environment/path.dsv
+[1.185s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.bash
+[1.185s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.sh
+[1.186s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.zsh
+[1.186s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/local_setup.dsv
+[1.186s] -- Installing: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/package.dsv
+[1.186s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ament_cmake_google_benchmark
+[1.187s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmark-extras.cmake
+[1.187s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig.cmake
+[1.187s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_cmake_google_benchmarkConfig-version.cmake
+[1.187s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/package.xml
+[1.187s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake
+[1.188s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_executable.cmake
+[1.188s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark_test.cmake
+[1.188s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/ament_add_google_benchmark.cmake
+[1.189s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_cmake_google_benchmark/cmake/run_and_convert.py
+[1.195s] Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_google_benchmark' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_google_benchmark

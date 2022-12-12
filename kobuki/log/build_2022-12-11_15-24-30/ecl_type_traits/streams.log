@@ -1,0 +1,71 @@
+[0.345s] Invoking command in '/home/lfvmu/kobuki/build/ecl_type_traits': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[0.361s] Re-run cmake no build system arguments
+[0.380s] -- Found ament_cmake_ros: 0.9.2 (/home/lfvmu/kobuki/install/share/ament_cmake_ros/cmake)
+[0.468s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Found ecl_build: 1.0.3 (/home/lfvmu/kobuki/install/share/ecl_build/cmake)
+[0.852s] -- Found ecl_config: 1.1.0 (/home/lfvmu/kobuki/install/share/ecl_config/cmake)
+[0.858s] -- Found ecl_mpl: 1.2.1 (/home/lfvmu/kobuki/install/share/ecl_mpl/cmake)
+[1.075s] -- Configuring done
+[1.095s] -- Generating done
+[1.112s] -- Build files have been written to: /home/lfvmu/kobuki/build/ecl_type_traits
+[1.164s] Invoked command in '/home/lfvmu/kobuki/build/ecl_type_traits' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+[1.173s] Invoking command in '/home/lfvmu/kobuki/build/ecl_type_traits': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_type_traits -- -j4 -l4
+[1.223s] /usr/bin/cmake -S/home/lfvmu/kobuki/src/ecl_core/ecl_type_traits -B/home/lfvmu/kobuki/build/ecl_type_traits --check-build-system CMakeFiles/Makefile.cmake 0
+[1.259s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_type_traits/CMakeFiles /home/lfvmu/kobuki/build/ecl_type_traits/CMakeFiles/progress.marks
+[1.306s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.306s] make[1]: Entering directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.309s] /usr/bin/make -f src/lib/CMakeFiles/ecl_type_traits.dir/build.make src/lib/CMakeFiles/ecl_type_traits.dir/depend
+[1.309s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.309s] cd /home/lfvmu/kobuki/build/ecl_type_traits && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits/src/lib /home/lfvmu/kobuki/build/ecl_type_traits /home/lfvmu/kobuki/build/ecl_type_traits/src/lib /home/lfvmu/kobuki/build/ecl_type_traits/src/lib/CMakeFiles/ecl_type_traits.dir/DependInfo.cmake --color=
+[1.316s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.317s] /usr/bin/make -f src/lib/CMakeFiles/ecl_type_traits.dir/build.make src/lib/CMakeFiles/ecl_type_traits.dir/build
+[1.343s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.344s] make[2]: Nothing to be done for 'src/lib/CMakeFiles/ecl_type_traits.dir/build'.
+[1.345s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.365s] [ 50%] Built target ecl_type_traits
+[1.365s] /usr/bin/make -f src/utils/CMakeFiles/ecl_detect_sizes.dir/build.make src/utils/CMakeFiles/ecl_detect_sizes.dir/depend
+[1.365s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.366s] cd /home/lfvmu/kobuki/build/ecl_type_traits && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits /home/lfvmu/kobuki/src/ecl_core/ecl_type_traits/src/utils /home/lfvmu/kobuki/build/ecl_type_traits /home/lfvmu/kobuki/build/ecl_type_traits/src/utils /home/lfvmu/kobuki/build/ecl_type_traits/src/utils/CMakeFiles/ecl_detect_sizes.dir/DependInfo.cmake --color=
+[1.399s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.399s] /usr/bin/make -f src/utils/CMakeFiles/ecl_detect_sizes.dir/build.make src/utils/CMakeFiles/ecl_detect_sizes.dir/build
+[1.420s] make[2]: Entering directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.421s] make[2]: Nothing to be done for 'src/utils/CMakeFiles/ecl_detect_sizes.dir/build'.
+[1.421s] make[2]: Leaving directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.444s] [100%] Built target ecl_detect_sizes
+[1.445s] make[1]: Leaving directory '/home/lfvmu/kobuki/build/ecl_type_traits'
+[1.465s] /usr/bin/cmake -E cmake_progress_start /home/lfvmu/kobuki/build/ecl_type_traits/CMakeFiles 0
+[1.565s] Invoked command in '/home/lfvmu/kobuki/build/ecl_type_traits' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ecl_type_traits -- -j4 -l4
+[1.806s] Invoking command in '/home/lfvmu/kobuki/build/ecl_type_traits': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_type_traits
+[1.845s] -- Install configuration: "RelWithDebInfo"
+[1.845s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/library_path.sh
+[1.845s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/library_path.dsv
+[1.846s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/package_run_dependencies/ecl_type_traits
+[1.846s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/parent_prefix_path/ecl_type_traits
+[1.847s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/ament_prefix_path.sh
+[1.847s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/ament_prefix_path.dsv
+[1.847s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/path.sh
+[1.851s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/environment/path.dsv
+[1.851s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/local_setup.bash
+[1.852s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/local_setup.sh
+[1.852s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/local_setup.zsh
+[1.852s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/local_setup.dsv
+[1.852s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/package.dsv
+[1.853s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ament_index/resource_index/packages/ecl_type_traits
+[1.853s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsExport.cmake
+[1.853s] -- Installing: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsExport-relwithdebinfo.cmake
+[1.854s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_targets-extras.cmake
+[1.854s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.854s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_libraries-extras.cmake
+[1.854s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.855s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsConfig.cmake
+[1.855s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/cmake/ecl_type_traitsConfig-version.cmake
+[1.856s] -- Up-to-date: /home/lfvmu/kobuki/install/share/ecl_type_traits/package.xml
+[1.861s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/type_traits.hpp
+[1.862s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/type_traits/fundamental_types.hpp
+[1.862s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/type_traits/macros.hpp
+[1.863s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/type_traits/numeric_limits.hpp
+[1.863s] -- Up-to-date: /home/lfvmu/kobuki/install/include/ecl/type_traits/traits.hpp
+[1.871s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_type_traits.so.1.2.1
+[1.871s] -- Up-to-date: /home/lfvmu/kobuki/install/lib/libecl_type_traits.so
+[1.872s] -- Up-to-date: /home/lfvmu/kobuki/install/bin/ecl_detect_sizes
+[1.879s] Invoked command in '/home/lfvmu/kobuki/build/ecl_type_traits' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ecl_type_traits

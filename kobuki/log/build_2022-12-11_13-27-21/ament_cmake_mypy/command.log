@@ -1,0 +1,6 @@
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_mypy': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_mypy -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_mypy' returned '0': /usr/bin/cmake /home/lfvmu/kobuki/src/ament_lint/ament_cmake_mypy -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/lfvmu/kobuki/install
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_mypy': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_mypy -- -j4 -l4
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_mypy' returned '0': /usr/bin/cmake --build /home/lfvmu/kobuki/build/ament_cmake_mypy -- -j4 -l4
+Invoking command in '/home/lfvmu/kobuki/build/ament_cmake_mypy': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_mypy
+Invoked command in '/home/lfvmu/kobuki/build/ament_cmake_mypy' returned '0': /usr/bin/cmake --install /home/lfvmu/kobuki/build/ament_cmake_mypy
