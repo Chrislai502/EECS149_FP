@@ -1,3 +1,19 @@
+#Instructions for building Kobuki
+source ./venv.bash
+colcon build --merge-install --cmake-args -DBUILD_TESTING=OFF
+colcon build --merge-install --cmake-args -DBUILD_TESTING=OFF --no-warn-unused-cli
+colcon build --merge-install --packages-select kobuki_core --cmake-args -DBUILD_TESTING=OFF
+VERBOSE=1 colcon build --merge-install --event-handlers console_direct+ --cmake-args -DBUILD_TESTING=OFF
+colcon build --merge-install --cmake-args -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo
+vcs pull ./src
+
+wget https://raw.githubusercontent.com/kobuki-base/kobuki_ftdi/devel/60-kobuki.rules
+sudo cp 60-kobuki.rules /etc/udev/rules.d
+
+sudo service udev reload
+sudo service udev restart
+
+
 # EECS149_FP
 Final Project for UC Berkeley EECS149.
 
