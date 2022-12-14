@@ -1,5 +1,9 @@
-# Instructions for building Kobuki
+# EECS149_FP
+Final Project for UC Berkeley EECS149.
 
+## Instructions for building Kobuki
+
+### First time build  
 source ./venv.bash   
 colcon build --merge-install --cmake-args -DBUILD_TESTING=OFF    
 colcon build --merge-install --cmake-args -DBUILD_TESTING=OFF --no-warn-unused-cli    
@@ -14,9 +18,14 @@ sudo cp 60-kobuki.rules /etc/udev/rules.d
 sudo service udev reload   
 sudo service udev restart   
 
+### Build after first time  
+source ./venv.bash   
+colcon build --merge-install --packages-select kobuki_core --cmake-args -DBUILD_TESTING=OFF  
 
-# EECS149_FP
-Final Project for UC Berkeley EECS149.
+### Running Kobuki
+source ./install/setup.bash  
+kobuki-version-info  
+kobuki-pi-control  
 
 ## For Gaurav:
 ### Sample Badminton Shuttle Video Data: https://drive.google.com/drive/folders/1o113c1IX7R--ENCFZ3C4U23x6Y4dDpj6?usp=sharing
