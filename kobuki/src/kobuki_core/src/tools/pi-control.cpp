@@ -14,6 +14,9 @@
 #include <string>
 #include <csignal>
 #include <termios.h> // for keyboard input
+#include <iostream>
+#include <fstream>
+#include <string>
 
 #include <ecl/command_line.hpp>
 #include <ecl/console.hpp>
@@ -23,6 +26,11 @@
 #include <ecl/threads.hpp>
 #include <ecl/sigslots.hpp>
 #include <ecl/exceptions.hpp>
+#include <fcntl.h> // Contains file controls like O_RDWR
+#include <errno.h> // Error integer and strerror() function
+#include <termios.h> // Contains POSIX terminal control definitions
+#include <unistd.h> // write(), read(), close()
+
 
 #include "kobuki_core/kobuki.hpp"
 
@@ -54,7 +62,9 @@ public:
    ** Accessor
    **********************/
   const ecl::linear_algebra::Vector3d& getPose() { return pose; };
-  bool isShutdown() { return quit_requested || kobuki.isShutdown(); }
+  bool isShutdown() { return quit_requested || kobuki.isShutdown(); };
+  int getSerialPort();
+  void closeFile();
 
 private:
   double vx, wz;
@@ -66,14 +76,12 @@ private:
   double angular_vel_step, angular_vel_max;
   std::string name;
   ecl::Slot<> slot_stream_data;
+  int serial_port;
+  std::ifstream pi_input_file;
 
   /*********************
    ** Commands
    **********************/
-  void incrementLinearVelocity();
-  void decrementLinearVelocity();
-  void incrementAngularVelocity();
-  void decrementAngularVelocity();
   void resetVelocity();
 
   /*********************
@@ -85,10 +93,8 @@ private:
   /*********************
    ** Keylogging
    **********************/
-  void keyboardInputLoop();
-  void processKeyboardInput(char c);
-  void piInputLoop();
-  void processPiInput(float f);
+  void piInput();
+  void processPiInput(int i);
   void restoreTerminal();
   bool quit_requested;
   int key_file_descriptor;
@@ -130,16 +136,6 @@ KobukiManager::~KobukiManager()
  */
 bool KobukiManager::init(const std::string & device)
 {
-  /*********************
-   ** Parameters
-   **********************/
-  std::cout << "Parameters" << std::endl;
-  std::cout << "----------" << std::endl;
-  std::cout << " - linear_vel_max   [" << linear_vel_max << "]" << std::endl;
-  std::cout << " - linear_vel_step  [" << linear_vel_step << "]" << std::endl;
-  std::cout << " - angular_vel_max  [" << angular_vel_max << "]" << std::endl;
-  std::cout << " - angular_vel_step [" << angular_vel_step << "]" << std::endl;
-  std::cout << std::endl;
 
   /*********************
    ** Velocities
@@ -163,7 +159,14 @@ bool KobukiManager::init(const std::string & device)
   /*********************
    ** Wait for connection
    **********************/
-  thread.start(&KobukiManager::keyboardInputLoop, *this);
+  //thread.start(&KobukiManager::piInputLoop, *this);
+  pi_input_file.open("serial/kobuki-input.txt");
+
+  serial_port = open("/dev/ttyUSB0", O_RDWR);
+  // Check for errors
+  if (serial_port < 0) {
+      //printf("Error %i from open: %s\n", errno, strerror(errno));
+  } 
   return true;
 }
 
@@ -171,83 +174,55 @@ bool KobukiManager::init(const std::string & device)
  ** Implementation [Keyboard]
  *****************************************************************************/
 
-/**
- * @brief The worker thread function that accepts input keyboard commands.
- *
- * This is ok here - but later it might be a good idea to make a node which
- * posts keyboard events to a topic. Recycle common code if used by many!
- */
-void KobukiManager::keyboardInputLoop()
-{
-  struct termios raw;
-  memcpy(&raw, &original_terminal_state, sizeof(struct termios));
-
-  raw.c_lflag &= ~(ICANON | ECHO);
-  // Setting a new line, then end of file
-  raw.c_cc[VEOL] = 1;
-  raw.c_cc[VEOF] = 2;
-  tcsetattr(key_file_descriptor, TCSANOW, &raw);
-
-  std::cout << "Reading from keyboard" << std::endl;
-  std::cout << "---------------------" << std::endl;
-  std::cout << "Forward/back arrows : linear velocity incr/decr." << std::endl;
-  std::cout << "Right/left arrows : angular velocity incr/decr." << std::endl;
-  std::cout << "Spacebar : reset linear/angular velocities." << std::endl;
-  std::cout << "q : quit." << std::endl;
-  std::cout << std::endl;
-  char c;
-  while (!quit_requested)
-  {
-    if (read(key_file_descriptor, &c, 1) < 0)
-    {
-      perror("read char failed():");
-      exit(-1);
-    }
-    processKeyboardInput(c);
-  }
+int KobukiManager::getSerialPort() {
+  return serial_port;
 }
 
-void KobukiManager::piInputLoop()
-{
-  struct termios raw;
-  memcpy(&raw, &original_terminal_state, sizeof(struct termios));
-
-  raw.c_lflag &= ~(ICANON | ECHO);
-  // Setting a new line, then end of file
-  raw.c_cc[VEOL] = 1;
-  raw.c_cc[VEOF] = 2;
-  tcsetattr(key_file_descriptor, TCSANOW, &raw);
-
-  float c;
-  while (!quit_requested)
-  {
-    if (read(key_file_descriptor, &c, 1) < 0)
-    {
-      perror("read char failed():");
-      exit(-1);
-    }
-    processPiInput(c);
-  }
+void KobukiManager::closeFile() {
+  pi_input_file.close();
 }
 
-void KobukiManager::processPiInput(float f)
+void KobukiManager::piInput()
 {
+  std::string file_input;
+  if (pi_input_file.is_open()) {
+    pi_input_file >> file_input;
+    int pi_input = stoi(file_input);
+    std::cout << "read" << pi_input << "from file\n";
+    processPiInput(pi_input);
+    pi_input_file.clear();
+    pi_input_file.seekg(0, pi_input_file.beg);
+    
+  } else {
+    processPiInput(20);
+  }
+  //int pi_input = 50;
+  //processPiInput(pi_input);
+  
+} 
 
-  if (pickup_mode) {
-    if (f == 0.0) {
-    	vx = 1.0;
+void KobukiManager::processPiInput(int i)
+{
+  // i [1, 100] 
+  // i = 50 -> go straight
+  // i > 50 -> go right
+  // i < 50 -> go left
+  if (pickup_mode || true) {
+    if (i == 50) {
+    	vx = 0.1;
     	wz = 0.0;
-    } else if (f == 2.0) {
+    } else if (i == 2) {
     	pickup_mode = false;
     	//move back to original position
-    } else if (f >= -1 && f <= 1) {
+    } else if (i >= 1 && i <= 100) {
     // TODO: fix this
-    	vx = 1;
-    	wz = f;
+    	vx = 0.3;
+    	//wz = (i - 50)*0.01;
+      wz = 0.0;
     }
  
   } else {
-    if (f == 0.0) {
+    if (i == 0) {
     	pickup_mode = true;
     	// record initial position
     	//const ecl::linear_algebra::Vector3d& pose = kobuki_manager.getPose();
@@ -256,114 +231,9 @@ void KobukiManager::processPiInput(float f)
 }
 
 
-/**
- * @brief Process individual keyboard inputs.
- *
- * @param c keyboard input.
- */
-void KobukiManager::processKeyboardInput(char c)
-{
-  /*
-   * Arrow keys are a bit special, they are escape characters - meaning they
-   * trigger a sequence of keycodes. In this case, 'esc-[-Keycode_xxx'. We
-   * ignore the esc-[ and just parse the last one. So long as we avoid using
-   * the last one for its actual purpose (e.g. left arrow corresponds to
-   * esc-[-D) we can keep the parsing simple.
-   */
-  switch (c)
-  {
-    case 68://kobuki_msgs::KeyboardInput::KEYCODE_LEFT:
-    {
-      incrementAngularVelocity();
-      break;
-    }
-    case 67://kobuki_msgs::KeyboardInput::KEYCODE_RIGHT:
-    {
-      decrementAngularVelocity();
-      break;
-    }
-    case 65://kobuki_msgs::KeyboardInput::KEYCODE_UP:
-    {
-      incrementLinearVelocity();
-      break;
-    }
-    case 66://kobuki_msgs::KeyboardInput::KEYCODE_DOWN:
-    {
-      decrementLinearVelocity();
-      break;
-    }
-    case 32://kobuki_msgs::KeyboardInput::KEYCODE_SPACE:
-    {
-      resetVelocity();
-      break;
-    }
-    case 'q':
-    {
-      quit_requested = true;
-      break;
-    }
-    default:
-    {
-      break;
-    }
-  }
-}
-
 /*****************************************************************************
  ** Implementation [Commands]
  *****************************************************************************/
-
-/**
- * @brief If not already maxxed, increment the command velocities..
- */
-void KobukiManager::incrementLinearVelocity()
-{
-  mutex.lock();
-  if (vx <= linear_vel_max)
-  {
-    vx += linear_vel_step;
-  }
-  mutex.unlock();
-}
-
-/**
- * @brief If not already minned, decrement the linear velocities..
- */
-void KobukiManager::decrementLinearVelocity()
-{
-  mutex.lock();
-  if (vx >= -linear_vel_max)
-  {
-    vx -= linear_vel_step;
-  }
-  mutex.unlock();
-}
-
-/**
- * @brief If not already maxxed, increment the angular velocities..
- */
-void KobukiManager::incrementAngularVelocity()
-{
-  mutex.lock();
-  if (wz <= angular_vel_max)
-  {
-    wz += angular_vel_step;
-  }
-  mutex.unlock();
-}
-
-/**
- * @brief If not already mined, decrement the angular velocities..
- */
-void KobukiManager::decrementAngularVelocity()
-{
-  mutex.lock();
-  if (wz >= -angular_vel_max)
-  {
-    wz -= angular_vel_step;
-  }
-  mutex.unlock();
-}
 
 void KobukiManager::resetVelocity()
 {
@@ -381,9 +251,8 @@ void KobukiManager::processStreamData() {
   // TODO(daniel.stonier): this needs a mutex
   // This callback triggers in Kobuki's thread, however
   // vx, wz are updated in the keyboard input thread.
-  mutex.lock();
+  piInput();
   kobuki.setBaseControl(vx, wz);
-  mutex.unlock();
 }
 
 /*****************************************************************************
@@ -408,21 +277,66 @@ int main(int argc, char** argv)
 
   signal(SIGINT, signalHandler);
 
-  std::cout << ecl::bold << "\nSimple Keyop : Utility for driving kobuki by keyboard.\n" << ecl::reset << std::endl;
+  std::cout << ecl::bold << "\nDrives Kobuki based off inputs from raspberry pi.\n" << ecl::reset << std::endl;
   KobukiManager kobuki_manager;
   kobuki_manager.init(device_port.getValue());
+
+  struct termios tty;
+  if(tcgetattr(kobuki_manager.getSerialPort(), &tty) != 0) {
+      //printf("Error %i from tcgetattr: %s\n", errno, strerror(errno));
+  }
+  tty.c_cflag &= ~PARENB; 
+
+  tty.c_cflag &= ~CSTOPB; 
+
+  tty.c_cflag &= ~CSIZE; 
+  tty.c_cflag |= CS8; 
+
+  tty.c_cflag &= ~CRTSCTS; 
+
+  tty.c_cflag |= CREAD | CLOCAL;
+
+  tty.c_lflag &= ~ICANON; 
+  
+  tty.c_lflag &= ~ECHO; // Disable echo
+  tty.c_lflag &= ~ECHOE; // Disable erasure
+  tty.c_lflag &= ~ECHONL; // Disable new-line echo
+
+  tty.c_lflag &= ~ISIG;
+
+  tty.c_iflag &= ~(IXON | IXOFF | IXANY);
+
+  tty.c_iflag &= ~(IGNBRK|BRKINT|PARMRK|ISTRIP|INLCR|IGNCR|ICRNL); 
+
+  tty.c_oflag &= ~OPOST; // Prevent special interpretation of output bytes (e.g. newline chars)
+  tty.c_oflag &= ~ONLCR; // Prevent conversion of newline to carriage return/line feed
+
+  tty.c_cc[VTIME] = 10;    // Wait for up to 1s (10 deciseconds), returning as soon as any data is received.
+  tty.c_cc[VMIN] = 0;
+
+  cfsetispeed(&tty, B115200);
+  cfsetospeed(&tty, B115200);
+
+  if (tcsetattr(kobuki_manager.getSerialPort(), TCSANOW, &tty) != 0) {
+    //printf("Error %i from tcsetattr: %s\n", errno, strerror(errno));
+    //std::cout << "Error" << errno << "from tcsetattr:" << strerror(errno);
+  }
+
+
 
   ecl::Sleep sleep_one_second(1);
   try {
     while (!signal_shutdown_requested && !kobuki_manager.isShutdown()){
       sleep_one_second();
-      const ecl::linear_algebra::Vector3d& pose = kobuki_manager.getPose();
-      std::cout << ecl::green;
-      std::cout << "current pose: [x: " << pose[0] << ", y: " << pose[1] << ", heading: " << pose[2] << "]" << std::endl;
-      std::cout << ecl::reset;
+      // const ecl::linear_algebra::Vector3d& pose = kobuki_manager.getPose();
+      // std::cout << ecl::green;
+      // std::cout << "current pose: [x: " << pose[0] << ", y: " << pose[1] << ", heading: " << pose[2] << "]" << std::endl;
+      // std::cout << ecl::reset;
     }
   } catch ( ecl::StandardException &e ) {
     std::cout << e.what();
   }
+  close(kobuki_manager.getSerialPort());
+  kobuki_manager.closeFile();
   return 0;
 }
