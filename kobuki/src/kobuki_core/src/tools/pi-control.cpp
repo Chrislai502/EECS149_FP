@@ -169,7 +169,7 @@ bool KobukiManager::init(const std::string & device)
    ** Wait for connection
    **********************/
   //thread.start(&KobukiManager::piInputLoop, *this);
-  pi_input_file.open("/home/lfvmu/EECS149_FP/pi_input/kobuki-input.txt");
+  pi_input_file.open("/home/pi/EECS149_FP/pi_input/kobuki-input.txt");
 
   serial_port = open("/dev/ttyUSB0", O_RDWR);
   // Check for errors
@@ -206,7 +206,7 @@ void KobukiManager::piInput()
     } catch (...) {
       std::cout << "cant read file, trying again\n";
       pi_input_file.close();
-      pi_input_file.open("/home/lfvmu/EECS149_FP/pi_input/kobuki-input.txt");
+      pi_input_file.open("/home/pi/EECS149_FP/pi_input/kobuki-input.txt");
       return;
     }
   } else {
@@ -248,13 +248,30 @@ void KobukiManager::processPiInput(int i)
     //std::cout << "return mode\n";
     ecl::linear_algebra::Vector3d cur_pose;  // x, y, heading
     cur_pose = getPose();
+    double threshold = 0.0001;
     double dx = cur_pose[0] - initial_pose[0];
     double dth = cur_pose[2] - initial_pose[2];
-    std::cout << "current pose is " << cur_pose << "inital pose is " << initial_pose << "\n";
+    // std::cout << "current pose is " << cur_pose << "\n inital pose is " << initial_pose << "\n";
+    // std::cout << "dx is " << dx << "\n dth is " << dth << "\n" << "threshold is: " << threshold << "\n";
+    // bool a = (abs(dx) <= threshold);
+    // std::cout << "dx abs cmp is " <<  a << "\n";
+    // a = (abs(dth) <= threshold);
+    // std::cout << "dth abs cmp is " <<  a << "\n";
+    // double b = abs(dx);
+    // std::cout << "abs dx is " << b;
+    // b = abs(dth);
+    // std::cout << "abs dth is " << b;
+    // std::cout << "dx is " << (abs(dx) <= threshold) << "\n";
+    // bool ppp = (abs(dx) <= threshold) && (abs(dth) <= threshold);
+    // std::cout << ppp;
     // std::cout << "addr current pose x is " << cur_pose[0] << "addr inital pose is x " << initial_pose[0] << "\n";
     // std::cout << "dx is " << dx << "dy is " << dy << "\n";
     //|| (abs(dx) <= 0.01 && abs(dy) <= 0.01)
-    if (i == -1 || (abs(dx) <= 0.00001 && abs(dth) <= 0.00001) ) {  //|| (abs(dx) <= 0.01 && abs(dy) <= 0.01)
+    double dx_cmp = dx;
+    double dth_cmp = dth;
+    if  (dx < 0) {dx_cmp = dx_cmp * -1.0;}
+    if  (dth < 0) {dth_cmp = dth_cmp * -1.0;}
+    if ((i == -1 || ((dx_cmp <= threshold) && (dth_cmp <= threshold)))) {  //|| (abs(dx) <= 0.01 && abs(dy) <= 0.01)
       idle_mode = true;
       return_mode = false; pickup_mode = false;
       vx = 0.0;
@@ -300,7 +317,7 @@ void KobukiManager::processPiInput(int i)
       // double init_x = pose[0] + 0.0;
       // double init_y = pose[1] + 0.0;
       // double init_z = pose[2] + 0.0;
-      initial_pose = ecl::linear_algebra::Vector3d(0, 0, 0);
+      initial_pose = ecl::linear_algebra::Vector3d(0.0, 0.0, 0.0);
       
       
     } else {
