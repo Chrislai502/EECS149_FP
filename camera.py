@@ -1,20 +1,21 @@
-from io import BytesIO
-from time import sleep, sleep
+import time
 import os
+import sys
+sys.path.append('yolov5')
 
-from picamera import PiCamera
-from PIL import Image
-from torchvision import transforms
+import cv2
 import torch
 
-os.chdir("yolov5")
-from common.models import DetectMultiBackend
-from utils.general import non_max_suppression
-os.chdir("..")
+# os.chdir("yolov5")
+from yolov5.models.common import DetectMultiBackend
+from yolov5.utils.general import non_max_suppression
+# os.chdir("..")
 
 
-FPS = 10
-weights = "pth"
+camera = cv2.VideoCapture(0)
+
+FPS = 0.1
+weights = "pts/Nov-20-2022_10_04_26_best.pt"
 conf_thres = 0.25
 iou_thres = 0.45
 classes = None
@@ -25,36 +26,34 @@ txt_path = "demo"
 
 model = DetectMultiBackend(weights)
 model.warmup()
-
-
-cvtr = transforms.PILToTensor()
-# Create the in-memory stream
-stream = BytesIO()
-camera = PiCamera()
-sleep(2)
 while True:
-	# Create the in-memory stream
 
 	t_start = time.time()
-	stream = BytesIO()
-	camera.capture(stream, format='jpeg', use_video_port=True)
-	# "Rewind" the stream to the beginning so we can read its content
-	stream.seek(0)
-	image = Image.open(stream)
-	image_t = cvtr(image)[None]
-
+	ret, image = camera.read()	# image = cv2.imread("yolov5/data/images/ShuttleData1_mp4_787.jpg")
+	# print(image.shape)
+	# image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+	image_t = torch.from_numpy(image.transpose(2, 0, 1))[None].float() / 255.0 
 	pred = model(image_t)
 	pred = non_max_suppression(pred, conf_thres, iou_thres, classes, agnostic_nms, max_det=max_det)
 
-	det = next(pred)
-	for *xyxy, conf, cls in reversed(det):
-        # print("xyxy: ", xyxy)
-        if save_txt:  # Write to file
-            xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4))).view(-1).tolist()  # normalized xywh
-            line = (cls, *xywh, conf) # label format
-            with open(f'{txt_path}.txt', 'a') as f:
-                f.write(('%g ' * len(line)).rstrip() % line + '\n')
+	for det in pred:
+		for *xyxy, conf, cls in reversed(det):
+			print("xyxy: ", xyxy, "conf:", conf)
+			# xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4))).view(-1).tolist()  # normalized xywh
+			# line = (cls, *xywh, conf) # label format
+			# with open(f'{txt_path}.txt', 'a') as f:
+			#     f.write(('%g ' * len(line)).rstrip() % line + '\n')
+			break
+		break
 
+	xycenter = torch.stack(xyxy).reshape(2, 2).mean(dim=0)
+	y_center = xycenter[1].item()
+	print(xycenter)
+	width = image.shape[1]
+	command = (y_center - width / 2) * 100 / width + 150
+	print(command)
+	# with open('pi_input/kobuki_input.txt', 'a') as f:
+	# 	f.write(str(int(command)) + "\n")
 
 	t_end = time.time()
 
@@ -63,5 +62,8 @@ while True:
 	if delta_t < 1 / FPS:
 		time.sleep(1 / FPS - delta_t)
 
-
-
+	rounded_xyxy = torch.stack(xyxy).view(1, 4).round().int()
+	print(rounded_xyxy)
+	image = cv2.circle(image, rounded_xyxy[0][:2].tolist(), radius=3, color=(0, 0, 255), thickness=-1)
+	image = cv2.circle(image, rounded_xyxy[0][2:].tolist(), radius=3, color=(255, 0, 0), thickness=-1)
+	cv2.imwrite("image0annotated.png", image)
