@@ -11,16 +11,15 @@ kobuki_input = 150
 f = open("kobuki-input.txt", "w")
 f.write(str(kobuki_input))
 f.close()
-time.sleep(3)
+time.sleep(10)
 
 kobuki_input = 1
 f = open("kobuki-input.txt", "w")
 f.write(str(kobuki_input))
 f.close()
 
-time.sleep(3)
-kobuki_input = -1
-f = open("kobuki-input.txt", "w")
-f.write(str(kobuki_input))
-f.close()
-#print("wrote " + str(kobuki_input) + " and closed file")
+# time.sleep(3)
+# kobuki_input = -1
+# f = open("kobuki-input.txt", "w")
+# f.close()
+# #print("wrote " + str(kobuki_input) + " and closed file")
