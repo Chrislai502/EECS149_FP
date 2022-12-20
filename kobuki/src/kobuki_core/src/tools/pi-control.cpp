@@ -170,12 +170,16 @@ bool KobukiManager::init(const std::string & device)
    **********************/
   //thread.start(&KobukiManager::piInputLoop, *this);
   pi_input_file.open("/home/pi/EECS149_FP/pi_input/kobuki-input.txt");
+  std::ofstream init_file("/home/pi/EECS149_FP/pi_input/camera-input.txt");
+  init_file << "2\n";
+  init_file.close();
 
-  serial_port = open("/dev/ttyUSB0", O_RDWR);
+  // //Setup to connect Serial to Arduino from Kobuki
+  // serial_port = open("/dev/ttyACM0", O_RDWR);
   // Check for errors
-  if (serial_port < 0) {
-      //printf("Error %i from open: %s\n", errno, strerror(errno));
-  } 
+  // if (serial_port < 0) {
+  //     printf("Error %i from open: %s\n", errno, strerror(errno));
+  // } 
   return true;
 }
 
@@ -193,13 +197,30 @@ void KobukiManager::closeFile() {
 
 void KobukiManager::piInput()
 {
+  // // Reading from the Arduino Serial Port
+  // char buf[3] = { 0, 0, 0};
+  // char *buf_ptr = buf;
+  // Reading from the Arduino??
+  // int bytes_read = read(getSerialPort(), buf_ptr, 3);
+  // if (bytes_read > 0) {
+  //   int serial_input = atoi((const char *)buf_ptr);
+  //   std::cout << "read data from serial" << serial_input << "\n";
+  //   if (serial_input == 3) {
+  //     processPiInput(1);
+  //     return;
+  //   }
+  // } 
+
+  // Reading from the input file
   std::string file_input;
   if (pi_input_file.is_open()) {
     try {
       pi_input_file >> file_input;
       //std::cout << file_input;
       int pi_input = stoi(file_input);
-      //std::cout << "read" << pi_input << "from file\n";
+      std::cout << "read" 
+      
+      << pi_input << "from file\n";
       processPiInput(pi_input);
       pi_input_file.clear();
       pi_input_file.seekg(0, pi_input_file.beg);
@@ -232,16 +253,19 @@ void KobukiManager::processPiInput(int i)
     if (i == 150) {
     	vx = 0.1;
     	wz = 0.0;
-    } else if (i == 1) {
+    } else if (i == 1) { // When it gets close enough, pi will send 1
     	return_mode = true;
       idle_mode = false; pickup_mode = false;
+      //std::ofstream init_file("/home/pi/EECS149_FP/pi_input/camera-input.txt");
+      //init_file << "3\n";
+      //init_file.close();
       vx = 0.0;
       wz = 0.0;
     	//move back to original position
     } else if (i >= 100 && i <= 200) {
     // TODO: fix this
     	vx = 0.1;
-    	wz = (i - 150)*0.01;
+    	wz = -((i - 150)*0.005);
     }
  
   } else if (!pickup_mode && return_mode && !idle_mode) {
@@ -249,6 +273,7 @@ void KobukiManager::processPiInput(int i)
     ecl::linear_algebra::Vector3d cur_pose;  // x, y, heading
     cur_pose = getPose();
     double threshold = 0.0001;
+    double threshold_ = 0.01;
     double dx = cur_pose[0] - initial_pose[0];
     double dth = cur_pose[2] - initial_pose[2];
     // std::cout << "current pose is " << cur_pose << "\n inital pose is " << initial_pose << "\n";
@@ -277,20 +302,25 @@ void KobukiManager::processPiInput(int i)
       vx = 0.0;
       wz = 0.0;
       std::cout << "At idle state" << "\n"; 
+      // send singal to pi indicating restart
     } else {
       vx = 0.0;
       wz = 0.0;
 
-      if (dx > 0) {
+      if (dx > threshold_) {
         vx = -0.1;
-      } else if (dx < 0) {
+      } else if (dx < -threshold_) {
         vx = 0.1;
+      } else{
+        vx = 0.0;
       }
 
-      if (dth > 0) {
+      if (dth > threshold_) {
         wz = -0.1;
-      } else if (dth < 0) {
+      } else if (dth < -threshold_) {
         wz = 0.1;
+      } else {
+        wz = 0.0;
       }
       // double theta = 0.0;
       // if (dx != 0) {
@@ -313,6 +343,7 @@ void KobukiManager::processPiInput(int i)
     if (i == 0) {
     	pickup_mode = true;
       idle_mode = false; return_mode = false;
+      // write(getSerialPort(), (const char *)"0\n", 3); 
     	// record initial position
       // double init_x = pose[0] + 0.0;
       // double init_y = pose[1] + 0.0;
